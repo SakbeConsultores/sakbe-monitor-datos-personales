@@ -37,10 +37,11 @@
 # ESTADO (tras la corrida de descubrimiento del 17-sep-2026, ver
 # config/discovery-report.md):
 #
-#   11 fuentes ACTIVAS con RSS verificado.
+#   10 fuentes ACTIVAS con RSS verificado.
 #
-#    3 fuentes con RSS encontrado pero DESCARTADO: AAIP, ANPD (BR) y
-#      ANPD (PE). El feed hallado es del portal de gobierno completo
+#    4 fuentes con RSS encontrado pero DESCARTADO: AAIP, ANPD (BR),
+#      ANPD (PE) y MITIC. El feed hallado es del portal o del ministerio
+#      completo
 #      (argentina.gob.ar, gov.br, gob.pe), no de la autoridad. Como el
 #      pipeline no filtra por tema, habilitarlos llenaría la base de
 #      noticias ajenas. Quedan pendientes hasta encontrar un feed de
@@ -180,9 +181,9 @@ feeds:
     country: PY
     type: Noticias
     site: https://www.mitic.gov.py/
-    url: https://mitic.gov.py/feed/
-    source: rss
-    enabled: true
+    url: ""
+    source: pending
+    enabled: false
     note: >-
       Interino. La Agencia Nacional de Protección de Datos Personales
       creada por la Ley 7593/2025 depende del MITIC y no tiene sitio
