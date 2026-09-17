@@ -34,13 +34,27 @@
 #                  solo procesa fuentes con enabled: true.
 #   note           Observación relevante (autoridad en transición, etc.).
 #
-# ⚠️ ESTADO: las 40 fuentes están en "pending". El descubrimiento de
-#    feeds NO se hizo desde este entorno porque la política de egress
-#    bloquea estos dominios. Corre el workflow "Descubrir feeds" en la
-#    pestaña Actions del repo: sondea los 40 sitios desde GitHub (que sí
-#    tiene salida abierta), valida cada candidato con feedparser y
-#    escribe config/discovery-report.md con el resultado por autoridad.
-#    Con ese reporte se llenan url + source + enabled de cada bloque.
+# ESTADO (tras la corrida de descubrimiento del 17-sep-2026, ver
+# config/discovery-report.md):
+#
+#   10 fuentes ACTIVAS con RSS verificado.
+#
+#    3 fuentes con RSS encontrado pero DESCARTADO: AAIP, ANPD (BR) y
+#      ANPD (PE). El feed hallado es del portal de gobierno completo
+#      (argentina.gob.ar, gov.br, gob.pe), no de la autoridad. Como el
+#      pipeline no filtra por tema, habilitarlos llenaría la base de
+#      noticias ajenas. Quedan pendientes hasta encontrar un feed de
+#      sección o escribirles scraper.
+#
+#   24 fuentes SIN RSS: necesitan scraper. Entre ellas las de mayor
+#      valor del bloque europeo (AEPD, Garante, DPC irlandesa, EDPS).
+#
+#    3 fuentes INACCESIBLES por certificado TLS inválido: SIC (CO),
+#      KZLD (BG) y AZOP (HR). No es un problema del monitor: esos
+#      sitios sirven un certificado que Python rechaza.
+#
+# Al habilitar una fuente: llenar url, poner source rss o scraper, y
+# enabled true. El campo site nunca se toca.
 #
 # ──────────────────────────────────────────────────────────────────
 
@@ -153,9 +167,9 @@ feeds:
     country: PA
     type: Noticias
     site: https://www.antai.gob.pa/
-    url: ""
-    source: pending
-    enabled: false
+    url: https://antai.gob.pa/feed/
+    source: rss
+    enabled: true
     note: Ley 81 de 2019.
 
   - regulator: MITIC
@@ -164,9 +178,9 @@ feeds:
     country: PY
     type: Noticias
     site: https://www.mitic.gov.py/
-    url: ""
-    source: pending
-    enabled: false
+    url: https://mitic.gov.py/feed/
+    source: rss
+    enabled: true
     note: >-
       Interino. La Agencia Nacional de Protección de Datos Personales
       creada por la Ley 7593/2025 depende del MITIC y no tiene sitio
@@ -204,9 +218,9 @@ feeds:
     country: UE
     type: Noticias
     site: https://www.edpb.europa.eu/
-    url: ""
-    source: pending
-    enabled: false
+    url: https://www.edpb.europa.eu/feed/news_en
+    source: rss
+    enabled: true
     note: >-
       Coordina a las 27 autoridades nacionales. Emite guías y decisiones
       vinculantes en casos transfronterizos. Es la fuente de mayor valor
@@ -275,9 +289,9 @@ feeds:
     country: CY
     type: Noticias
     site: http://www.dataprotection.gov.cy/
-    url: ""
-    source: pending
-    enabled: false
+    url: https://www.gov.cy/dataprotection/feed/
+    source: rss
+    enabled: true
     note: Sitio en HTTP sin certificado. Verificar si hay versión HTTPS antes de habilitar.
 
   - regulator: Datatilsynet (DK)
@@ -349,9 +363,9 @@ feeds:
     country: FR
     type: Noticias
     site: https://www.cnil.fr/
-    url: ""
-    source: pending
-    enabled: false
+    url: https://www.cnil.fr/fr/rss.xml
+    source: rss
+    enabled: true
     note: Prioridad alta. Publica guías y sanciones con mucha frecuencia.
 
   - regulator: BfDI
@@ -447,9 +461,9 @@ feeds:
     country: MT
     type: Noticias
     site: http://www.idpc.org.mt/
-    url: ""
-    source: pending
-    enabled: false
+    url: https://idpc.org.mt/feed/
+    source: rss
+    enabled: true
 
   - regulator: AP
     authority: Autoriteit Persoonsgegevens
@@ -457,9 +471,9 @@ feeds:
     country: NL
     type: Noticias
     site: https://autoriteitpersoonsgegevens.nl/
-    url: ""
-    source: pending
-    enabled: false
+    url: https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml
+    source: rss
+    enabled: true
 
   - regulator: UODO
     authority: Urząd Ochrony Danych Osobowych
@@ -487,9 +501,9 @@ feeds:
     country: RO
     type: Noticias
     site: http://www.dataprotection.ro/
-    url: ""
-    source: pending
-    enabled: false
+    url: https://www.dataprotection.ro/feed
+    source: rss
+    enabled: true
 
   - regulator: IMY
     authority: Integritetsskyddsmyndigheten
@@ -497,9 +511,9 @@ feeds:
     country: SE
     type: Noticias
     site: https://www.imy.se/
-    url: ""
-    source: pending
-    enabled: false
+    url: https://www.imy.se/nyheter/rss
+    source: rss
+    enabled: true
 
   - regulator: ÚOOÚ (CZ)
     authority: Úřad pro ochranu osobních údajů
@@ -507,6 +521,6 @@ feeds:
     country: CZ
     type: Noticias
     site: https://uoou.gov.cz/
-    url: ""
-    source: pending
-    enabled: false
+    url: https://uoou.gov.cz/feed/cs-rss.xml
+    source: rss
+    enabled: true

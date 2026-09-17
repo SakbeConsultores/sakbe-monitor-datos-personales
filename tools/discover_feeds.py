@@ -123,10 +123,33 @@ DOMAIN_PATHS = {
 }
 
 
-def fetch(url: str):
-    """GET tolerante. Devuelve la response o la excepción."""
+def fetch(url: str, allow_http_fallback: bool = True):
+    """
+    GET tolerante. Devuelve la response o la excepción.
+
+    Tres autoridades del inventario (SIC Colombia, KZLD Bulgaria y AZOP
+    Croacia) sirven un certificado que Python rechaza, así que por HTTPS
+    son inalcanzables y el sondeo las reportaba como caídas. Para esos
+    casos se reintenta por HTTP plano en lugar de desactivar la
+    verificación del certificado, que sería peor: aquí solo se leen
+    titulares públicos, y un HTTP honesto es preferible a un HTTPS que
+    finge validar. La response trae marcado `via_http` para que el
+    reporte lo diga en lugar de esconderlo.
+    """
     try:
         return requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True)
+    except requests.exceptions.SSLError as e:
+        if allow_http_fallback and url.startswith("https://"):
+            try:
+                r = requests.get(
+                    "http://" + url[len("https://"):],
+                    headers=HEADERS, timeout=TIMEOUT, allow_redirects=True,
+                )
+                setattr(r, "via_http", True)
+                return r
+            except Exception:
+                return e
+        return e
     except Exception as e:  # noqa: BLE001 - queremos registrar cualquier fallo
         return e
 
@@ -163,6 +186,7 @@ def validate_feed(url: str) -> dict | None:
         "entries": len(parsed.entries),
         "latest": max(dates) if dates else None,
         "feed_title": (parsed.feed.get("title") or "").strip()[:80],
+        "http_only": bool(getattr(r, "via_http", False)) or r.url.startswith("http://"),
     }
 
 
@@ -219,21 +243,38 @@ def probe(feed_cfg: dict) -> dict:
     # http a https y las rutas cuelgan del destino real.
     final_url = site if isinstance(response, Exception) else response.url
     parts = urlparse(final_url)
-    base = f"{parts.scheme}://{parts.netloc}"
+    origin = f"{parts.scheme}://{parts.netloc}"
+
+    # Varias autoridades no tienen sitio propio: viven dentro de un portal
+    # de gobierno (argentina.gob.ar/aaip, gov.br/anpd, gob.pe/anpd,
+    # gub.uy/unidad-..., gov.cy/dataprotection). Ahí el feed del dominio
+    # existe pero es del portal completo y sirve de nada: trae las
+    # noticias de todo el gobierno. El feed útil, si existe, cuelga de la
+    # ruta de la autoridad. Por eso se sondean DOS bases y la de sección
+    # va primero, para que gane en el reporte.
+    section = parts.path.rstrip("/")
+    bases = []
+    if section and section != "":
+        bases.append((origin + section, "ruta de sección"))
+    bases.append((origin, "ruta del dominio"))
 
     extra = []
     for domain, paths in DOMAIN_PATHS.items():
         if domain in parts.netloc:
             extra.extend(paths)
 
-    if len(result["feeds"]) < 3:
+    seen = {f["feed_url"] for f in result["feeds"]}
+    for base, scope in bases:
+        if len(result["feeds"]) >= 3:
+            break
         for path in extra + COMMON_PATHS:
             candidate = base + path
-            if candidate in [f["feed_url"] for f in result["feeds"]]:
+            if candidate in seen:
                 continue
+            seen.add(candidate)
             valid = validate_feed(candidate)
             if valid and valid["feed_url"] not in [f["feed_url"] for f in result["feeds"]]:
-                valid["via"] = "ruta convencional"
+                valid["via"] = scope
                 result["feeds"].append(valid)
             if len(result["feeds"]) >= 3:
                 break
@@ -268,6 +309,12 @@ def render_report(results: list[dict], regions: list[str]) -> str:
         "que dice si el feed está vivo: un feed con fecha de hace dos años se "
         "trata como muerto y va a scraper.",
         "",
+        "La columna *Vía* decide si el feed sirve. **ruta de sección** y "
+        "**autodiscovery** son feeds de la autoridad. **ruta del dominio** en una "
+        "autoridad que vive dentro de un portal de gobierno es el feed del portal "
+        "completo: trae las noticias de todo el gobierno y no se debe habilitar, "
+        "porque el pipeline no filtra por tema.",
+        "",
     ]
 
     for region in regions:
@@ -283,8 +330,9 @@ def render_report(results: list[dict], regions: list[str]) -> str:
         for r in sorted(block, key=lambda x: (not x["feeds"], x["country"])):
             if r["feeds"]:
                 best = r["feeds"][0]
+                aviso = " ⚠️ solo HTTP" if best.get("http_only") else ""
                 lines.append(
-                    f"| {r['regulator']} | {r['country']} | RSS | "
+                    f"| {r['regulator']} | {r['country']} | RSS{aviso} | "
                     f"`{best['feed_url']}` | {best['entries']} | "
                     f"{best['latest'] or 'sin fecha'} | {best['via']} |"
                 )
