@@ -37,7 +37,7 @@
 # ESTADO (tras la corrida de descubrimiento del 17-sep-2026, ver
 # config/discovery-report.md):
 #
-#   10 fuentes ACTIVAS con RSS verificado.
+#   11 fuentes ACTIVAS con RSS verificado.
 #
 #    3 fuentes con RSS encontrado pero DESCARTADO: AAIP, ANPD (BR) y
 #      ANPD (PE). El feed hallado es del portal de gobierno completo
@@ -49,9 +49,11 @@
 #   24 fuentes SIN RSS: necesitan scraper. Entre ellas las de mayor
 #      valor del bloque europeo (AEPD, Garante, DPC irlandesa, EDPS).
 #
-#    3 fuentes INACCESIBLES por certificado TLS inválido: SIC (CO),
-#      KZLD (BG) y AZOP (HR). No es un problema del monitor: esos
-#      sitios sirven un certificado que Python rechaza.
+#    2 fuentes INACCESIBLES por certificado TLS inválido: SIC (CO)
+#      y KZLD (BG). No es un problema del monitor: esos sitios sirven
+#      un certificado que Python rechaza. AZOP (HR) estaba en esta
+#      lista y se resolvió en la segunda corrida: el certificado roto
+#      es el de www.azop.hr, el dominio sin www responde bien.
 #
 # Al habilitar una fuente: llenar url, poner source rss o scraper, y
 # enabled true. El campo site nunca se toca.
@@ -279,9 +281,9 @@ feeds:
     country: HR
     type: Noticias
     site: https://www.azop.hr/
-    url: ""
-    source: pending
-    enabled: false
+    url: https://azop.hr/feed/
+    source: rss
+    enabled: true
 
   - regulator: OCPDP
     authority: Office of the Commissioner for Personal Data Protection
