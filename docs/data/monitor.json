@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-17T21:48:39.205928+00:00",
-  "total_items": 0,
+  "generated_at": "2026-09-17T23:05:07.061742+00:00",
+  "total_items": 27,
   "regions": [
     "LatAm",
     "Europa"
   ],
   "sources_total": 40,
-  "sources_active": 0,
+  "sources_active": 11,
   "sources": [
     {
       "regulator": "AAIP",
@@ -70,7 +70,7 @@
       "region": "LatAm",
       "country": "PA",
       "site": "https://www.antai.gob.pa/",
-      "active": false
+      "active": true
     },
     {
       "regulator": "MITIC",
@@ -78,7 +78,7 @@
       "region": "LatAm",
       "country": "PY",
       "site": "https://www.mitic.gov.py/",
-      "active": false
+      "active": true
     },
     {
       "regulator": "ANPD (PE)",
@@ -102,7 +102,7 @@
       "region": "Europa",
       "country": "UE",
       "site": "https://www.edpb.europa.eu/",
-      "active": false
+      "active": true
     },
     {
       "regulator": "EDPS",
@@ -142,7 +142,7 @@
       "region": "Europa",
       "country": "HR",
       "site": "https://www.azop.hr/",
-      "active": false
+      "active": true
     },
     {
       "regulator": "OCPDP",
@@ -150,7 +150,7 @@
       "region": "Europa",
       "country": "CY",
       "site": "http://www.dataprotection.gov.cy/",
-      "active": false
+      "active": true
     },
     {
       "regulator": "Datatilsynet (DK)",
@@ -206,7 +206,7 @@
       "region": "Europa",
       "country": "FR",
       "site": "https://www.cnil.fr/",
-      "active": false
+      "active": true
     },
     {
       "regulator": "BfDI",
@@ -278,7 +278,7 @@
       "region": "Europa",
       "country": "MT",
       "site": "http://www.idpc.org.mt/",
-      "active": false
+      "active": true
     },
     {
       "regulator": "AP",
@@ -286,7 +286,7 @@
       "region": "Europa",
       "country": "NL",
       "site": "https://autoriteitpersoonsgegevens.nl/",
-      "active": false
+      "active": true
     },
     {
       "regulator": "UODO",
@@ -310,7 +310,7 @@
       "region": "Europa",
       "country": "RO",
       "site": "http://www.dataprotection.ro/",
-      "active": false
+      "active": true
     },
     {
       "regulator": "IMY",
@@ -318,7 +318,7 @@
       "region": "Europa",
       "country": "SE",
       "site": "https://www.imy.se/",
-      "active": false
+      "active": true
     },
     {
       "regulator": "ÚOOÚ (CZ)",
@@ -326,8 +326,333 @@
       "region": "Europa",
       "country": "CZ",
       "site": "https://uoou.gov.cz/",
-      "active": false
+      "active": true
     }
   ],
-  "items": []
+  "items": [
+    {
+      "id": "3de0e1df-2fda-81fb-b6a6-ccfea75a3352",
+      "title": "Čelnici nadzornih tijela Srednje Europe na prijemu kod predsjednice Republike Slovenije",
+      "url": "https://azop.hr/celnici-nadzornih-tijela-srednje-europe-na-prijemu-kod-predsjednice-slovenije/",
+      "published": "2026-09-17",
+      "summary": "U okviru Zajedničkog sastanka nadzornih tijela za zaštitu podataka Srednje Europe, održan je i prijem kod predsjednice Republike Slovenije Nataše Pirc Musar kojemu su nazočili ravnatelj Agencije Zdravko Vukić i načelnik Sektora za nadzor, istrage, tehnologije i sigurnost Karlo Paljug Zorko. Sugovornici su s predsjednicom razgovarali o aktualnim izazovima u području zaštite osobnih podataka koje [&#8230;] Objava Čelnici nadzornih tijela Srednje Europe na prijemu kod predsjednice Republike Slovenije pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-812e-999e-eb43dfd8c221",
+      "title": "En foro internacional, ministro Villate destaca la ventaja energética como motor de soberanía tecnológica",
+      "url": "https://mitic.gov.py/en-foro-internacional-ministro-villate-destaca-la-ventaja-energetica-como-motor-de-soberania-tecnologica/",
+      "published": "2026-09-15",
+      "summary": "En el Foro “Digitalizar para Transformar”, celebrado en Chile, el ministro de Tecnologías de la Información y Comunicación, Gustavo Villate, expuso en el panel Infraestructura Digital Habilitante la estrategia de Paraguay para convertir su ventaja energética en motor de soberanía tecnológica. Sostuvo que la estabilidad macroeconómica y un marco regulatorio flexible son esenciales para atraer [&#8230;]",
+      "regulator": "MITIC",
+      "region": "LatAm",
+      "country": "PY",
+      "type": "Noticias",
+      "feed_url": "https://mitic.gov.py/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-8149-87de-f85bc6c17ffd",
+      "title": "Red Activa Paraguay prepara su segundo congreso nacional de periodistas y comunicadores en Villarrica",
+      "url": "https://mitic.gov.py/red-activa-paraguay-prepara-su-segundo-congreso-nacional-de-periodistas-y-comunicadores-en-villarrica/",
+      "published": "2026-09-15",
+      "summary": "Red Activa Paraguay, creada íntegramente a través de WhatsApp, conecta hoy a cerca de 800 comunicadores de todo el país. En octubre, en Villarrica, impulsará un debate sobre los desafíos del periodismo, la comunicación digital y el impacto de la inteligencia artificial en la práctica profesional, en el marco del Segundo Encuentro y Congreso Nacional [&#8230;]",
+      "regulator": "MITIC",
+      "region": "LatAm",
+      "country": "PY",
+      "type": "Noticias",
+      "feed_url": "https://mitic.gov.py/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-819a-9f6b-ce692a915986",
+      "title": "Marca País suma 43 nuevas licencias y refuerza su posicionamiento nacional e internacional",
+      "url": "https://mitic.gov.py/marca-pais-suma-43-nuevas-licencias-y-refuerza-su-posicionamiento-nacional-e-internacional/",
+      "published": "2026-09-15",
+      "summary": "El presidente de la República, Santiago Peña, encabezó la entrega de 43 licencias de Marca País Paraguay, correspondientes a 34 nuevas incorporaciones y 9 renovaciones, fortaleciendo una estrategia nacional que busca proyectar la identidad, calidad y competitividad del Paraguay dentro y fuera de sus fronteras. La ceremonia se desarrolló en el Salón Tirika de Mburuvicha [&#8230;]",
+      "regulator": "MITIC",
+      "region": "LatAm",
+      "country": "PY",
+      "type": "Noticias",
+      "feed_url": "https://mitic.gov.py/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-81d5-a49b-ef502e8e7aec",
+      "title": "Pravo pacijenata na pristup osobnim podacima u Bolničkom Informacijskom Sustavu (BIS)",
+      "url": "https://azop.hr/pravo-pacijenata-na-pristup-osobnim-podacima-u-bis-u/",
+      "published": "2026-09-14",
+      "summary": "Objavljeno: 14.9.2026. Agencija za zaštitu osobnih podataka zaprimila je vaš upit u vezi s postupanjem po zahtjevima pacijenata za dostavu evidencije pristupa njihovoj medicinskoj dokumentaciji putem Bolničkog informacijskog sustava, koja se generira u Excel formatu i, među ostalim, sadržava imena i prezimena djelatnika koji su pristupali zdravstvenom kartonu pacijenta. U vezi s navedenim očitujemo se [&#8230;] Objava Pravo pacijenata na pristup osobnim podacima u Bolničkom Informacijskom Sustavu (BIS) pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-81e4-a163-c1aef6b9ac0f",
+      "title": "Ministro Gustavo Villate plantea una visión regional para posicionar a Paraguay en la economía de la inteligencia artificial",
+      "url": "https://mitic.gov.py/ministro-gustavo-villate-plantea-una-vision-regional-para-posicionar-a-paraguay-en-la-economia-de-la-inteligencia-artificial/",
+      "published": "2026-09-14",
+      "summary": "El ministro de Tecnologías de la Información y Comunicación (MITIC), Gustavo Villate, participó como keynote speaker del Foro Internacional “Digitalizar para Transformar”, organizado por CAF – Banco de Desarrollo de América Latina y el Caribe, desarrollado en Chile, donde compartió la visión de Paraguay frente a los desafíos y oportunidades que plantea la transformación digital [&#8230;]",
+      "regulator": "MITIC",
+      "region": "LatAm",
+      "country": "PY",
+      "type": "Noticias",
+      "feed_url": "https://mitic.gov.py/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-818f-b386-f53f7bd4a6e2",
+      "title": "Failure to respect the rights of individuals: The CNIL fined EXTIA 300 000 EUR",
+      "url": "https://www.edpb.europa.eu/news/failure-to-respect-the-rights-of-individuals-the-cnil-fined-extia-300-000-eur_en",
+      "published": "2026-09-11",
+      "summary": "Background information Date of final decision: 21 July 2026 National case Legal Reference(s): Article 12 (Transparent information, communication and modalities for the exercise of the rights of the data subject), Article 17 (Right to erasure ‘right to be forgotten’) Decision: Administrative fine Key words: Data subject rights Summary of the Decision Origin of the case EXTIA, which specialises in IT and engineering, recruits consultants for various technical projects from its client companies. In 2024, the French Data Protection Authority (CNIL) received several complaints from former employees or candidates, relating to difficulties encountered in exercising their right to erasure or ‘right to be forgotten’. With a view to investigating these complaints, and also in the context of the Coordinated Enforcement Framework action on the ‘Right to erasure’ launched on the initiative of the European Data Protection Board in 2025, an audit of EXTIA was carried out in April 2025. It identified breaches of several obligations under the GDPR regarding transparency and respect for individuals’ rights. Of the 265 requests for erasure received by the company in 2024, the majority of which came from candidates and, occasionally, former employees, more than three quarters had not been dealt with or had not been dealt with satisfactorily. Key Findings Failure to process erasure requests (Articles 12 and 17 GDPR) The CNIL’s restricted committee – the body responsible for issuing sanctions – noted that 12 requests for erasure received by the company in 2024 had not been processed. It considered that that failure had adversely affected the rights of those persons, including the right to retain control over their data. Failure to inform individuals of the action taken on their request for erasure (Article 12 GDPR) The CNIL’s restricted committee considered that the company had failed to fulfil its obligation to inform the persons who had requested the erasure of their data. It noted tha",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "3de0e1df-2fda-8139-b9a8-fadba676770f",
+      "title": "“El precio del Pasaje” sigue su recorrido por colegios del interior",
+      "url": "https://mitic.gov.py/el-precio-del-pasaje-sigue-su-recorrido-por-colegios-del-interior/",
+      "published": "2026-09-11",
+      "summary": "El mediometraje nacional “El precio del Pasaje” continúa su recorrido por instituciones educativas del interior del país, en el marco del proyecto educativo “Escuelas Protectoras”. Impulsado por el MINNA, el MEC y el MITIC, el objetivo es concienciar, prevenir y promover la protección de derechos de la niñez y la adolescencia frente a la trata [&#8230;]",
+      "regulator": "MITIC",
+      "region": "LatAm",
+      "country": "PY",
+      "type": "Noticias",
+      "feed_url": "https://mitic.gov.py/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-8101-b663-de46d79a577a",
+      "title": "Paraguay y Taiwán debaten futuro de la inteligencia artificial en foro tecnológico",
+      "url": "https://mitic.gov.py/paraguay-y-taiwan-debaten-futuro-de-la-inteligencia-artificial-en-foro-tecnologico/",
+      "published": "2026-09-11",
+      "summary": "La inteligencia artificial fue uno de los temas centrales del III Foro Tecnológico Taiwán–Paraguay, donde especialistas y autoridades analizaron su impacto en sectores estratégicos de la economía y la sociedad. El acto de apertura reunió al presidente Santiago Peña, al ministro de Tecnologías de la Información y Comunicación, Gustavo Villate, a representantes diplomáticos y otras [&#8230;]",
+      "regulator": "MITIC",
+      "region": "LatAm",
+      "country": "PY",
+      "type": "Noticias",
+      "feed_url": "https://mitic.gov.py/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-81bb-b171-c9f88d5257b0",
+      "title": "Portal Paraguay registra más de 500.000 usuarios activos por mes y 154.000 trámites en agosto",
+      "url": "https://mitic.gov.py/portal-paraguay-registra-mas-de-500-000-usuarios-activos-por-mes-y-154-000-tramites-en-agosto/",
+      "published": "2026-09-10",
+      "summary": "El Portal Paraguay funciona como el principal acceso digital a servicios del Estado. Un reporte del Viceministerio de Tecnologías detalla un promedio de 500.000 usuarios activos por mes, tanto desde la versión web (paraguay.gov.py) como desde la app, que ya supera las 800.000 descargas. Solo en agosto se gestionaron más de 154.000 documentos en línea. [&#8230;]",
+      "regulator": "MITIC",
+      "region": "LatAm",
+      "country": "PY",
+      "type": "Noticias",
+      "feed_url": "https://mitic.gov.py/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-812d-a757-e005003530f4",
+      "title": "Retention of electronic communications data: CJEU Advocate General issues opinion on the criteria for assessing the compatibility of national legislation with EU law",
+      "url": "https://idpc.org.mt/news-latest/retention-of-electronic-communications-data-cjeu-advocate-general-issues-opinion-on-the-criteria-for-assessing-the-compatibility-of-national-legislation-with-eu-law/",
+      "published": "2026-09-09",
+      "summary": "Retention of electronic communications data: CJEU Advocate General issues opinion on the criteria for assessing the compatibility of national legislation with EU law &#160; 09 September 2026 &#160; On 3 September 2026, the European Court of Justice (CJEU) issued an important opinion of the Advocate General at the Court, Maciej Szpunar. In 2022, Belgium adopted [&#8230;] The post Retention of electronic communications data: CJEU Advocate General issues opinion on the criteria for assessing the compatibility of national legislation with EU law appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-811a-a231-e6c363769fe6",
+      "title": "Commissioner interviewed by TVMnews on 2025 Annual Report",
+      "url": "https://idpc.org.mt/news-latest/commissioner-interviewed-by-tvmnews-on-2025-annual-report/",
+      "published": "2026-09-09",
+      "summary": "Commissioner interviewed by TVMnews on 2025 Annual Report &#160; 09 September 2026 &#160; Earlier this week, the Information and Data Protection Commissioner, Dr Reno Borg, was featured in a TVMnews report following the publication of the IDPC Annual Report 2025. The news item highlighted key developments in the office's work during the year, including the [&#8230;] The post Commissioner interviewed by TVMnews on 2025 Annual Report appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-81ae-bca1-fa9eb813b933",
+      "title": "Health data breach: the CNIL fined Hôpital Privé de la Loire 500 000 EUR",
+      "url": "https://www.edpb.europa.eu/news/health-data-breach-the-cnil-fined-hopital-prive-de-la-loire-500-000-eur_en",
+      "published": "2026-09-09",
+      "summary": "Background information Date of final decision: 3 September 2026 National case Controller: Hôpital Privé de la Loire Legal Reference: Article 32 (Security of processing), Article 34 (Communication of a personal data breach to the data subject), Decision: Administrative fine Keywords: Cybersecurity, Personal data breaches, Health and research Summary of the Decision Origin of the case In summer 2025, an attacker managed to connect to the Computerised Patient Summary (DPI) of the Hôpital Privé de la Loire (Loire’s private hospital), which centralises all the data of the individuals under care. It thus accessed the data of 524 867 patients (some of them health data) and 202 246 persons designated as “trusted third parties”. As a result of this data breach, the French Data Protection Authority (CNIL) carried out a check that identified several failures of the Hôpital Privé de la Loire to comply with the obligations laid down in the General Data Protection Regulation (GDPR). Key findings Failure to ensure the security of personal data (Article 32 GDPR) The authentication procedure to connect to the hospital’s e-Health Patient Summary, used by users outside the hospital, in particular doctors not affiliated with the hospital, was not sufficiently robust, due to the lack of VPNs and multifactor authentication means. The attacker took advantage of this vulnerability to access the data. Moreover, the access control policy was inadequate: it did not take account of the concept of care team, so that only professionals actually involved in the care of a patient had access to the information covered by medical confidentiality. This lack of access limitation allowed the attacker, using the credentials of a single user account, to access the data of all hospital patients. Finally, the hospital had not taken measures to detect suspicious activity within the e-Health Patient Summary in real time or in the very short term, and to trigger an alert mechanism if necessary. In those circu",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "3de0e1df-2fda-81a0-a1fa-c3192f4e2112",
+      "title": "“Escuelas Protectoras” abre ciclo de proyección del mediometraje “El precio del pasaje” en colegios del interior",
+      "url": "https://mitic.gov.py/escuelas-protectoras-abre-ciclo-de-proyeccion-del-mediometraje-el-precio-del-pasaje-en-colegios-del-interior/",
+      "published": "2026-09-08",
+      "summary": "En el marco del proyecto educativo &#8220;Escuelas Protectoras&#8221;, que impulsan el MINNA, el MEC y MITIC, se llevarán a cabo jornadas de concienciación y prevención orientadas a la prevención, sensibilización, protección y promoción de derechos de la niñez y la adolescencia con énfasis en la trata de personas. Las jornadas comenzarán en los departamentos de [&#8230;]",
+      "regulator": "MITIC",
+      "region": "LatAm",
+      "country": "PY",
+      "type": "Noticias",
+      "feed_url": "https://mitic.gov.py/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-81a5-9f32-d9658e77d66e",
+      "title": "Paraguay apunta a un salto tecnológico para fortalecer su posicionamiento en el mercado internacional",
+      "url": "https://mitic.gov.py/paraguay-apunta-a-un-salto-tecnologico-para-fortalecer-su-posicionamiento-en-el-mercado-internacional/",
+      "published": "2026-09-08",
+      "summary": "El ministro de Tecnologías de la Información y Comunicación, Gustavo Villate, participó como panelista del Forbes Paraguay Future of Services Summit 2026, donde compartió la visión y las acciones que impulsa el Gobierno para fortalecer las capacidades tecnológicas del país, atraer inversiones y avanzar hacia una mayor participación en la economía digital y el mercado [&#8230;]",
+      "regulator": "MITIC",
+      "region": "LatAm",
+      "country": "PY",
+      "type": "Noticias",
+      "feed_url": "https://mitic.gov.py/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-81ca-b02c-f60ee3be1704",
+      "title": "Savjeti za učenike – sigurno kretanje digitalnim svijetom",
+      "url": "https://azop.hr/14977-2/",
+      "published": "2026-09-07",
+      "summary": "Vrijeme je za povratak u školske klupe! Uz školsko gradivo, važno je usvajati i znanja koja će učenicima pomoći i u sigurnom kretanju digitalnim svijetom. Naime, Internet, društvene mreže i različite aplikacije sastavni su dio svakodnevice učenika. Iako donose brojne mogućnosti za učenje, komunikaciju i zabavu, sa sobom nose i određene rizike. Zato je važno [&#8230;] Objava Savjeti za učenike &#8211; sigurno kretanje digitalnim svijetom pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-8155-9ec9-e08c8fe4630d",
+      "title": "Ministro Gustavo Villate plantea la digitalización como un “ecualizador” de oportunidades",
+      "url": "https://mitic.gov.py/ministro-gustavo-villate-plantea-la-digitalizacion-como-un-ecualizador-de-oportunidades/",
+      "published": "2026-09-07",
+      "summary": "En la apertura de la 49ª Reunión del Comité Consultivo Permanente I (CCP.I) de la Comisión Interamericana de Telecomunicaciones (CITEL), el ministro de Tecnologías de la Información y Comunicación, Gustavo Villate, destacó el papel de la digitalización como “ecualizador” de oportunidades. Señaló que uno de los mayores desafíos globales es la ciberseguridad y llamó a [&#8230;]",
+      "regulator": "MITIC",
+      "region": "LatAm",
+      "country": "PY",
+      "type": "Noticias",
+      "feed_url": "https://mitic.gov.py/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-81f8-88bf-f3c7b933cbdd",
+      "title": "EU law does not require the disclosure of information relating to all shareholders of public limited liability companies, including minority shareholders",
+      "url": "https://idpc.org.mt/news-latest/eu-law-does-not-require-the-disclosure-of-information-relating-to-all-shareholders-of-public-limited-liability-companies-including-minority-shareholders/",
+      "published": "2026-09-04",
+      "summary": "EU law does not require the disclosure of information relating to all shareholders of public limited liability companies, including minority shareholders &#160; 04 September 2026 In a recent judgement of the European Court of Justice (CJEU), the court stated that EU law does not require the disclosure of information relating to all shareholders of public [&#8230;] The post EU law does not require the disclosure of information relating to all shareholders of public limited liability companies, including minority shareholders appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "3de0e1df-2fda-81ca-b156-e1911d8f6703",
+      "title": "IMY vägleder AI-projekt i vård och omsorg",
+      "url": "https://www.imy.se/nyheter/imy-vagleder-ai-projekt-i-vard-och-omsorg/",
+      "published": "2026-09-03",
+      "summary": "Integritetsskyddsmyndigheten (IMY) ska stötta ett kommunalt projekt i Skåne att ta fram ett integritetssäkert AI-stöd inom vård och omsorg. Även ett bostadsbolag, som vill effektivisera bostadsuthyrningen med artificiell intelligens, ska få vägledning av myndigheten.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3de0e1df-2fda-811f-a98f-db27e4502144",
+      "title": "IMY granskar ett IT-företag utifrån kreditupplysningslagen och GDPR",
+      "url": "https://www.imy.se/nyheter/imy-granskar-ett-it-foretag-utifran-kreditupplysningslagen-och-GDPR/",
+      "published": "2026-09-03",
+      "summary": "Integritetsskyddsmyndigheten (IMY) inleder tillsyn mot Cogno Scio AB för att bland annat undersöka om bolaget bedriver tillståndspliktig kreditupplysningsverksamhet.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3de0e1df-2fda-81b9-9fad-ea3a7029a6e7",
+      "title": "Data Protection Commission announces Final Decision following Inquiry into the Health Service Executive (HSE)",
+      "url": "https://www.edpb.europa.eu/news/data-protection-commission-announces-final-decision-following-inquiry-into-the-health-service_en",
+      "published": "2026-09-03",
+      "summary": "Background information Date of final decision: 28 August 2026 National case Legal Reference(s): Article 5 (Principles relating to processing of personal data), Article 32 (Security of processing), Article 33 (Notification of a personal data breach to the supervisory authority), Article 34 (Communication of a personal data breach to the data subject) Decision: Administrative fine, Compliance order, Communication order personal data breach Key words: GDPR enforcement, Data subjects rights, Fines, Health and research Summary of the Decision Origin of the case This Inquiry commenced on 24 May 2024 as a result of two personal data breaches notified to the Data Protection Commission (DPC) in October 2023 and November 2023. In both cases, individuals gained unauthorised access to paper records stored and retained in both St. Loman’s Hospital (Mullingar, County Westmeath) and St Conal’s Hospital (Letterkenny, County Donegal). Both locations are former disused psychiatric hospitals.Videos uploaded to social media by intruders highlighted that medical records were stored and retained in both facilities. Key Findings The Data Protection Commission (DPC) has announced its final decision following an inquiry into the HSE’s processing of personal data contained in paper records, which are stored and retained in the HSE’s external storage facilities. The DPC’s findings identified data protection failings concerning the physical conditions of HSE document storage facilities and the integrity of the documents held within those facilities. Decision The DPC issued fines totalling €645 000, a reprimand and made a number of compliance orders. For further information: Data Protection Commission announces Final Decision following Inquiry into the Health Service Executive (HSE)",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "3de0e1df-2fda-8148-b7a1-f814af22e9ff",
+      "title": "IMY lanserar trygghetsapp för unga på sociala medier",
+      "url": "https://www.imy.se/nyheter/imy-lanserar-trygghetsapp-for-unga-pa-sociala-medier/",
+      "published": "2026-08-31",
+      "summary": "Integritetsskyddsmyndigheten (IMY) lanserar idag FantomApp i Sverige, en app som hjälper unga att skydda sina personuppgifter i sociala medier. Appen kan bland annat hjälpa till med säkerhetsinställningar för sociala medier, att testa lösenord och att blurra foton.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3de0e1df-2fda-81f4-90a8-ec8602c4f145",
+      "title": "Comunicat_Presa_06.08.2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_06.08.2026&lang=ro",
+      "published": "",
+      "summary": "Sanc t iune pentru incalcarea RGPD s i a Legii nr. 506/2004",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
+    },
+    {
+      "id": "3de0e1df-2fda-81be-a463-c1a7f0ec1de5",
+      "title": "Comunicat_Presa_19_08_2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_19_08_2026&lang=ro",
+      "published": "",
+      "summary": "Amenda pentru incalcarea RGPD",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
+    },
+    {
+      "id": "3de0e1df-2fda-8198-b85c-f77b6a2046ce",
+      "title": "Comunicat_Presa_28.08.2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_28.08.2026&lang=ro",
+      "published": "",
+      "summary": "Sanc t iune pentru incalcarea RGPD",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
+    },
+    {
+      "id": "3de0e1df-2fda-8103-8449-c92545e3db88",
+      "title": "Comunicat_Presa_08_09_2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_08_09_2026&lang=ro",
+      "published": "",
+      "summary": "Amenda pentru incalcarea RGPD",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
+    },
+    {
+      "id": "3de0e1df-2fda-8160-9434-c171bdacec90",
+      "title": "Comunicat_Presa_14_09_2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_14_09_2026&lang=ro",
+      "published": "",
+      "summary": "Raport de activitate al ANSPDCP pe 2025",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
+    }
+  ]
 }
