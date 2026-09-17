@@ -1,0 +1,333 @@
+{
+  "generated_at": "2026-09-17T21:48:39.205928+00:00",
+  "total_items": 0,
+  "regions": [
+    "LatAm",
+    "Europa"
+  ],
+  "sources_total": 40,
+  "sources_active": 0,
+  "sources": [
+    {
+      "regulator": "AAIP",
+      "authority": "Agencia de Acceso a la Información Pública",
+      "region": "LatAm",
+      "country": "AR",
+      "site": "https://www.argentina.gob.ar/aaip",
+      "active": false
+    },
+    {
+      "regulator": "ANPD (BR)",
+      "authority": "Autoridade Nacional de Proteção de Dados",
+      "region": "LatAm",
+      "country": "BR",
+      "site": "https://www.gov.br/anpd/",
+      "active": false
+    },
+    {
+      "regulator": "SERNAC",
+      "authority": "Servicio Nacional del Consumidor (fiscaliza en ámbito de consumo)",
+      "region": "LatAm",
+      "country": "CL",
+      "site": "https://www.sernac.cl/",
+      "active": false
+    },
+    {
+      "regulator": "SIC",
+      "authority": "Superintendencia de Industria y Comercio - Delegatura para la Protección de Datos Personales",
+      "region": "LatAm",
+      "country": "CO",
+      "site": "https://www.sic.gov.co/",
+      "active": false
+    },
+    {
+      "regulator": "PRODHAB",
+      "authority": "Agencia de Protección de Datos de los Habitantes",
+      "region": "LatAm",
+      "country": "CR",
+      "site": "https://www.prodhab.go.cr/",
+      "active": false
+    },
+    {
+      "regulator": "SPDP",
+      "authority": "Superintendencia de Protección de Datos Personales",
+      "region": "LatAm",
+      "country": "EC",
+      "site": "https://www.spdp.gob.ec/",
+      "active": false
+    },
+    {
+      "regulator": "SABG",
+      "authority": "Secretaría Anticorrupción y Buen Gobierno",
+      "region": "LatAm",
+      "country": "MX",
+      "site": "https://www.gob.mx/buengobierno",
+      "active": false
+    },
+    {
+      "regulator": "ANTAI",
+      "authority": "Autoridad Nacional de Transparencia y Acceso a la Información",
+      "region": "LatAm",
+      "country": "PA",
+      "site": "https://www.antai.gob.pa/",
+      "active": false
+    },
+    {
+      "regulator": "MITIC",
+      "authority": "Ministerio de Tecnologías de la Información y Comunicación",
+      "region": "LatAm",
+      "country": "PY",
+      "site": "https://www.mitic.gov.py/",
+      "active": false
+    },
+    {
+      "regulator": "ANPD (PE)",
+      "authority": "Autoridad Nacional de Protección de Datos Personales",
+      "region": "LatAm",
+      "country": "PE",
+      "site": "https://www.gob.pe/anpd",
+      "active": false
+    },
+    {
+      "regulator": "URCDP",
+      "authority": "Unidad Reguladora y de Control de Datos Personales",
+      "region": "LatAm",
+      "country": "UY",
+      "site": "https://www.gub.uy/unidad-reguladora-control-datos-personales/",
+      "active": false
+    },
+    {
+      "regulator": "EDPB",
+      "authority": "Comité Europeo de Protección de Datos (CEPD / EDPB)",
+      "region": "Europa",
+      "country": "UE",
+      "site": "https://www.edpb.europa.eu/",
+      "active": false
+    },
+    {
+      "regulator": "EDPS",
+      "authority": "Supervisor Europeo de Protección de Datos (SEPD / EDPS)",
+      "region": "Europa",
+      "country": "UE",
+      "site": "https://edps.europa.eu/",
+      "active": false
+    },
+    {
+      "regulator": "DSB",
+      "authority": "Österreichische Datenschutzbehörde",
+      "region": "Europa",
+      "country": "AT",
+      "site": "https://www.dsb.gv.at/",
+      "active": false
+    },
+    {
+      "regulator": "APD-GBA",
+      "authority": "Autorité de la protection des données / Gegevensbeschermingsautoriteit",
+      "region": "Europa",
+      "country": "BE",
+      "site": "https://www.autoriteprotectiondonnees.be",
+      "active": false
+    },
+    {
+      "regulator": "KZLD",
+      "authority": "Commission for Personal Data Protection",
+      "region": "Europa",
+      "country": "BG",
+      "site": "https://www.cpdp.bg/",
+      "active": false
+    },
+    {
+      "regulator": "AZOP",
+      "authority": "Agencija za zaštitu osobnih podataka",
+      "region": "Europa",
+      "country": "HR",
+      "site": "https://www.azop.hr/",
+      "active": false
+    },
+    {
+      "regulator": "OCPDP",
+      "authority": "Office of the Commissioner for Personal Data Protection",
+      "region": "Europa",
+      "country": "CY",
+      "site": "http://www.dataprotection.gov.cy/",
+      "active": false
+    },
+    {
+      "regulator": "Datatilsynet (DK)",
+      "authority": "Datatilsynet",
+      "region": "Europa",
+      "country": "DK",
+      "site": "https://www.datatilsynet.dk/",
+      "active": false
+    },
+    {
+      "regulator": "ÚOOÚ (SK)",
+      "authority": "Úrad na ochranu osobných údajov Slovenskej republiky",
+      "region": "Europa",
+      "country": "SK",
+      "site": "http://www.dataprotection.gov.sk/",
+      "active": false
+    },
+    {
+      "regulator": "IP-RS",
+      "authority": "Information Commissioner of the Republic of Slovenia",
+      "region": "Europa",
+      "country": "SI",
+      "site": "https://www.ip-rs.si/",
+      "active": false
+    },
+    {
+      "regulator": "AEPD",
+      "authority": "Agencia Española de Protección de Datos",
+      "region": "Europa",
+      "country": "ES",
+      "site": "https://www.aepd.es/",
+      "active": false
+    },
+    {
+      "regulator": "AKI",
+      "authority": "Andmekaitse Inspektsioon",
+      "region": "Europa",
+      "country": "EE",
+      "site": "http://www.aki.ee/",
+      "active": false
+    },
+    {
+      "regulator": "Tietosuoja",
+      "authority": "Office of the Data Protection Ombudsman",
+      "region": "Europa",
+      "country": "FI",
+      "site": "https://www.tietosuoja.fi/en/",
+      "active": false
+    },
+    {
+      "regulator": "CNIL",
+      "authority": "Commission Nationale de l'Informatique et des Libertés",
+      "region": "Europa",
+      "country": "FR",
+      "site": "https://www.cnil.fr/",
+      "active": false
+    },
+    {
+      "regulator": "BfDI",
+      "authority": "Bundesbeauftragte für den Datenschutz und die Informationsfreiheit",
+      "region": "Europa",
+      "country": "DE",
+      "site": "https://www.bfdi.bund.de/",
+      "active": false
+    },
+    {
+      "regulator": "HDPA",
+      "authority": "Hellenic Data Protection Authority",
+      "region": "Europa",
+      "country": "GR",
+      "site": "http://www.dpa.gr/",
+      "active": false
+    },
+    {
+      "regulator": "NAIH",
+      "authority": "Nemzeti Adatvédelmi és Információszabadság Hatóság",
+      "region": "Europa",
+      "country": "HU",
+      "site": "http://www.naih.hu/",
+      "active": false
+    },
+    {
+      "regulator": "DPC",
+      "authority": "Data Protection Commission",
+      "region": "Europa",
+      "country": "IE",
+      "site": "https://www.dataprotection.ie/",
+      "active": false
+    },
+    {
+      "regulator": "Garante",
+      "authority": "Garante per la protezione dei dati personali",
+      "region": "Europa",
+      "country": "IT",
+      "site": "https://www.garanteprivacy.it/",
+      "active": false
+    },
+    {
+      "regulator": "DVI",
+      "authority": "Data State Inspectorate",
+      "region": "Europa",
+      "country": "LV",
+      "site": "https://www.dvi.gov.lv/",
+      "active": false
+    },
+    {
+      "regulator": "VDAI",
+      "authority": "State Data Protection Inspectorate",
+      "region": "Europa",
+      "country": "LT",
+      "site": "https://vdai.lrv.lt/",
+      "active": false
+    },
+    {
+      "regulator": "CNPD (LU)",
+      "authority": "Commission Nationale pour la Protection des Données",
+      "region": "Europa",
+      "country": "LU",
+      "site": "https://cnpd.lu/",
+      "active": false
+    },
+    {
+      "regulator": "IDPC",
+      "authority": "Office of the Information and Data Protection Commissioner",
+      "region": "Europa",
+      "country": "MT",
+      "site": "http://www.idpc.org.mt/",
+      "active": false
+    },
+    {
+      "regulator": "AP",
+      "authority": "Autoriteit Persoonsgegevens",
+      "region": "Europa",
+      "country": "NL",
+      "site": "https://autoriteitpersoonsgegevens.nl/",
+      "active": false
+    },
+    {
+      "regulator": "UODO",
+      "authority": "Urząd Ochrony Danych Osobowych",
+      "region": "Europa",
+      "country": "PL",
+      "site": "https://uodo.gov.pl/",
+      "active": false
+    },
+    {
+      "regulator": "CNPD (PT)",
+      "authority": "Comissão Nacional de Proteção de Dados",
+      "region": "Europa",
+      "country": "PT",
+      "site": "http://www.cnpd.pt/",
+      "active": false
+    },
+    {
+      "regulator": "ANSPDCP",
+      "authority": "Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal",
+      "region": "Europa",
+      "country": "RO",
+      "site": "http://www.dataprotection.ro/",
+      "active": false
+    },
+    {
+      "regulator": "IMY",
+      "authority": "Integritetsskyddsmyndigheten",
+      "region": "Europa",
+      "country": "SE",
+      "site": "https://www.imy.se/",
+      "active": false
+    },
+    {
+      "regulator": "ÚOOÚ (CZ)",
+      "authority": "Úřad pro ochranu osobních údajů",
+      "region": "Europa",
+      "country": "CZ",
+      "site": "https://uoou.gov.cz/",
+      "active": false
+    }
+  ],
+  "items": []
+}

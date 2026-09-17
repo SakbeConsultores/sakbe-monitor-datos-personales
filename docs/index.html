@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Monitor de Protección de Datos Personales · Sakbé</title>
+<!-- Favicon embebido como data URI. Sin esto el navegador pide
+     /favicon.ico y la consola del dashboard arranca con un 404. -->
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23163043'/%3E%3Cpath d='M16 7l7 3v6c0 4.2-2.9 7.6-7 9-4.1-1.4-7-4.8-7-9v-6l7-3z' fill='%23C5DDDD'/%3E%3C/svg%3E">
+<style>
+:root{color-scheme:light}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#f5f5f5;color:#1a1a1a;min-height:100vh}
+.header{background:#163043;color:#fff;border-bottom:1px solid #163043;padding:14px 20px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
+.header h1{font-size:15px;font-weight:600}
+.header-sub{font-size:11px;color:#C5DDDD;margin-top:2px}
+.updated{font-size:11px;color:#C5DDDD;text-align:right}
+.updated .reload{display:inline-block;margin-left:8px;color:#fff;cursor:pointer;text-decoration:underline}
+/* ── Pestañas de región (LatAm / Europa) ───────────────────────── */
+.regions{background:#163043;padding:0 20px;display:flex;gap:2px;position:sticky;top:55px;z-index:9}
+.region-btn{padding:10px 22px;border:none;background:none;font-size:13px;font-weight:600;color:#C5DDDD;cursor:pointer;border-bottom:3px solid transparent}
+.region-btn:hover{color:#fff}
+.region-btn.active{color:#fff;border-bottom-color:#D9B39D;background:rgba(220,239,242,.08)}
+.region-btn .rcount{display:inline-block;margin-left:6px;font-size:11px;font-weight:400;opacity:.8}
+/* ── Filtro secundario por país, dentro de la región activa ───── */
+.filters{background:#fff;border-bottom:1px solid #e5e7eb;padding:0 20px;display:flex;overflow-x:auto}
+.filter-btn{padding:11px 14px;border:none;background:none;font-size:12px;font-weight:500;color:#525E64;cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap}
+.filter-btn.active{color:#163043;border-bottom-color:#163043}
+.filter-btn .count{display:inline-block;margin-left:5px;font-size:10px;color:#9ca3af;font-weight:400}
+.filter-btn.active .count{color:#525E64}
+.main{display:flex;min-height:calc(100vh - 140px)}
+.feed{flex:1;padding:16px 20px;min-width:0;max-width:900px;margin:0 auto;width:100%}
+.sidebar{width:340px;background:#fff;border-left:1px solid #e5e7eb;display:none;flex-direction:column;position:sticky;top:140px;height:calc(100vh - 140px)}
+.sidebar.open{display:flex}
+.count{font-size:12px;color:#9ca3af;margin-bottom:12px}
+.coverage{font-size:11px;color:#525E64;background:#DCEFF2;border:1px solid #C5DDDD;border-radius:6px;padding:8px 11px;margin-bottom:12px;line-height:1.5}
+.coverage b{color:#163043}
+.coverage .pend{cursor:pointer;text-decoration:underline;color:#9D4D31}
+.cards{display:flex;flex-direction:column;gap:8px}
+.card{background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:12px 16px;cursor:pointer;transition:border-color .1s}
+.card:hover{border-color:#9D4D31}
+.card.selected{border-color:#163043;background:#DCEFF2}
+.card-meta{display:flex;gap:5px;align-items:center;margin-bottom:7px;flex-wrap:wrap}
+.badge{font-size:10px;font-weight:700;padding:2px 6px;border-radius:3px;text-transform:uppercase;letter-spacing:.04em}
+.badge-country{background:#f3f4f6;color:#525E64}
+.badge-reg{background:#DCEFF2;color:#163043}
+.badge-tipo{background:#f0fdf4;color:#15803d}
+.badge-tipo.resoluciones{background:#fef2f2;color:#b91c1c}
+.badge-tipo.guias{background:#eff6ff;color:#1d4ed8}
+.badge-tipo.sanciones{background:#fefce8;color:#92400e}
+.badge-tipo.normativa{background:#f5f3ff;color:#6d28d9}
+.card-date{margin-left:auto;font-size:11px;color:#9ca3af}
+.card-title{font-size:13px;font-weight:600;color:#111;line-height:1.4;margin-bottom:4px}
+.card-summary{font-size:12px;color:#525E64;line-height:1.5;margin-bottom:8px}
+.card-footer{display:flex;justify-content:space-between;align-items:center}
+.card-link{font-size:11px;color:#163043;text-decoration:none;font-weight:500}
+.card-link:hover{text-decoration:underline}
+.card-select{font-size:11px;font-weight:600;color:#163043;background:none;border:1px solid #163043;border-radius:4px;padding:3px 8px;cursor:pointer}
+.card.selected .card-select{background:#163043;color:#fff}
+.sidebar-header{padding:14px 16px;border-bottom:1px solid #e5e7eb;display:flex;justify-content:space-between;align-items:center;background:#DCEFF2}
+.sidebar-header h2{font-size:13px;font-weight:600;color:#163043}
+.sidebar-close{background:none;border:none;font-size:18px;color:#525E64;cursor:pointer}
+.sidebar-body{flex:1;overflow-y:auto;padding:14px 16px}
+.selected-item{background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:10px 12px;margin-bottom:8px;font-size:12px}
+.selected-item-title{font-weight:600;color:#163043;margin-bottom:3px;line-height:1.4}
+.selected-item-meta{color:#525E64}
+.selected-item-remove{float:right;background:none;border:none;color:#9D4D31;cursor:pointer;font-size:14px;margin-top:-2px}
+.generate-section{padding:14px 16px;border-top:1px solid #e5e7eb}
+.generate-label{font-size:11px;font-weight:700;color:#525E64;text-transform:uppercase;letter-spacing:.05em;margin-bottom:10px}
+.gen-btn{display:block;width:100%;padding:9px 12px;margin-bottom:7px;border:1px solid #e5e7eb;border-radius:6px;background:#fff;font-size:12px;font-weight:500;color:#163043;cursor:pointer;text-align:left}
+.gen-btn:hover{background:#DCEFF2;border-color:#163043}
+.gen-btn .btn-sub{display:block;font-size:10px;color:#9ca3af;font-weight:400;margin-top:1px}
+.output-panel{display:none;position:fixed;inset:0;background:rgba(22,48,67,.5);z-index:50;align-items:center;justify-content:center;padding:20px}
+.output-panel.open{display:flex}
+.output-box{background:#fff;border-radius:10px;max-width:720px;width:100%;max-height:85vh;display:flex;flex-direction:column}
+.output-header{padding:14px 18px;border-bottom:1px solid #e5e7eb;display:flex;justify-content:space-between;align-items:center;background:#163043;color:#fff;border-radius:10px 10px 0 0}
+.output-header h3{font-size:14px;font-weight:600}
+.output-close{background:none;border:none;font-size:20px;color:#fff;cursor:pointer}
+.output-body{flex:1;overflow-y:auto;padding:18px}
+.output-instructions{font-size:12px;color:#525E64;line-height:1.6;margin-bottom:12px;padding:10px 12px;background:#DCEFF2;border-radius:6px}
+.output-prompt{font-size:12px;font-family:ui-monospace,Menlo,Monaco,Consolas,monospace;line-height:1.5;color:#1a1a1a;background:#f8fafc;border:1px solid #e2e8f0;border-radius:6px;padding:12px;white-space:pre-wrap;word-break:break-word;max-height:50vh;overflow-y:auto}
+.output-footer{padding:12px 18px;border-top:1px solid #e5e7eb;display:flex;gap:8px;justify-content:flex-end}
+.copy-btn{padding:8px 16px;background:#163043;color:#fff;border:none;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer}
+.copy-btn:hover{background:#0f2330}
+.open-btn{padding:8px 16px;background:#9D4D31;color:#fff;border:none;border-radius:6px;font-size:12px;font-weight:600;cursor:pointer;text-decoration:none;display:inline-block}
+.open-btn:hover{background:#7a3a25}
+.loading{text-align:center;padding:56px;color:#9ca3af;font-size:13px}
+.loading-dots::after{content:'...';animation:dots 1.4s infinite}
+@keyframes dots{0%,20%{content:'.'}40%{content:'..'}60%,100%{content:'...'}}
+.empty{text-align:center;padding:48px 20px}
+.empty h2{font-size:15px;font-weight:600;color:#163043;margin-bottom:6px}
+.empty p{font-size:13px;color:#525E64;line-height:1.5;max-width:420px;margin:0 auto}
+.error-box{background:#fef2f2;border:1px solid #fecaca;border-radius:8px;padding:12px 14px;color:#991b1b;font-size:12px;line-height:1.5;margin-bottom:10px}
+.src-table{width:100%;border-collapse:collapse;font-size:12px;margin-top:10px;background:#fff;border:1px solid #e5e7eb;border-radius:8px;overflow:hidden}
+.src-table th{background:#DCEFF2;color:#163043;font-size:11px;text-transform:uppercase;letter-spacing:.04em;padding:8px 10px;text-align:left}
+.src-table td{padding:7px 10px;border-top:1px solid #f1f5f9;color:#525E64}
+.src-table td a{color:#163043}
+.st-on{color:#15803d;font-weight:600}
+.st-off{color:#9D4D31;font-weight:600}
+.fab{position:fixed;bottom:20px;right:20px;background:#163043;color:#fff;border:none;border-radius:24px;padding:11px 20px;font-size:13px;font-weight:600;cursor:pointer;display:none;align-items:center;gap:6px;box-shadow:0 4px 12px rgba(22,48,67,.3);z-index:20}
+.fab:hover{background:#0f2330}
+.fab.visible{display:flex}
+.footer{padding:18px 20px;text-align:center;color:#9ca3af;font-size:11px;border-top:1px solid #e5e7eb;background:#fff;margin-top:20px}
+.footer a{color:#163043;text-decoration:none}
+</style>
+</head>
+<body>
+
+<div class="header">
+<div>
+<h1>Monitor de Protección de Datos Personales</h1>
+<div class="header-sub">Autoridades de Latinoamérica y Europa · Sakbé Consultores</div>
+</div>
+<div class="updated" id="updated">Cargando<span class="loading-dots"></span></div>
+</div>
+
+<!-- Pestañas de región. Es la diferencia estructural respecto al
+     monitor financiero: ahí el primer corte era por país, aquí el
+     primer corte es LatAm vs Europa y el país queda como subfiltro. -->
+<div class="regions" id="regions"></div>
+
+<div class="filters" id="filters"></div>
+
+<div class="main">
+<div class="feed">
+<div id="root"><div class="loading"><span class="loading-dots">Descargando datos</span></div></div>
+<div class="footer">
+Generado por GitHub Actions desde fuentes oficiales de cada autoridad. Datos en
+<a href="data/monitor.json" target="_blank">data/monitor.json</a>.
+</div>
+</div>
+<div class="sidebar" id="sidebar">
+<div class="sidebar-header">
+<h2>Seleccionadas (<span id="sel-count">0</span>)</h2>
+<button class="sidebar-close" onclick="closeSidebar()">×</button>
+</div>
+<div class="sidebar-body" id="sel-list"></div>
+<div class="generate-section">
+<div class="generate-label">Generar prompt para IA</div>
+<button class="gen-btn" onclick="generate('linkedin')">Post LinkedIn<span class="btn-sub">300 a 500 palabras, prosa</span></button>
+<button class="gen-btn" onclick="generate('substack')">Nota Substack<span class="btn-sub">150 a 300 palabras, análisis directo</span></button>
+<button class="gen-btn" onclick="generate('hilo')">Hilo de análisis<span class="btn-sub">5 a 8 puntos con contexto</span></button>
+<button class="gen-btn" onclick="generate('paper')">Outline de artículo<span class="btn-sub">Estructura para análisis profundo</span></button>
+<button class="gen-btn" onclick="generate('cumplimiento')">Impacto en cumplimiento<span class="btn-sub">Qué debe hacer el DPO o el oficial de datos</span></button>
+</div>
+</div>
+</div>
+
+<button class="fab" id="fab" onclick="openSidebar()">Generar contenido (<span id="fab-count">0</span>)</button>
+
+<div class="output-panel" id="output-panel">
+<div class="output-box">
+<div class="output-header">
+<h3 id="output-title">Prompt generado</h3>
+<button class="output-close" onclick="closeOutput()">×</button>
+</div>
+<div class="output-body">
+<div class="output-instructions">
+Copia este prompt y pégalo en Claude, ChatGPT o cualquier IA. Incluye contexto de Sakbé y las publicaciones seleccionadas.
+</div>
+<div class="output-prompt" id="output-prompt"></div>
+</div>
+<div class="output-footer">
+<a class="open-btn" id="open-claude" href="#" target="_blank" rel="noopener">Abrir en Claude</a>
+<button class="copy-btn" id="copy-btn" onclick="copyOutput()">Copiar prompt</button>
+</div>
+</div>
+</div>
+
+<script>
+// ───────────────────────────────────────────────────────────────
+// Configuración
+// ───────────────────────────────────────────────────────────────
+
+const DATA_URL = 'data/monitor.json';
+
+// Orden de las pestañas. Si el JSON trae su propio arreglo "regions"
+// (lo pone ingest.py desde settings.regions), ese manda.
+let REGIONS = ['LatAm', 'Europa'];
+
+const REGION_LABEL = { LatAm: 'Latam', Europa: 'Europa' };
+
+// Orden de países dentro de cada región. Lo que no esté listado se
+// agrega alfabéticamente al final, así una autoridad nueva aparece
+// sin tocar el código.
+const COUNTRY_ORDER = {
+  LatAm: ['all', 'MX', 'CO', 'EC', 'PE', 'CL', 'AR', 'BR', 'UY', 'PY', 'CR', 'PA'],
+  Europa: ['all', 'UE', 'ES', 'FR', 'IT', 'DE', 'IE', 'PT', 'NL', 'PL', 'SE',
+           'AT', 'BE', 'BG', 'HR', 'CY', 'DK', 'SK', 'SI', 'EE', 'FI', 'GR',
+           'HU', 'LV', 'LT', 'LU', 'MT', 'RO', 'CZ']
+};
+
+// Etiquetas legibles. El badge de la tarjeta sigue mostrando el código
+// corto, pero el filtro muestra el nombre del país.
+const COUNTRY_LABEL = {
+  all: 'Todos', UE: 'Órganos UE',
+  MX: 'México', CO: 'Colombia', EC: 'Ecuador', PE: 'Perú', CL: 'Chile',
+  AR: 'Argentina', BR: 'Brasil', UY: 'Uruguay', PY: 'Paraguay',
+  CR: 'Costa Rica', PA: 'Panamá',
+  ES: 'España', FR: 'Francia', IT: 'Italia', DE: 'Alemania', IE: 'Irlanda',
+  PT: 'Portugal', NL: 'Países Bajos', PL: 'Polonia', SE: 'Suecia',
+  AT: 'Austria', BE: 'Bélgica', BG: 'Bulgaria', HR: 'Croacia', CY: 'Chipre',
+  DK: 'Dinamarca', SK: 'Eslovaquia', SI: 'Eslovenia', EE: 'Estonia',
+  FI: 'Finlandia', GR: 'Grecia', HU: 'Hungría', LV: 'Letonia',
+  LT: 'Lituania', LU: 'Luxemburgo', MT: 'Malta', RO: 'Rumanía',
+  CZ: 'República Checa'
+};
+
+let allItems = [];
+let allSources = [];
+let filteredItems = [];
+let selectedIds = new Set();
+let currentRegion = 'LatAm';
+// Un filtro de país por región, para que al volver a una pestaña se
+// conserve dónde estabas en lugar de resetear a "Todos".
+let countryFilter = { LatAm: 'all', Europa: 'all' };
+let showSources = false;
+let outputText = '';
+
+// ───────────────────────────────────────────────────────────────
+// Helpers
+// ───────────────────────────────────────────────────────────────
+
+function escapeHtml(s){
+return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;')
+.replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+}
+
+function formatDate(s){
+if(!s) return '';
+try{
+const d = new Date(s);
+return isNaN(d) ? s : d.toLocaleDateString('es-MX',{year:'numeric',month:'short',day:'numeric'});
+} catch(e){ return s; }
+}
+
+function getTipoCls(tipo){
+const t = (tipo||'').toLowerCase();
+if (t.includes('resoluc')) return 'resoluciones';
+if (t.includes('gu')) return 'guias';
+if (t.includes('sanci') || t.includes('multa')) return 'sanciones';
+if (t.includes('normativ') || t.includes('reglament')) return 'normativa';
+return '';
+}
+
+// Items con fecha futura anómala (>7d adelante) los ordenamos como sin fecha
+function sortKey(item){
+const pub = item.published || '';
+if (!pub) return '';
+try {
+const d = new Date(pub);
+const limit = new Date(Date.now() + 7*24*3600*1000);
+if (isNaN(d) || d > limit) return '';
+return pub;
+} catch(e){ return ''; }
+}
+
+function itemsOfRegion(region){
+return allItems.filter(i => (i.region || '') === region);
+}
+
+// ───────────────────────────────────────────────────────────────
+// Carga del JSON
+// ───────────────────────────────────────────────────────────────
+
+async function loadData(isReload){
+if (isReload) {
+const reloadBtn = document.querySelector('#updated .reload');
+if (reloadBtn) reloadBtn.textContent = 'Recargando…';
+} else {
+document.getElementById('updated').innerHTML = 'Cargando<span class="loading-dots"></span>';
+document.getElementById('root').innerHTML =
+'<div class="loading"><span class="loading-dots">Descargando datos</span></div>';
+}
+try {
+// cache: no-store y el timestamp en la query. Sin esto, al agregar
+// autoridades nuevas el navegador sirve el JSON viejo y la pestaña
+// aparece vacía.
+const resp = await fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' });
+if (!resp.ok) throw new Error('HTTP ' + resp.status);
+const data = await resp.json();
+
+const items = Array.isArray(data.items) ? data.items.slice() : [];
+items.sort((a, b) => {
+const ka = sortKey(a), kb = sortKey(b);
+if (ka === kb) return 0;
+if (!ka) return 1;
+if (!kb) return -1;
+return kb.localeCompare(ka);
+});
+
+allItems = items;
+allSources = Array.isArray(data.sources) ? data.sources : [];
+if (Array.isArray(data.regions) && data.regions.length) REGIONS = data.regions;
+if (!REGIONS.includes(currentRegion)) currentRegion = REGIONS[0];
+
+const genDate = data.generated_at ? new Date(data.generated_at) : null;
+const updatedStr = genDate && !isNaN(genDate)
+? genDate.toLocaleString('es-MX', { dateStyle:'short', timeStyle:'short' })
+: 'desconocido';
+
+const fetchedStr = new Date().toLocaleTimeString('es-MX', { timeStyle:'short' });
+
+document.getElementById('updated').innerHTML =
+(data.total_items || items.length) + ' items · datos: ' + updatedStr +
+' · recargado: ' + fetchedStr +
+' <span class="reload" onclick="loadData(true)">Recargar</span>';
+
+renderRegions();
+applyRegion(currentRegion);
+updateSidebar();
+
+} catch(e) {
+document.getElementById('root').innerHTML =
+'<div class="error-box">No se pudo cargar el JSON: ' + escapeHtml(e.message) +
+'. Esperar a que el workflow de GitHub Actions corra al menos una vez.</div>';
+document.getElementById('updated').innerHTML =
+'Error <span class="reload" onclick="loadData(true)">Reintentar</span>';
+}
+}
+
+// ───────────────────────────────────────────────────────────────
+// Pestañas de región
+// ───────────────────────────────────────────────────────────────
+
+function renderRegions(){
+const div = document.getElementById('regions');
+div.innerHTML = REGIONS.map(r => {
+const n = itemsOfRegion(r).length;
+const active = r === currentRegion ? ' active' : '';
+return '<button class="region-btn' + active + '" data-region="' + escapeHtml(r) + '">' +
+escapeHtml(REGION_LABEL[r] || r) + '<span class="rcount">' + n + '</span></button>';
+}).join('');
+div.querySelectorAll('.region-btn').forEach(b => {
+b.addEventListener('click', () => applyRegion(b.dataset.region));
+});
+}
+
+function applyRegion(region){
+currentRegion = region;
+showSources = false;
+document.querySelectorAll('.region-btn').forEach(b => {
+b.classList.toggle('active', b.dataset.region === region);
+});
+renderFilters();
+applyFilter(countryFilter[region] || 'all');
+}
+
+// ───────────────────────────────────────────────────────────────
+// Filtro por país dentro de la región activa
+// ───────────────────────────────────────────────────────────────
+
+function renderFilters(){
+const regionItems = itemsOfRegion(currentRegion);
+const counts = { all: regionItems.length };
+for (const item of regionItems) {
+const c = item.country || '(?)';
+counts[c] = (counts[c] || 0) + 1;
+}
+const base = COUNTRY_ORDER[currentRegion] || ['all'];
+const seen = new Set(base);
+const extras = Object.keys(counts).filter(c => !seen.has(c)).sort();
+const order = base.concat(extras);
+
+const active = countryFilter[currentRegion] || 'all';
+const div = document.getElementById('filters');
+// Solo se muestran los países que tienen al menos un item, más
+// "Todos". Con 29 autoridades europeas, listar las que no publicaron
+// nada en la ventana llenaría la barra de ceros.
+div.innerHTML = order.filter(c => c === 'all' || counts[c]).map(c => {
+const label = COUNTRY_LABEL[c] || c;
+const cnt = counts[c] || 0;
+const cls = c === active ? ' active' : '';
+return '<button class="filter-btn' + cls + '" data-filter="' + escapeHtml(c) + '">' +
+escapeHtml(label) + '<span class="count">' + cnt + '</span></button>';
+}).join('');
+
+div.querySelectorAll('.filter-btn').forEach(b => {
+b.addEventListener('click', () => applyFilter(b.dataset.filter));
+});
+}
+
+function applyFilter(f){
+countryFilter[currentRegion] = f;
+document.querySelectorAll('.filter-btn').forEach(b => {
+b.classList.toggle('active', b.dataset.filter === f);
+});
+const regionItems = itemsOfRegion(currentRegion);
+const items = f === 'all' ? regionItems : regionItems.filter(i => i.country === f);
+renderCards(items);
+}
+
+// ───────────────────────────────────────────────────────────────
+// Cobertura: autoridades declaradas vs con fuente activa
+// ───────────────────────────────────────────────────────────────
+
+function coverageHtml(){
+const src = allSources.filter(s => s.region === currentRegion);
+if (!src.length) return '';
+const on = src.filter(s => s.active).length;
+const off = src.length - on;
+let html = '<div class="coverage"><b>' + src.length + '</b> autoridades declaradas en ' +
+escapeHtml(REGION_LABEL[currentRegion] || currentRegion) + ': <b>' + on +
+'</b> con fuente activa';
+if (off) {
+html += ', <b>' + off + '</b> pendientes de verificar ' +
+'<span class="pend" onclick="toggleSources()">' +
+(showSources ? 'ocultar detalle' : 'ver detalle') + '</span>';
+}
+html += '</div>';
+if (showSources) {
+html += '<table class="src-table"><tr><th>Autoridad</th><th>País</th>' +
+'<th>Estado</th><th>Sitio oficial</th></tr>' +
+src.map(s =>
+'<tr><td><b>' + escapeHtml(s.regulator) + '</b><br>' +
+'<span style="font-size:11px;color:#9ca3af">' + escapeHtml(s.authority || '') + '</span></td>' +
+'<td>' + escapeHtml(COUNTRY_LABEL[s.country] || s.country) + '</td>' +
+'<td class="' + (s.active ? 'st-on' : 'st-off') + '">' +
+(s.active ? 'activa' : 'pendiente') + '</td>' +
+'<td>' + (s.site
+? '<a href="' + escapeHtml(s.site) + '" target="_blank" rel="noopener">abrir</a>'
+: '—') + '</td></tr>'
+).join('') + '</table>';
+}
+return html;
+}
+
+function toggleSources(){
+showSources = !showSources;
+renderCards(filteredItems);
+}
+
+// ───────────────────────────────────────────────────────────────
+// Render de tarjetas
+// ───────────────────────────────────────────────────────────────
+
+function renderCards(items){
+filteredItems = items;
+const root = document.getElementById('root');
+const cov = coverageHtml();
+
+if (items.length === 0) {
+root.innerHTML = cov +
+'<div class="empty"><h2>' +
+(allItems.length === 0 ? 'Sin items todavía' : 'Sin resultados') +
+'</h2><p>' +
+(allItems.length === 0
+? 'Ninguna fuente ha entregado publicaciones. Corre el workflow "Descubrir feeds", llena url, source y enabled en config/feeds.yaml, y luego corre "Ingest Protección de Datos".'
+: 'No hay publicaciones para este filtro en la ventana de días configurada.') +
+'</p></div>';
+return;
+}
+
+let html = cov + '<div class="count">' + items.length + ' publicaci' +
+(items.length !== 1 ? 'ones' : 'ón') +
+' · <span style="color:#525E64">haz clic para seleccionar</span></div>' +
+'<div class="cards">';
+
+for (const item of items) {
+const sel = selectedIds.has(item.id);
+const tc = getTipoCls(item.type);
+html += '<div class="card' + (sel ? ' selected' : '') +
+'" onclick="toggleSelect(\'' + escapeHtml(item.id) + '\')">' +
+'<div class="card-meta">' +
+(item.country ? '<span class="badge badge-country">' + escapeHtml(item.country) + '</span>' : '') +
+(item.regulator ? '<span class="badge badge-reg">' + escapeHtml(item.regulator) + '</span>' : '') +
+(item.type ? '<span class="badge badge-tipo ' + tc + '">' + escapeHtml(item.type) + '</span>' : '') +
+'<span class="card-date">' + escapeHtml(formatDate(item.published)) + '</span>' +
+'</div>' +
+'<div class="card-title">' + escapeHtml(item.title) + '</div>' +
+(item.summary
+? '<div class="card-summary">' + escapeHtml(item.summary.slice(0,180)) +
+(item.summary.length > 180 ? '…' : '') + '</div>'
+: '') +
+'<div class="card-footer">' +
+(item.url
+? '<a class="card-link" href="' + escapeHtml(item.url) + '" target="_blank" rel="noopener" onclick="event.stopPropagation()">Ver publicación →</a>'
+: '<span></span>') +
+'<button class="card-select" onclick="event.stopPropagation();toggleSelect(\'' +
+escapeHtml(item.id) + '\')">' +
+(sel ? 'Seleccionada' : 'Seleccionar') + '</button>' +
+'</div>' +
+'</div>';
+}
+html += '</div>';
+root.innerHTML = html;
+}
+
+// ───────────────────────────────────────────────────────────────
+// Selección y sidebar
+// ───────────────────────────────────────────────────────────────
+
+function toggleSelect(id){
+if (selectedIds.has(id)) selectedIds.delete(id);
+else selectedIds.add(id);
+renderCards(filteredItems);
+updateSidebar();
+}
+
+function updateSidebar(){
+const n = selectedIds.size;
+document.getElementById('sel-count').textContent = n;
+document.getElementById('fab-count').textContent = n;
+document.getElementById('fab').classList.toggle(
+'visible',
+n > 0 && !document.getElementById('sidebar').classList.contains('open')
+);
+
+const list = document.getElementById('sel-list');
+if (n === 0) {
+list.innerHTML =
+'<p style="font-size:12px;color:#9ca3af;text-align:center;padding:20px 0">' +
+'Haz clic en una publicación para seleccionarla. Puedes mezclar Latam y Europa.</p>';
+return;
+}
+
+list.innerHTML = allItems.filter(i => selectedIds.has(i.id)).map(i =>
+'<div class="selected-item">' +
+'<button class="selected-item-remove" onclick="toggleSelect(\'' +
+escapeHtml(i.id) + '\')">×</button>' +
+'<div class="selected-item-title">' + escapeHtml(i.title.slice(0,80)) +
+(i.title.length > 80 ? '…' : '') + '</div>' +
+'<div class="selected-item-meta">' +
+escapeHtml([i.regulator, i.country, formatDate(i.published)]
+.filter(Boolean).join(' · ')) +
+'</div>' +
+'</div>'
+).join('');
+}
+
+function openSidebar(){
+document.getElementById('sidebar').classList.add('open');
+document.getElementById('fab').classList.remove('visible');
+updateSidebar();
+}
+function closeSidebar(){
+document.getElementById('sidebar').classList.remove('open');
+if (selectedIds.size > 0) document.getElementById('fab').classList.add('visible');
+}
+
+// ───────────────────────────────────────────────────────────────
+// Generación de prompts (no llama IA, solo arma el prompt)
+// ───────────────────────────────────────────────────────────────
+
+const TYPE_LABELS = {
+linkedin: 'Prompt para Post LinkedIn',
+substack: 'Prompt para Nota Substack',
+hilo: 'Prompt para Hilo de análisis',
+paper: 'Prompt para Outline de artículo',
+cumplimiento: 'Prompt para Impacto en cumplimiento'
+};
+
+function buildPrompt(type, items){
+const news = items.map(i =>
+'- [' + (i.regulator || i.country || 'Autoridad') + ' · ' +
+(i.region || '') + '] ' + i.title +
+(i.url ? ' (' + i.url + ')' : '') +
+(i.summary ? ': ' + i.summary.slice(0,300) : '')
+).join('\n');
+
+const header = 'Publicaciones de autoridades de protección de datos personales ' +
+'seleccionadas:\n' + news + '\n\n';
+
+if (type === 'linkedin')
+return header +
+'Escribe UN SOLO post de LinkedIn. Entre 300 y 500 palabras. ' +
+'Empieza con el dato concreto más relevante, sin contexto introductorio. ' +
+'Conecta con implicaciones prácticas para instituciones financieras de ' +
+'Latinoamérica que tratan datos personales de clientes. Cierra con una ' +
+'pregunta o postura específica. Prosa, sin lista de puntos. Sin guion ' +
+'largo. Incluye hashtags.';
+if (type === 'substack')
+return header +
+'Escribe una nota de Substack de 150 a 300 palabras. Un argumento por ' +
+'párrafo. Empieza con el hecho central, desarrolla la implicación práctica ' +
+'para el oficial de protección de datos, el director de riesgos o el ' +
+'consejo, cierra con una postura o pregunta de fondo. Sin párrafo de ' +
+'resumen repetitivo al final.';
+if (type === 'hilo')
+return header +
+'Escribe un hilo de análisis de 6 a 8 puntos. Punto 1: el hecho principal ' +
+'con número, monto de sanción o artículo normativo específico. Puntos 2 a 6: ' +
+'análisis técnico, un argumento concreto por punto, sin relleno. Punto final: ' +
+'postura o pregunta directa. Cada punto debe sostenerse solo.';
+if (type === 'paper')
+return header +
+'Elabora un outline de artículo o paper. Incluye: título directo (sin ' +
+'grandilocuencia), audiencia específica, hipótesis central en una sola ' +
+'oración, secciones con descripción de 2 a 3 líneas que digan el argumento ' +
+'concreto (no etiquetas genéricas como "Contexto" o "Conclusión"), ' +
+'fuentes clave a buscar. Si hay publicaciones de Europa y de Latam, el ' +
+'outline debe explotar el contraste entre marcos, no tratarlas por separado.';
+if (type === 'cumplimiento')
+return header +
+'Traduce estas publicaciones en obligaciones concretas. Para cada una: qué ' +
+'exige la autoridad, a qué tipo de tratamiento aplica, y qué debe hacer el ' +
+'oficial de protección de datos de una institución financiera en los ' +
+'próximos 90 días. Si una publicación europea anticipa criterio que las ' +
+'autoridades latinoamericanas suelen adoptar después, dilo y explica por qué. ' +
+'No inventes plazos ni artículos que no estén en el texto citado: si un dato ' +
+'no aparece, márcalo como pendiente de verificar en la fuente.';
+return header;
+}
+
+function generate(type){
+if (selectedIds.size === 0) return;
+const selected = allItems.filter(i => selectedIds.has(i.id));
+outputText = buildPrompt(type, selected);
+
+document.getElementById('output-title').textContent = TYPE_LABELS[type];
+document.getElementById('output-prompt').textContent = outputText;
+
+const claudeUrl = 'https://claude.ai/new?q=' + encodeURIComponent(outputText);
+document.getElementById('open-claude').href = claudeUrl;
+
+document.getElementById('output-panel').classList.add('open');
+}
+
+function closeOutput(){
+document.getElementById('output-panel').classList.remove('open');
+}
+
+async function copyOutput(){
+try {
+await navigator.clipboard.writeText(outputText);
+const b = document.getElementById('copy-btn');
+b.textContent = 'Copiado';
+setTimeout(() => b.textContent = 'Copiar prompt', 2000);
+} catch(e) { /* ignorar */ }
+}
+
+// Arranque
+loadData();
+</script>
+</body>
+</html>

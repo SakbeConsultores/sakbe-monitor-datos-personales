@@ -1,0 +1,512 @@
+# ──────────────────────────────────────────────────────────────────
+# Monitor Regulatorio de Protección de Datos Personales - Sakbé
+# ──────────────────────────────────────────────────────────────────
+#
+# Fuente del inventario de autoridades:
+#   "Autoridades de Protección de Datos Personales — Europa y
+#    Latinoamérica" (insumo, verificado 17-sep-2026), secciones
+#    1.1 (27 autoridades UE), 1.2 (órganos de coordinación UE) y
+#    2 (Latinoamérica, tabla principal).
+#   Quedan fuera por indicación expresa: 1.3 (EEE), 1.4 (Reino Unido
+#   y Suiza), 2.1 (países sin autoridad) y 2.2 (marco parcial).
+#
+# Campos por fuente:
+#   regulator      Acrónimo de la autoridad. Debe coincidir EXACTO con una
+#                  opción del select "Regulador" en Notion. Cuando dos
+#                  autoridades comparten acrónimo (CNPD, ÚOOÚ, ANPD,
+#                  Datatilsynet) se desambigua con el país entre paréntesis.
+#   authority      Nombre completo oficial. Solo documentación, no va a Notion.
+#   region         "Europa" o "LatAm". Controla la pestaña del dashboard.
+#                  Debe coincidir con el select "Region" en Notion.
+#   country        Código de país (ISO 2 letras) o "UE" para los órganos
+#                  de coordinación. Select "Pais" en Notion.
+#   type           Sección del sitio que se lee. Select "Tipo" en Notion.
+#   site           Sitio oficial de la autoridad. NO cambia nunca. Es lo
+#                  que sondea tools/discover_feeds.py.
+#   url            URL del feed RSS o de la página a scrapear. Vacío
+#                  mientras la fuente no esté verificada.
+#   source         "rss"      -> url es un feed RSS/Atom estándar.
+#                  "scraper"  -> url es HTML y scraper_module lo parsea.
+#                  "pending"  -> todavía no se verificó nada. El ingest
+#                                lo salta sin error.
+#   scraper_module Solo si source es "scraper". Módulo en src/scrapers/.
+#   enabled        false mientras la fuente no esté verificada. El ingest
+#                  solo procesa fuentes con enabled: true.
+#   note           Observación relevante (autoridad en transición, etc.).
+#
+# ⚠️ ESTADO: las 40 fuentes están en "pending". El descubrimiento de
+#    feeds NO se hizo desde este entorno porque la política de egress
+#    bloquea estos dominios. Corre el workflow "Descubrir feeds" en la
+#    pestaña Actions del repo: sondea los 40 sitios desde GitHub (que sí
+#    tiene salida abierta), valida cada candidato con feedparser y
+#    escribe config/discovery-report.md con el resultado por autoridad.
+#    Con ese reporte se llenan url + source + enabled de cada bloque.
+#
+# ──────────────────────────────────────────────────────────────────
+
+settings:
+  # Solo se insertan items cuya fecha de publicación sea menor o igual
+  # a este número de días. Items sin fecha se dejan pasar.
+  max_age_days: 20
+
+  # Ventana que se PUBLICA en docs/data/monitor.json y por lo tanto lo
+  # que ve el dashboard. Notion conserva el histórico completo.
+  display_window_days: 20
+
+  # Pestañas del dashboard, en orden. El dashboard las lee del JSON,
+  # esto solo documenta el contrato.
+  regions: ["LatAm", "Europa"]
+
+feeds:
+
+  # ═════════════════════════════════════════════════════════════════
+  # LATINOAMÉRICA (insumo, sección 2 - tabla principal)
+  # ═════════════════════════════════════════════════════════════════
+
+  - regulator: AAIP
+    authority: Agencia de Acceso a la Información Pública
+    region: LatAm
+    country: AR
+    type: Noticias
+    site: https://www.argentina.gob.ar/aaip
+    url: ""
+    source: pending
+    enabled: false
+    note: Autoridad consolidada. Ley 25.326.
+
+  - regulator: ANPD (BR)
+    authority: Autoridade Nacional de Proteção de Dados
+    region: LatAm
+    country: BR
+    type: Noticias
+    site: https://www.gov.br/anpd/
+    url: ""
+    source: pending
+    enabled: false
+    note: Agencia autónoma con patrimonio propio desde abril de 2026.
+
+  - regulator: SERNAC
+    authority: Servicio Nacional del Consumidor (fiscaliza en ámbito de consumo)
+    region: LatAm
+    country: CL
+    type: Noticias
+    site: https://www.sernac.cl/
+    url: ""
+    source: pending
+    enabled: false
+    note: >-
+      Interino. La Agencia de Protección de Datos Personales (APDP) creada
+      por la Ley 21.719 aún no está operativa y no tiene sitio propio;
+      entrada en vigor prevista 1-dic-2026. Cuando la APDP publique sitio,
+      agregar su bloque y decidir si SERNAC se conserva o se retira.
+
+  - regulator: SIC
+    authority: Superintendencia de Industria y Comercio - Delegatura para la Protección de Datos Personales
+    region: LatAm
+    country: CO
+    type: Noticias
+    site: https://www.sic.gov.co/
+    url: ""
+    source: pending
+    enabled: false
+    note: Ley 1581 de 2012. El sitio cubre toda la SIC, habrá que filtrar por la delegatura.
+
+  - regulator: PRODHAB
+    authority: Agencia de Protección de Datos de los Habitantes
+    region: LatAm
+    country: CR
+    type: Noticias
+    site: https://www.prodhab.go.cr/
+    url: ""
+    source: pending
+    enabled: false
+    note: Ley 8968 de 2011.
+
+  - regulator: SPDP
+    authority: Superintendencia de Protección de Datos Personales
+    region: LatAm
+    country: EC
+    type: Noticias
+    site: https://www.spdp.gob.ec/
+    url: ""
+    source: pending
+    enabled: false
+    note: LOPDP. Activa desde 2023, en plena expedición de reglamentos.
+
+  - regulator: SABG
+    authority: Secretaría Anticorrupción y Buen Gobierno
+    region: LatAm
+    country: MX
+    type: Noticias
+    site: https://www.gob.mx/buengobierno
+    url: ""
+    source: pending
+    enabled: false
+    note: >-
+      Asumió la función desde marzo de 2025 tras la disolución del INAI.
+      Ya no es órgano autónomo, depende del Ejecutivo. El sitio es un
+      portal gob.mx general, no una sección de protección de datos.
+
+  - regulator: ANTAI
+    authority: Autoridad Nacional de Transparencia y Acceso a la Información
+    region: LatAm
+    country: PA
+    type: Noticias
+    site: https://www.antai.gob.pa/
+    url: ""
+    source: pending
+    enabled: false
+    note: Ley 81 de 2019.
+
+  - regulator: MITIC
+    authority: Ministerio de Tecnologías de la Información y Comunicación
+    region: LatAm
+    country: PY
+    type: Noticias
+    site: https://www.mitic.gov.py/
+    url: ""
+    source: pending
+    enabled: false
+    note: >-
+      Interino. La Agencia Nacional de Protección de Datos Personales
+      creada por la Ley 7593/2025 depende del MITIC y no tiene sitio
+      propio; transición hasta noviembre de 2027.
+
+  - regulator: ANPD (PE)
+    authority: Autoridad Nacional de Protección de Datos Personales
+    region: LatAm
+    country: PE
+    type: Noticias
+    site: https://www.gob.pe/anpd
+    url: ""
+    source: pending
+    enabled: false
+    note: Bajo el Ministerio de Justicia y Derechos Humanos.
+
+  - regulator: URCDP
+    authority: Unidad Reguladora y de Control de Datos Personales
+    region: LatAm
+    country: UY
+    type: Noticias
+    site: https://www.gub.uy/unidad-reguladora-control-datos-personales/
+    url: ""
+    source: pending
+    enabled: false
+    note: Ley 18.331. Cuenta con decisión de adecuación de la UE.
+
+  # ═════════════════════════════════════════════════════════════════
+  # EUROPA - Órganos de coordinación UE (insumo, sección 1.2)
+  # ═════════════════════════════════════════════════════════════════
+
+  - regulator: EDPB
+    authority: Comité Europeo de Protección de Datos (CEPD / EDPB)
+    region: Europa
+    country: UE
+    type: Noticias
+    site: https://www.edpb.europa.eu/
+    url: ""
+    source: pending
+    enabled: false
+    note: >-
+      Coordina a las 27 autoridades nacionales. Emite guías y decisiones
+      vinculantes en casos transfronterizos. Es la fuente de mayor valor
+      del bloque europeo: lo que publica aquí condiciona a los 27.
+
+  - regulator: EDPS
+    authority: Supervisor Europeo de Protección de Datos (SEPD / EDPS)
+    region: Europa
+    country: UE
+    type: Noticias
+    site: https://edps.europa.eu/
+    url: ""
+    source: pending
+    enabled: false
+    note: Supervisa a las instituciones y organismos de la propia UE.
+
+  # ═════════════════════════════════════════════════════════════════
+  # EUROPA - Autoridades nacionales UE (insumo, sección 1.1)
+  # Orden alfabético por país, como en el insumo.
+  # ═════════════════════════════════════════════════════════════════
+
+  - regulator: DSB
+    authority: Österreichische Datenschutzbehörde
+    region: Europa
+    country: AT
+    type: Noticias
+    site: https://www.dsb.gv.at/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: APD-GBA
+    authority: Autorité de la protection des données / Gegevensbeschermingsautoriteit
+    region: Europa
+    country: BE
+    type: Noticias
+    site: https://www.autoriteprotectiondonnees.be
+    url: ""
+    source: pending
+    enabled: false
+    note: Sitio espejo en neerlandés - https://www.gegevensbeschermingsautoriteit.be
+
+  - regulator: KZLD
+    authority: Commission for Personal Data Protection
+    region: Europa
+    country: BG
+    type: Noticias
+    site: https://www.cpdp.bg/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: AZOP
+    authority: Agencija za zaštitu osobnih podataka
+    region: Europa
+    country: HR
+    type: Noticias
+    site: https://www.azop.hr/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: OCPDP
+    authority: Office of the Commissioner for Personal Data Protection
+    region: Europa
+    country: CY
+    type: Noticias
+    site: http://www.dataprotection.gov.cy/
+    url: ""
+    source: pending
+    enabled: false
+    note: Sitio en HTTP sin certificado. Verificar si hay versión HTTPS antes de habilitar.
+
+  - regulator: Datatilsynet (DK)
+    authority: Datatilsynet
+    region: Europa
+    country: DK
+    type: Noticias
+    site: https://www.datatilsynet.dk/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: ÚOOÚ (SK)
+    authority: Úrad na ochranu osobných údajov Slovenskej republiky
+    region: Europa
+    country: SK
+    type: Noticias
+    site: http://www.dataprotection.gov.sk/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: IP-RS
+    authority: Information Commissioner of the Republic of Slovenia
+    region: Europa
+    country: SI
+    type: Noticias
+    site: https://www.ip-rs.si/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: AEPD
+    authority: Agencia Española de Protección de Datos
+    region: Europa
+    country: ES
+    type: Noticias
+    site: https://www.aepd.es/
+    url: ""
+    source: pending
+    enabled: false
+    note: >-
+      Junto con CNIL y Garante, una de las autoridades más activas en
+      resoluciones sancionadoras. Prioridad alta para el monitor.
+
+  - regulator: AKI
+    authority: Andmekaitse Inspektsioon
+    region: Europa
+    country: EE
+    type: Noticias
+    site: http://www.aki.ee/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: Tietosuoja
+    authority: Office of the Data Protection Ombudsman
+    region: Europa
+    country: FI
+    type: Noticias
+    site: https://www.tietosuoja.fi/en/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: CNIL
+    authority: Commission Nationale de l'Informatique et des Libertés
+    region: Europa
+    country: FR
+    type: Noticias
+    site: https://www.cnil.fr/
+    url: ""
+    source: pending
+    enabled: false
+    note: Prioridad alta. Publica guías y sanciones con mucha frecuencia.
+
+  - regulator: BfDI
+    authority: Bundesbeauftragte für den Datenschutz und die Informationsfreiheit
+    region: Europa
+    country: DE
+    type: Noticias
+    site: https://www.bfdi.bund.de/
+    url: ""
+    source: pending
+    enabled: false
+    note: >-
+      Autoridad federal. Alemania tiene además 16 autoridades estatales
+      (Länder) que el insumo no lista y que quedan fuera del alcance.
+
+  - regulator: HDPA
+    authority: Hellenic Data Protection Authority
+    region: Europa
+    country: GR
+    type: Noticias
+    site: http://www.dpa.gr/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: NAIH
+    authority: Nemzeti Adatvédelmi és Információszabadság Hatóság
+    region: Europa
+    country: HU
+    type: Noticias
+    site: http://www.naih.hu/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: DPC
+    authority: Data Protection Commission
+    region: Europa
+    country: IE
+    type: Noticias
+    site: https://www.dataprotection.ie/
+    url: ""
+    source: pending
+    enabled: false
+    note: >-
+      Prioridad alta. Como autoridad principal de las big tech con sede
+      en Dublín, sus decisiones marcan criterio para toda la UE.
+
+  - regulator: Garante
+    authority: Garante per la protezione dei dati personali
+    region: Europa
+    country: IT
+    type: Noticias
+    site: https://www.garanteprivacy.it/
+    url: ""
+    source: pending
+    enabled: false
+    note: Prioridad alta. Muy activa en IA y tratamiento de datos biométricos.
+
+  - regulator: DVI
+    authority: Data State Inspectorate
+    region: Europa
+    country: LV
+    type: Noticias
+    site: https://www.dvi.gov.lv/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: VDAI
+    authority: State Data Protection Inspectorate
+    region: Europa
+    country: LT
+    type: Noticias
+    site: https://vdai.lrv.lt/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: CNPD (LU)
+    authority: Commission Nationale pour la Protection des Données
+    region: Europa
+    country: LU
+    type: Noticias
+    site: https://cnpd.lu/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: IDPC
+    authority: Office of the Information and Data Protection Commissioner
+    region: Europa
+    country: MT
+    type: Noticias
+    site: http://www.idpc.org.mt/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: AP
+    authority: Autoriteit Persoonsgegevens
+    region: Europa
+    country: NL
+    type: Noticias
+    site: https://autoriteitpersoonsgegevens.nl/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: UODO
+    authority: Urząd Ochrony Danych Osobowych
+    region: Europa
+    country: PL
+    type: Noticias
+    site: https://uodo.gov.pl/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: CNPD (PT)
+    authority: Comissão Nacional de Proteção de Dados
+    region: Europa
+    country: PT
+    type: Noticias
+    site: http://www.cnpd.pt/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: ANSPDCP
+    authority: Autoritatea Națională de Supraveghere a Prelucrării Datelor cu Caracter Personal
+    region: Europa
+    country: RO
+    type: Noticias
+    site: http://www.dataprotection.ro/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: IMY
+    authority: Integritetsskyddsmyndigheten
+    region: Europa
+    country: SE
+    type: Noticias
+    site: https://www.imy.se/
+    url: ""
+    source: pending
+    enabled: false
+
+  - regulator: ÚOOÚ (CZ)
+    authority: Úřad pro ochranu osobních údajů
+    region: Europa
+    country: CZ
+    type: Noticias
+    site: https://uoou.gov.cz/
+    url: ""
+    source: pending
+    enabled: false

@@ -1,0 +1,76 @@
+# ──────────────────────────────────────────────────────────────────
+# Workflow de descubrimiento de feeds
+# ──────────────────────────────────────────────────────────────────
+#
+# Sondea los sitios declarados en config/feeds.yaml y escribe
+# config/discovery-report.md con el feed encontrado por autoridad.
+#
+# Solo se dispara a mano. No tiene cron: el inventario de autoridades
+# cambia poco y correr 40 sondeos sin necesidad es ruido. Conviene
+# correrlo al arrancar el monitor y luego cada trimestre, que es la
+# cadencia de revisión que recomienda el propio insumo.
+#
+# No usa Notion ni secrets: es solo lectura de sitios públicos.
+# ──────────────────────────────────────────────────────────────────
+
+name: Descubrir feeds
+
+on:
+  workflow_dispatch:
+    inputs:
+      only:
+        description: 'Acrónimos separados por coma (vacío = las 40). Ej: CNIL,AEPD,EDPB'
+        required: false
+        default: ''
+      workers:
+        description: 'Sondeos en paralelo (bajar si algún sitio devuelve 429)'
+        required: false
+        default: '6'
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+
+    # Escritura para commitear el reporte.
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Sondear sitios
+        run: |
+          python tools/discover_feeds.py \
+            --only "${{ github.event.inputs.only }}" \
+            --workers "${{ github.event.inputs.workers }}"
+
+      # El reporte queda commiteado en el repo y además como artifact
+      # descargable, útil cuando la corrida se hace solo para comparar.
+      - name: Subir reporte como artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: discovery-report
+          path: config/discovery-report.md
+
+      - name: Commit reporte si cambió
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/discovery-report.md
+          if git diff --staged --quiet; then
+            echo "Sin cambios en el reporte, no se commitea."
+          else
+            git commit -m "auto: reporte de descubrimiento de feeds"
+            git push
+          fi

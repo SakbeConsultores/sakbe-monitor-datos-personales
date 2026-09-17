@@ -1,0 +1,11 @@
+# Bytecode de Python. En el monitor financiero estos archivos se
+# colaron al repo; aquí se quedan fuera desde el arranque.
+__pycache__/
+*.pyc
+
+# Basura de macOS
+.DS_Store
+
+# Entornos virtuales locales
+.venv/
+venv/
