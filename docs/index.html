@@ -465,6 +465,9 @@ const pista = otra.length
 if (src.length && activas === 0)
 return 'Ninguna de las ' + src.length + ' autoridades de esta región tiene todavía una fuente activa, ' +
 'así que aquí no va a aparecer nada aún. No es un error del monitor.' + pista;
+if (activas === 1)
+return 'La única fuente activa de esta región no ha publicado nada en la ventana de días ' +
+'configurada.' + pista;
 if (activas)
 return 'Las ' + activas + ' fuentes activas de esta región no han publicado nada en la ventana de días ' +
 'configurada.' + pista;
