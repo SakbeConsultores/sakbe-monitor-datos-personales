@@ -229,7 +229,15 @@ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&g
 function formatDate(s){
 if(!s) return '';
 try{
-const d = new Date(s);
+// Una fecha 'YYYY-MM-DD' la interpreta new Date() como medianoche UTC, y al
+// mostrarla en una zona al oeste de Greenwich retrocede al dia anterior: una
+// publicacion del 17 de septiembre se leia "16 sep" desde Mexico o Ecuador.
+// En un monitor regulatorio eso falsea el dato, asi que la fecha simple se
+// construye como fecha LOCAL a partir de sus tres numeros.
+const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s.trim());
+const d = m
+? new Date(Number(m[1]), Number(m[2]) - 1, Number(m[3]))
+: new Date(s);
 return isNaN(d) ? s : d.toLocaleDateString('es-MX',{year:'numeric',month:'short',day:'numeric'});
 } catch(e){ return s; }
 }
