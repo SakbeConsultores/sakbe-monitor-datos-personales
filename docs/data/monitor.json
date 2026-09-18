@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-18T03:37:28.712367+00:00",
-  "total_items": 27,
+  "generated_at": "2026-09-18T18:20:47.692812+00:00",
+  "total_items": 32,
   "regions": [
     "LatAm",
     "Europa"
   ],
   "sources_total": 40,
-  "sources_active": 10,
+  "sources_active": 11,
   "sources": [
     {
       "regulator": "AAIP",
@@ -182,7 +182,7 @@
       "region": "Europa",
       "country": "ES",
       "site": "https://www.aepd.es/",
-      "active": false
+      "active": true
     },
     {
       "regulator": "AKI",
@@ -331,6 +331,30 @@
   ],
   "items": [
     {
+      "id": "3df0e1df-2fda-8129-a054-cab2e72ef1aa",
+      "title": "IMY inleder granskning av politiska partiers massutskick av sms",
+      "url": "https://www.imy.se/nyheter/imy-inleder-granskning-av-politiska-partiers-massutskick-av-sms/",
+      "published": "2026-09-18",
+      "summary": "Integritetsskyddsmyndigheten (IMY) inleder en granskning av Sverigedemokraternas massutskick av sms inför valet. Granskningen gäller bland annat hur urvalet av mottagare har skett och vilken rättslig grund man har haft för behandlingen av personuppgifter. En granskning kommer även att ske av Örebropartiets sms-utskick.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3df0e1df-2fda-811e-bbaa-cba0d461a578",
+      "title": "Ordre du jour de la séance plénière du 17 septembre 2026",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-17-septembre-2026",
+      "published": "2026-09-17",
+      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 17 septembre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
       "id": "3de0e1df-2fda-81fb-b6a6-ccfea75a3352",
       "title": "Čelnici nadzornih tijela Srednje Europe na prijemu kod predsjednice Republike Slovenije",
       "url": "https://azop.hr/celnici-nadzornih-tijela-srednje-europe-na-prijemu-kod-predsjednice-slovenije/",
@@ -415,6 +439,18 @@
       "feed_url": "https://www.cnil.fr/fr/rss.xml"
     },
     {
+      "id": "3df0e1df-2fda-81fb-a8f9-cf918fb1326c",
+      "title": "Nota informativa de la AEPD",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/nota-informativa-de-la-aepd",
+      "published": "2026-09-09",
+      "summary": "Nota informativa de la AEPD AEPD Mié, 09/09/2026",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
       "id": "3df0e1df-2fda-8123-a41c-e7e15b97df75",
       "title": "Non-respect des droits des personnes : sanction de 300 000 euros à l’encontre de la société EXTIA",
       "url": "https://www.cnil.fr/fr/sanction-non-respect-droits-personnes-extia",
@@ -461,6 +497,18 @@
       "country": "UE",
       "type": "Noticias",
       "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "3df0e1df-2fda-81ba-881e-fdb4e192d381",
+      "title": "La AEPD estrena ‘Las claves de…’, un nuevo formato de diálogo con especialistas sobre privacidad y tecnologías emergentes",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-estrena-las-claves-de-un-nuevo-formato-de-dialogo-con-especialistas",
+      "published": "2026-09-08",
+      "summary": "La AEPD estrena ‘Las claves de…’, un nuevo formato de diálogo con especialistas sobre privacidad y tecnologías emergentes AEPD Mar, 08/09/2026 El primer episodio, dedicado a ‘Neurotecnologías y neurodatos’, se celebrará el 6 de octubre a las 17:00 horas y podrá seguirse en directo a través de streaming El presidente de la Agencia, Lorenzo Cotino, charlará con Luis Miguel González de la Garza, catedrático de Derecho Constitucional de la UNED ‘Las claves de…’ se integra en ‘Diálogos de privacidad’, la sección del Laboratorio de la AEPD que aborda cuestiones de actualidad relacionadas con la protección de datos y las tecnologías emergentes La emisión en directo podrá seguirse en este enlace .",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
     },
     {
       "id": "3de0e1df-2fda-81ca-b02c-f60ee3be1704",
@@ -569,6 +617,18 @@
       "country": "UE",
       "type": "Noticias",
       "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "3df0e1df-2fda-8190-a34e-dc591786cd1f",
+      "title": "La AEPD participará en las XX Jornadas STIC con una jornada dedicada a la protección de datos",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-participara-xx-jornadas-stic",
+      "published": "2026-09-02",
+      "summary": "La AEPD participará en las XX Jornadas STIC con una jornada dedicada a la protección de datos AEPD Mié, 02/09/2026 La Agencia contará el 24 de noviembre con un espacio propio en un encuentro que celebra veinte años reuniendo a los principales actores públicos y privados del ecosistema de la ciberseguridad Las Jornadas están organizadas por el Centro Criptológico Nacional del Centro Nacional de Inteligencia, el Mando Conjunto del Ciberespacio y RootedCON Este año celebran su vigésima edición bajo el lema ‘IA ofensiva y amenaza cuántica: hacia una nueva ciberseguridad’",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
     },
     {
       "id": "3df0e1df-2fda-81ec-8af6-f4948120074e",
