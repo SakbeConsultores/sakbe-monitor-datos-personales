@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-17T23:05:07.061742+00:00",
+  "generated_at": "2026-09-18T03:37:28.712367+00:00",
   "total_items": 27,
   "regions": [
     "LatAm",
     "Europa"
   ],
   "sources_total": 40,
-  "sources_active": 11,
+  "sources_active": 10,
   "sources": [
     {
       "regulator": "AAIP",
@@ -78,7 +78,7 @@
       "region": "LatAm",
       "country": "PY",
       "site": "https://www.mitic.gov.py/",
-      "active": true
+      "active": false
     },
     {
       "regulator": "ANPD (PE)",
@@ -343,40 +343,16 @@
       "feed_url": "https://azop.hr/feed/"
     },
     {
-      "id": "3de0e1df-2fda-812e-999e-eb43dfd8c221",
-      "title": "En foro internacional, ministro Villate destaca la ventaja energética como motor de soberanía tecnológica",
-      "url": "https://mitic.gov.py/en-foro-internacional-ministro-villate-destaca-la-ventaja-energetica-como-motor-de-soberania-tecnologica/",
+      "id": "3df0e1df-2fda-816b-bd3b-ea93461aa576",
+      "title": "De samenleving wil lerende aanpak van de AP",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/de-samenleving-wil-lerende-aanpak-van-de-ap",
       "published": "2026-09-15",
-      "summary": "En el Foro “Digitalizar para Transformar”, celebrado en Chile, el ministro de Tecnologías de la Información y Comunicación, Gustavo Villate, expuso en el panel Infraestructura Digital Habilitante la estrategia de Paraguay para convertir su ventaja energética en motor de soberanía tecnológica. Sostuvo que la estabilidad macroeconómica y un marco regulatorio flexible son esenciales para atraer [&#8230;]",
-      "regulator": "MITIC",
-      "region": "LatAm",
-      "country": "PY",
+      "summary": "Op 14 september organiseerde de Autoriteit Persoonsgegevens (AP) het eerste Maatschappelijk Overleg met een brede vertegenwoordiging uit het maatschappelijke middenveld.",
+      "regulator": "AP",
+      "region": "Europa",
+      "country": "NL",
       "type": "Noticias",
-      "feed_url": "https://mitic.gov.py/feed/"
-    },
-    {
-      "id": "3de0e1df-2fda-8149-87de-f85bc6c17ffd",
-      "title": "Red Activa Paraguay prepara su segundo congreso nacional de periodistas y comunicadores en Villarrica",
-      "url": "https://mitic.gov.py/red-activa-paraguay-prepara-su-segundo-congreso-nacional-de-periodistas-y-comunicadores-en-villarrica/",
-      "published": "2026-09-15",
-      "summary": "Red Activa Paraguay, creada íntegramente a través de WhatsApp, conecta hoy a cerca de 800 comunicadores de todo el país. En octubre, en Villarrica, impulsará un debate sobre los desafíos del periodismo, la comunicación digital y el impacto de la inteligencia artificial en la práctica profesional, en el marco del Segundo Encuentro y Congreso Nacional [&#8230;]",
-      "regulator": "MITIC",
-      "region": "LatAm",
-      "country": "PY",
-      "type": "Noticias",
-      "feed_url": "https://mitic.gov.py/feed/"
-    },
-    {
-      "id": "3de0e1df-2fda-819a-9f6b-ce692a915986",
-      "title": "Marca País suma 43 nuevas licencias y refuerza su posicionamiento nacional e internacional",
-      "url": "https://mitic.gov.py/marca-pais-suma-43-nuevas-licencias-y-refuerza-su-posicionamiento-nacional-e-internacional/",
-      "published": "2026-09-15",
-      "summary": "El presidente de la República, Santiago Peña, encabezó la entrega de 43 licencias de Marca País Paraguay, correspondientes a 34 nuevas incorporaciones y 9 renovaciones, fortaleciendo una estrategia nacional que busca proyectar la identidad, calidad y competitividad del Paraguay dentro y fuera de sus fronteras. La ceremonia se desarrolló en el Salón Tirika de Mburuvicha [&#8230;]",
-      "regulator": "MITIC",
-      "region": "LatAm",
-      "country": "PY",
-      "type": "Noticias",
-      "feed_url": "https://mitic.gov.py/feed/"
+      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
     },
     {
       "id": "3de0e1df-2fda-81d5-a49b-ef502e8e7aec",
@@ -391,18 +367,6 @@
       "feed_url": "https://azop.hr/feed/"
     },
     {
-      "id": "3de0e1df-2fda-81e4-a163-c1aef6b9ac0f",
-      "title": "Ministro Gustavo Villate plantea una visión regional para posicionar a Paraguay en la economía de la inteligencia artificial",
-      "url": "https://mitic.gov.py/ministro-gustavo-villate-plantea-una-vision-regional-para-posicionar-a-paraguay-en-la-economia-de-la-inteligencia-artificial/",
-      "published": "2026-09-14",
-      "summary": "El ministro de Tecnologías de la Información y Comunicación (MITIC), Gustavo Villate, participó como keynote speaker del Foro Internacional “Digitalizar para Transformar”, organizado por CAF – Banco de Desarrollo de América Latina y el Caribe, desarrollado en Chile, donde compartió la visión de Paraguay frente a los desafíos y oportunidades que plantea la transformación digital [&#8230;]",
-      "regulator": "MITIC",
-      "region": "LatAm",
-      "country": "PY",
-      "type": "Noticias",
-      "feed_url": "https://mitic.gov.py/feed/"
-    },
-    {
       "id": "3de0e1df-2fda-818f-b386-f53f7bd4a6e2",
       "title": "Failure to respect the rights of individuals: The CNIL fined EXTIA 300 000 EUR",
       "url": "https://www.edpb.europa.eu/news/failure-to-respect-the-rights-of-individuals-the-cnil-fined-extia-300-000-eur_en",
@@ -415,40 +379,52 @@
       "feed_url": "https://www.edpb.europa.eu/feed/news_en"
     },
     {
-      "id": "3de0e1df-2fda-8139-b9a8-fadba676770f",
-      "title": "“El precio del Pasaje” sigue su recorrido por colegios del interior",
-      "url": "https://mitic.gov.py/el-precio-del-pasaje-sigue-su-recorrido-por-colegios-del-interior/",
-      "published": "2026-09-11",
-      "summary": "El mediometraje nacional “El precio del Pasaje” continúa su recorrido por instituciones educativas del interior del país, en el marco del proyecto educativo “Escuelas Protectoras”. Impulsado por el MINNA, el MEC y el MITIC, el objetivo es concienciar, prevenir y promover la protección de derechos de la niñez y la adolescencia frente a la trata [&#8230;]",
-      "regulator": "MITIC",
-      "region": "LatAm",
-      "country": "PY",
-      "type": "Noticias",
-      "feed_url": "https://mitic.gov.py/feed/"
-    },
-    {
-      "id": "3de0e1df-2fda-8101-b663-de46d79a577a",
-      "title": "Paraguay y Taiwán debaten futuro de la inteligencia artificial en foro tecnológico",
-      "url": "https://mitic.gov.py/paraguay-y-taiwan-debaten-futuro-de-la-inteligencia-artificial-en-foro-tecnologico/",
-      "published": "2026-09-11",
-      "summary": "La inteligencia artificial fue uno de los temas centrales del III Foro Tecnológico Taiwán–Paraguay, donde especialistas y autoridades analizaron su impacto en sectores estratégicos de la economía y la sociedad. El acto de apertura reunió al presidente Santiago Peña, al ministro de Tecnologías de la Información y Comunicación, Gustavo Villate, a representantes diplomáticos y otras [&#8230;]",
-      "regulator": "MITIC",
-      "region": "LatAm",
-      "country": "PY",
-      "type": "Noticias",
-      "feed_url": "https://mitic.gov.py/feed/"
-    },
-    {
-      "id": "3de0e1df-2fda-81bb-b171-c9f88d5257b0",
-      "title": "Portal Paraguay registra más de 500.000 usuarios activos por mes y 154.000 trámites en agosto",
-      "url": "https://mitic.gov.py/portal-paraguay-registra-mas-de-500-000-usuarios-activos-por-mes-y-154-000-tramites-en-agosto/",
+      "id": "3df0e1df-2fda-8157-b11b-f10daa7fc86e",
+      "title": "La CNIL publie le tome 2 de L’Agence Privacy : une nouvelle enquête pour mieux comprendre la cybercriminalité",
+      "url": "https://www.cnil.fr/fr/audeladelecran",
       "published": "2026-09-10",
-      "summary": "El Portal Paraguay funciona como el principal acceso digital a servicios del Estado. Un reporte del Viceministerio de Tecnologías detalla un promedio de 500.000 usuarios activos por mes, tanto desde la versión web (paraguay.gov.py) como desde la app, que ya supera las 800.000 descargas. Solo en agosto se gestionaron más de 154.000 documentos en línea. [&#8230;]",
-      "regulator": "MITIC",
-      "region": "LatAm",
-      "country": "PY",
+      "summary": "Avec «&nbsp;Au-delà de l’écran&nbsp;», l’Agence Privacy revient avec de nouvelles aventures&nbsp;! Hypertrucage (deepfakes), arnaque aux sentiments, défis nocifs sur les réseaux sociaux, brouteurs : ce tome 2 aborde des risques numériques pour la vie privée auxquels adolescents comme parents peuvent être confrontés.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
       "type": "Noticias",
-      "feed_url": "https://mitic.gov.py/feed/"
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3df0e1df-2fda-81ba-b324-db6f0e7c6bf5",
+      "title": "Facturation électronique : quels enjeux pour la protection des données personnelles ?",
+      "url": "https://www.cnil.fr/fr/facturation-electronique-quels-enjeux",
+      "published": "2026-09-10",
+      "summary": "Depuis le 1er septembre 2026, la réforme relative à la facturation électronique entre entreprises est entrée en vigueur. La CNIL aide les entreprises à comprendre les enjeux et à assurer la sécurité des données traitées.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3df0e1df-2fda-810d-9a4f-e42bf3827a74",
+      "title": "Ordre du jour de la séance plénière du 10 septembre 2026",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-10-septembre-2026",
+      "published": "2026-09-10",
+      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 10 septembre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3df0e1df-2fda-8123-a41c-e7e15b97df75",
+      "title": "Non-respect des droits des personnes : sanction de 300 000 euros à l’encontre de la société EXTIA",
+      "url": "https://www.cnil.fr/fr/sanction-non-respect-droits-personnes-extia",
+      "published": "2026-09-09",
+      "summary": "Le 21 juillet 2026, la CNIL a sanctionné la société EXTIA d’une amende de 300&nbsp;000 euros pour divers manquements relatifs au respect des droits des personnes, notamment du droit à l’effacement des données personnelles («&nbsp;droit à l’oubli&nbsp;»).",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
     },
     {
       "id": "3de0e1df-2fda-812d-a757-e005003530f4",
@@ -487,30 +463,6 @@
       "feed_url": "https://www.edpb.europa.eu/feed/news_en"
     },
     {
-      "id": "3de0e1df-2fda-81a0-a1fa-c3192f4e2112",
-      "title": "“Escuelas Protectoras” abre ciclo de proyección del mediometraje “El precio del pasaje” en colegios del interior",
-      "url": "https://mitic.gov.py/escuelas-protectoras-abre-ciclo-de-proyeccion-del-mediometraje-el-precio-del-pasaje-en-colegios-del-interior/",
-      "published": "2026-09-08",
-      "summary": "En el marco del proyecto educativo &#8220;Escuelas Protectoras&#8221;, que impulsan el MINNA, el MEC y MITIC, se llevarán a cabo jornadas de concienciación y prevención orientadas a la prevención, sensibilización, protección y promoción de derechos de la niñez y la adolescencia con énfasis en la trata de personas. Las jornadas comenzarán en los departamentos de [&#8230;]",
-      "regulator": "MITIC",
-      "region": "LatAm",
-      "country": "PY",
-      "type": "Noticias",
-      "feed_url": "https://mitic.gov.py/feed/"
-    },
-    {
-      "id": "3de0e1df-2fda-81a5-9f32-d9658e77d66e",
-      "title": "Paraguay apunta a un salto tecnológico para fortalecer su posicionamiento en el mercado internacional",
-      "url": "https://mitic.gov.py/paraguay-apunta-a-un-salto-tecnologico-para-fortalecer-su-posicionamiento-en-el-mercado-internacional/",
-      "published": "2026-09-08",
-      "summary": "El ministro de Tecnologías de la Información y Comunicación, Gustavo Villate, participó como panelista del Forbes Paraguay Future of Services Summit 2026, donde compartió la visión y las acciones que impulsa el Gobierno para fortalecer las capacidades tecnológicas del país, atraer inversiones y avanzar hacia una mayor participación en la economía digital y el mercado [&#8230;]",
-      "regulator": "MITIC",
-      "region": "LatAm",
-      "country": "PY",
-      "type": "Noticias",
-      "feed_url": "https://mitic.gov.py/feed/"
-    },
-    {
       "id": "3de0e1df-2fda-81ca-b02c-f60ee3be1704",
       "title": "Savjeti za učenike – sigurno kretanje digitalnim svijetom",
       "url": "https://azop.hr/14977-2/",
@@ -523,16 +475,16 @@
       "feed_url": "https://azop.hr/feed/"
     },
     {
-      "id": "3de0e1df-2fda-8155-9ec9-e08c8fe4630d",
-      "title": "Ministro Gustavo Villate plantea la digitalización como un “ecualizador” de oportunidades",
-      "url": "https://mitic.gov.py/ministro-gustavo-villate-plantea-la-digitalizacion-como-un-ecualizador-de-oportunidades/",
-      "published": "2026-09-07",
-      "summary": "En la apertura de la 49ª Reunión del Comité Consultivo Permanente I (CCP.I) de la Comisión Interamericana de Telecomunicaciones (CITEL), el ministro de Tecnologías de la Información y Comunicación, Gustavo Villate, destacó el papel de la digitalización como “ecualizador” de oportunidades. Señaló que uno de los mayores desafíos globales es la ciberseguridad y llamó a [&#8230;]",
-      "regulator": "MITIC",
-      "region": "LatAm",
-      "country": "PY",
+      "id": "3df0e1df-2fda-81c7-ab7e-dd42aac030f4",
+      "title": "AP opent deuren tijdens Rondje Rechtsstaat: kom langs",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ap-opent-deuren-tijdens-rondje-rechtsstaat-kom-langs",
+      "published": "2026-09-04",
+      "summary": "Bent u nieuwsgierig naar wat er zich afspeelt achter de deuren van de Autoriteit Persoonsgegevens (AP) aan het Lange Voorhout nummer 7 in Den Haag? En wat de AP voor u doet? Op zaterdag 12 september bent u van 10.00 tot 16.00 uur van harte welkom tijdens Rondje Rechtsstaat. We geven u graag een uniek inkijkje in de wereld van de AP.",
+      "regulator": "AP",
+      "region": "Europa",
+      "country": "NL",
       "type": "Noticias",
-      "feed_url": "https://mitic.gov.py/feed/"
+      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
     },
     {
       "id": "3de0e1df-2fda-81f8-88bf-f3c7b933cbdd",
@@ -545,6 +497,42 @@
       "country": "MT",
       "type": "Noticias",
       "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "3df0e1df-2fda-81b2-b10b-ee7114554ef5",
+      "title": "Nieuw voor mkb: praktische sjablonen om aan de privacyregels te voldoen",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/nieuw-voor-mkb-praktische-sjablonen-om-aan-de-privacyregels-te-voldoen",
+      "published": "2026-09-03",
+      "summary": "De Autoriteit Persoonsgegevens (AP) heeft 2 praktische documenten gepubliceerd speciaal voor het mkb. Het gaat om sjablonen voor een verwerkingsregister en een privacyverklaring. Ondernemers kunnen hiermee makkelijker voldoen aan de privacyregels en zo de persoonsgegevens van hun klanten beter beschermen. Ook helpen de sjablonen ondernemers om meer grip te krijgen op wat zij met persoonsgegevens doen en dit goed uit te leggen aan hun klanten.",
+      "regulator": "AP",
+      "region": "Europa",
+      "country": "NL",
+      "type": "Noticias",
+      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
+    },
+    {
+      "id": "3df0e1df-2fda-81ec-9fd5-c4750b52c1c9",
+      "title": "Violation de données en matière de santé : sanction de 500 000 euros à l’encontre de l’HÔPITAL PRIVÉ DE LA LOIRE",
+      "url": "https://www.cnil.fr/fr/sanction-hopital-prive-loire",
+      "published": "2026-09-03",
+      "summary": "Le 3 septembre 2026, la CNIL a prononcé une sanction de 500&nbsp;000&nbsp;€ à l’encontre de l’HÔPITAL PRIVÉ DE LA LOIRE, pour ne pas avoir pris des mesures adaptées pour assurer la sécurité des données de ses patients et de certains de leurs proches.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3df0e1df-2fda-8153-ac3a-d30f924fa127",
+      "title": "Ordre du jour de la séance plénière du 3 septembre 2026",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-3-septembre-2026",
+      "published": "2026-09-03",
+      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 3 septembre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
     },
     {
       "id": "3de0e1df-2fda-81ca-b156-e1911d8f6703",
@@ -581,6 +569,18 @@
       "country": "UE",
       "type": "Noticias",
       "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "3df0e1df-2fda-81ec-8af6-f4948120074e",
+      "title": "Participez aux Rencontres Informatique & Libertés le 29 septembre 2026",
+      "url": "https://www.cnil.fr/fr/ril-2026",
+      "published": "2026-08-31",
+      "summary": "La CNIL organise la 2ème édition de ses Rencontres Informatique &amp; Libertés le mardi 29&nbsp;septembre 2026. Cette matinée est l'occasion d’échanger sur différents sujets en lien avec la protection des données, notamment l’essor des lunettes connectées ou le rôle des sanctions.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
     },
     {
       "id": "3de0e1df-2fda-8148-b7a1-f814af22e9ff",
