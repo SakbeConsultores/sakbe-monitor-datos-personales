@@ -174,11 +174,22 @@ Copia este prompt y pégalo en Claude, ChatGPT o cualquier IA. Incluye contexto 
 
 const DATA_URL = 'data/monitor.json';
 
-// Orden de las pestañas. Si el JSON trae su propio arreglo "regions"
+// Orden de las regiones. Si el JSON trae su propio arreglo "regions"
 // (lo pone ingest.py desde settings.regions), ese manda.
 let REGIONS = ['LatAm', 'Europa'];
 
+// Pestaña agregada. No es una region del config: es una vista que suma
+// todas. Se identifica con una clave que no puede colisionar con el
+// nombre de una region real.
+const ALL_TAB = '__todos__';
+
+// Pestañas que se pintan, en orden: primero Todos, luego las regiones.
+// Se recalcula en cada carga a partir del JSON, asi que una region nueva
+// declarada en feeds.yaml aparece sola, sin tocar este archivo.
+let TABS = [ALL_TAB].concat(REGIONS);
+
 const REGION_LABEL = { LatAm: 'Latam', Europa: 'Europa' };
+REGION_LABEL[ALL_TAB] = 'Todos';
 
 // Orden de países dentro de cada región. Lo que no esté listado se
 // agrega alfabéticamente al final, así una autoridad nueva aparece
@@ -210,13 +221,16 @@ let allItems = [];
 let allSources = [];
 let filteredItems = [];
 let selectedIds = new Set();
-let currentRegion = 'LatAm';
+let currentRegion = ALL_TAB;
 // Cuando el usuario elige pestaña a mano, respetamos su eleccion y dejamos
 // de reposicionarla en cada recarga de datos.
 let regionTouched = false;
 // Un filtro de país por región, para que al volver a una pestaña se
 // conserve dónde estabas en lugar de resetear a "Todos".
-let countryFilter = { LatAm: 'all', Europa: 'all' };
+// Un filtro de país por pestaña, incluida Todos, para que al volver a una
+// conserves dónde estabas. Se llena sobre la marcha: no hay que declarar
+// aquí las regiones que existan.
+let countryFilter = {};
 let showSources = false;
 let outputText = '';
 
@@ -267,7 +281,28 @@ return pub;
 }
 
 function itemsOfRegion(region){
+// La pestaña Todos no filtra: devuelve todo, ya ordenado por fecha.
+if (region === ALL_TAB) return allItems;
 return allItems.filter(i => (i.region || '') === region);
+}
+
+function sourcesOfRegion(region){
+if (region === ALL_TAB) return allSources;
+return allSources.filter(s => s.region === region);
+}
+
+// Orden de países de la pestaña activa. En Todos se concatena el orden de
+// todas las regiones, en el orden en que están declaradas, quitando
+// repetidos. Lo que no esté listado se agrega alfabéticamente después.
+function countryOrderFor(region){
+if (region !== ALL_TAB) return COUNTRY_ORDER[region] || ['all'];
+const out = ['all'];
+for (const r of REGIONS) {
+for (const c of (COUNTRY_ORDER[r] || [])) {
+if (!out.includes(c)) out.push(c);
+}
+}
+return out;
 }
 
 // ───────────────────────────────────────────────────────────────
@@ -303,18 +338,22 @@ return kb.localeCompare(ka);
 allItems = items;
 allSources = Array.isArray(data.sources) ? data.sources : [];
 if (Array.isArray(data.regions) && data.regions.length) REGIONS = data.regions;
-if (!REGIONS.includes(currentRegion)) currentRegion = REGIONS[0];
 
-// El dashboard abria siempre en la primera region del config, que hoy es
-// Latam y esta vacia porque ninguna autoridad latinoamericana tiene fuente
-// activa todavia. Quien abria el sitio concluia que el monitor no tenia
-// informacion, con los 27 items europeos a un clic de distancia. Asi que
-// al cargar se posiciona en la primera region que SI tenga publicaciones.
-// El orden de REGIONS sigue mandando en como se muestran las pestañas.
-if (!regionTouched) {
-const conItems = REGIONS.find(r => itemsOfRegion(r).length > 0);
-if (conItems) currentRegion = conItems;
-}
+// A las regiones declaradas se suman las que aparezcan en los datos y no
+// estén en el config. Es la red de seguridad del futuro: si alguien agrega
+// una fuente con una region nueva y olvida declararla en settings.regions,
+// sus publicaciones igual tienen pestaña propia en lugar de quedar
+// invisibles. Las declaradas mandan el orden; las huérfanas van al final.
+const vistas = new Set();
+for (const i of allItems) if (i.region) vistas.add(i.region);
+for (const sc of allSources) if (sc.region) vistas.add(sc.region);
+const huerfanas = [...vistas].filter(r => !REGIONS.includes(r)).sort();
+TABS = [ALL_TAB].concat(REGIONS, huerfanas);
+
+// Se abre en Todos, que por definición tiene todo lo que hay. Antes abría
+// en la primera region del config y, estando Latam vacía, el sitio parecía
+// no tener información. Si el usuario ya eligió pestaña, se respeta.
+if (!regionTouched && !TABS.includes(currentRegion)) currentRegion = ALL_TAB;
 
 const genDate = data.generated_at ? new Date(data.generated_at) : null;
 const updatedStr = genDate && !isNaN(genDate)
@@ -347,7 +386,7 @@ document.getElementById('updated').innerHTML =
 
 function renderRegions(){
 const div = document.getElementById('regions');
-div.innerHTML = REGIONS.map(r => {
+div.innerHTML = TABS.map(r => {
 const n = itemsOfRegion(r).length;
 const active = r === currentRegion ? ' active' : '';
 return '<button class="region-btn' + active + '" data-region="' + escapeHtml(r) + '">' +
@@ -379,7 +418,7 @@ for (const item of regionItems) {
 const c = item.country || '(?)';
 counts[c] = (counts[c] || 0) + 1;
 }
-const base = COUNTRY_ORDER[currentRegion] || ['all'];
+const base = countryOrderFor(currentRegion);
 const seen = new Set(base);
 const extras = Object.keys(counts).filter(c => !seen.has(c)).sort();
 const order = base.concat(extras);
@@ -417,13 +456,15 @@ renderCards(items);
 // ───────────────────────────────────────────────────────────────
 
 function coverageHtml(){
-const src = allSources.filter(s => s.region === currentRegion);
+const src = sourcesOfRegion(currentRegion);
 if (!src.length) return '';
 const on = src.filter(s => s.active).length;
 const off = src.length - on;
-let html = '<div class="coverage"><b>' + src.length + '</b> autoridades declaradas en ' +
-escapeHtml(REGION_LABEL[currentRegion] || currentRegion) + ': <b>' + on +
-'</b> con fuente activa';
+const donde = currentRegion === ALL_TAB
+? 'en total'
+: 'en ' + escapeHtml(REGION_LABEL[currentRegion] || currentRegion);
+let html = '<div class="coverage"><b>' + src.length + '</b> autoridades declaradas ' +
+donde + ': <b>' + on + '</b> con fuente activa';
 if (off) {
 html += ', <b>' + off + '</b> pendientes de verificar ' +
 '<span class="pend" onclick="toggleSources()">' +
@@ -431,11 +472,15 @@ html += ', <b>' + off + '</b> pendientes de verificar ' +
 }
 html += '</div>';
 if (showSources) {
-html += '<table class="src-table"><tr><th>Autoridad</th><th>País</th>' +
+// En Todos la tabla lleva columna de región: 40 filas sin ella no se leen.
+const colReg = currentRegion === ALL_TAB;
+html += '<table class="src-table"><tr><th>Autoridad</th>' +
+(colReg ? '<th>Región</th>' : '') + '<th>País</th>' +
 '<th>Estado</th><th>Sitio oficial</th></tr>' +
 src.map(s =>
 '<tr><td><b>' + escapeHtml(s.regulator) + '</b><br>' +
 '<span style="font-size:11px;color:#9ca3af">' + escapeHtml(s.authority || '') + '</span></td>' +
+(colReg ? '<td>' + escapeHtml(REGION_LABEL[s.region] || s.region || '—') + '</td>' : '') +
 '<td>' + escapeHtml(COUNTRY_LABEL[s.country] || s.country) + '</td>' +
 '<td class="' + (s.active ? 'st-on' : 'st-off') + '">' +
 (s.active ? 'activa' : 'pendiente') + '</td>' +
@@ -456,8 +501,14 @@ renderCards(filteredItems);
 // para el lector no son la misma cosa: que la region no tenga ninguna fuente
 // activa todavia, o que sus fuentes no hayan publicado nada reciente.
 function emptyReason(){
-const src = allSources.filter(s => s.region === currentRegion);
+const src = sourcesOfRegion(currentRegion);
 const activas = src.filter(s => s.active).length;
+if (currentRegion === ALL_TAB)
+return activas
+? 'Las ' + activas + ' fuentes activas del monitor no han publicado nada en la ventana de días ' +
+'configurada. Sube display_window_days en config/feeds.yaml si quieres ver más atrás.'
+: 'Todavía no hay ninguna fuente activa. Corre el workflow "Descubrir feeds" y habilita las que ' +
+'entreguen RSS válido.';
 const otra = REGIONS.filter(r => r !== currentRegion && itemsOfRegion(r).length > 0);
 const pista = otra.length
 ? ' Mientras tanto hay publicaciones en ' + otra.map(r => escapeHtml(REGION_LABEL[r] || r)).join(' y ') + '.'
