@@ -211,6 +211,9 @@ let allSources = [];
 let filteredItems = [];
 let selectedIds = new Set();
 let currentRegion = 'LatAm';
+// Cuando el usuario elige pestaña a mano, respetamos su eleccion y dejamos
+// de reposicionarla en cada recarga de datos.
+let regionTouched = false;
 // Un filtro de país por región, para que al volver a una pestaña se
 // conserve dónde estabas en lugar de resetear a "Todos".
 let countryFilter = { LatAm: 'all', Europa: 'all' };
@@ -302,6 +305,17 @@ allSources = Array.isArray(data.sources) ? data.sources : [];
 if (Array.isArray(data.regions) && data.regions.length) REGIONS = data.regions;
 if (!REGIONS.includes(currentRegion)) currentRegion = REGIONS[0];
 
+// El dashboard abria siempre en la primera region del config, que hoy es
+// Latam y esta vacia porque ninguna autoridad latinoamericana tiene fuente
+// activa todavia. Quien abria el sitio conclu1a que el monitor no tenia
+// informacion, con los 27 items europeos a un clic de distancia. Asi que
+// al cargar se posiciona en la primera region que SI tenga publicaciones.
+// El orden de REGIONS sigue mandando en como se muestran las pestañas.
+if (!regionTouched) {
+const conItems = REGIONS.find(r => itemsOfRegion(r).length > 0);
+if (conItems) currentRegion = conItems;
+}
+
 const genDate = data.generated_at ? new Date(data.generated_at) : null;
 const updatedStr = genDate && !isNaN(genDate)
 ? genDate.toLocaleString('es-MX', { dateStyle:'short', timeStyle:'short' })
@@ -340,7 +354,7 @@ return '<button class="region-btn' + active + '" data-region="' + escapeHtml(r) 
 escapeHtml(REGION_LABEL[r] || r) + '<span class="rcount">' + n + '</span></button>';
 }).join('');
 div.querySelectorAll('.region-btn').forEach(b => {
-b.addEventListener('click', () => applyRegion(b.dataset.region));
+b.addEventListener('click', () => { regionTouched = true; applyRegion(b.dataset.region); });
 });
 }
 
@@ -438,6 +452,25 @@ showSources = !showSources;
 renderCards(filteredItems);
 }
 
+// Distingue las dos razones por las que una pestaña puede salir vacia, que
+// para el lector no son la misma cosa: que la region no tenga ninguna fuente
+// activa todavia, o que sus fuentes no hayan publicado nada reciente.
+function emptyReason(){
+const src = allSources.filter(s => s.region === currentRegion);
+const activas = src.filter(s => s.active).length;
+const otra = REGIONS.filter(r => r !== currentRegion && itemsOfRegion(r).length > 0);
+const pista = otra.length
+? ' Mientras tanto hay publicaciones en ' + otra.map(r => escapeHtml(REGION_LABEL[r] || r)).join(' y ') + '.'
+: '';
+if (src.length && activas === 0)
+return 'Ninguna de las ' + src.length + ' autoridades de esta región tiene todavía una fuente activa, ' +
+'así que aquí no va a aparecer nada aún. No es un error del monitor.' + pista;
+if (activas)
+return 'Las ' + activas + ' fuentes activas de esta región no han publicado nada en la ventana de días ' +
+'configurada.' + pista;
+return 'No hay publicaciones para este filtro en la ventana de días configurada.' + pista;
+}
+
 // ───────────────────────────────────────────────────────────────
 // Render de tarjetas
 // ───────────────────────────────────────────────────────────────
@@ -454,7 +487,7 @@ root.innerHTML = cov +
 '</h2><p>' +
 (allItems.length === 0
 ? 'Ninguna fuente ha entregado publicaciones. Corre el workflow "Descubrir feeds", llena url, source y enabled en config/feeds.yaml, y luego corre "Ingest Protección de Datos".'
-: 'No hay publicaciones para este filtro en la ventana de días configurada.') +
+: emptyReason()) +
 '</p></div>';
 return;
 }
