@@ -1,0 +1,68 @@
+# ──────────────────────────────────────────────────────────────────
+# Workflow de prueba de un scraper
+# ──────────────────────────────────────────────────────────────────
+#
+# Corre UN scraper suelto y muestra lo que extrajo, sin tocar Notion.
+# Es la herramienta de trabajo para escribir scrapers: el ciclo es
+# inevitablemente iterativo y hacerlo con la ingesta completa significa
+# esperar la corrida entera y arriesgar basura en la base.
+#
+# Falla si el resultado rompe el contrato del pipeline (url relativa,
+# published como datetime, lista vacia), asi que un check verde
+# significa que ese scraper ya se puede habilitar en feeds.yaml.
+#
+# No usa secrets: no habla con Notion.
+# ──────────────────────────────────────────────────────────────────
+
+name: Probar scraper
+
+on:
+  workflow_dispatch:
+    inputs:
+      module:
+        description: 'Modulo en src/scrapers/ sin .py. Ej: edps_press'
+        required: true
+      url:
+        description: 'URL a parsear. Vacio = la declarada en feeds.yaml'
+        required: false
+        default: ''
+
+jobs:
+  probar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # Algunos scrapers necesitan renderizar JavaScript. Chromium se
+      # instala solo si el modulo importa el helper de Playwright, para
+      # no pagar 30 segundos en los que no lo usan.
+      - name: ¿Necesita Playwright?
+        id: pw
+        run: |
+          if grep -q "_playwright_helper" "src/scrapers/${{ github.event.inputs.module }}.py"; then
+            echo "necesita=si" >> $GITHUB_OUTPUT
+          else
+            echo "necesita=no" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Install Playwright browser
+        if: steps.pw.outputs.necesita == 'si'
+        run: playwright install --with-deps chromium
+
+      - name: Correr el scraper
+        run: |
+          python tools/test_scraper.py \
+            --module "${{ github.event.inputs.module }}" \
+            --url "${{ github.event.inputs.url }}"

@@ -78,6 +78,9 @@ TIMEOUT = 30
 # Rutas convencionales, ordenadas de más a menos probable.
 COMMON_PATHS = [
     "/rss.xml",          # Drupal (CNIL, EDPB y varios sitios europa.eu)
+    "/feed.xml",
+    "/noticias/feed.xml",  # patrón de la AEPD
+    "/news/feed.xml",
     "/rss",
     "/feed",
     "/feed/",
@@ -192,9 +195,24 @@ def validate_feed(url: str) -> dict | None:
 
 def autodiscovery_candidates(response, html: str) -> list[str]:
     """
-    Extrae los feeds declarados por el propio sitio en el <head>.
-    Es el camino correcto: si el sitio declara su feed, lo usamos tal
-    cual en lugar de adivinar rutas.
+    Extrae los feeds que el propio sitio declara o enlaza.
+
+    Dos fuentes, en orden de confianza:
+
+    1. Los <link rel="alternate" type="application/rss+xml"> del <head>,
+       que es el mecanismo estándar de autodiscovery.
+
+    2. Los <a href> del cuerpo que apuntan a algo con pinta de feed. Esto
+       se agregó el 18-sep-2026 y no es un adorno: la AEPD publica su RSS
+       en /noticias/feed.xml enlazado desde el pie de su página de
+       noticias, sin declararlo en el head y en una ruta que no está en
+       ninguna lista de convenciones. La sonda la reportó como "sin RSS" y
+       estuvo a punto de costarnos un scraper de cien líneas para una
+       autoridad que sí publica feed. Si pasó con la española, puede estar
+       pasando con otras.
+
+    Se limita al mismo dominio: un enlace a un agregador externo no es el
+    feed de la autoridad.
     """
     found = []
     for match in re.finditer(r"<link[^>]+>", html, re.I):
@@ -204,7 +222,25 @@ def autodiscovery_candidates(response, html: str) -> list[str]:
         href = re.search(r'href\s*=\s*["\']([^"\']+)["\']', tag, re.I)
         if href:
             found.append(urljoin(response.url, href.group(1).replace("&amp;", "&")))
-    return found
+
+    dominio = urlparse(response.url).netloc
+    for match in re.finditer(r'<a[^>]+href\s*=\s*["\']([^"\']+)["\']', html, re.I):
+        href = match.group(1).replace("&amp;", "&")
+        # Pinta de feed: termina en .xml o .rss, o la ruta menciona rss,
+        # feed o atom. Se excluyen los sitemaps, que son XML y no son feeds.
+        if not re.search(r'(\.xml$|\.rss$|/rss|/feed|/atom|feed\.xml|rss\.xml)', href, re.I):
+            continue
+        if re.search(r'sitemap', href, re.I):
+            continue
+        absoluta = urljoin(response.url, href)
+        if urlparse(absoluta).netloc != dominio:
+            continue
+        if absoluta not in found:
+            found.append(absoluta)
+
+    # Tope defensivo: una página con decenas de enlaces .xml no debe
+    # convertir el sondeo de un sitio en cien descargas.
+    return found[:12]
 
 
 def probe(feed_cfg: dict) -> dict:

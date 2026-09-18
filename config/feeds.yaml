@@ -37,7 +37,7 @@
 # ESTADO (tras la corrida de descubrimiento del 17-sep-2026, ver
 # config/discovery-report.md):
 #
-#   10 fuentes ACTIVAS con RSS verificado.
+#   11 fuentes ACTIVAS con RSS verificado.
 #
 #    4 fuentes con RSS encontrado pero DESCARTADO: AAIP, ANPD (BR),
 #      ANPD (PE) y MITIC. El feed hallado es del portal o del ministerio
@@ -47,8 +47,13 @@
 #      noticias ajenas. Quedan pendientes hasta encontrar un feed de
 #      sección o escribirles scraper.
 #
-#   24 fuentes SIN RSS: necesitan scraper. Entre ellas las de mayor
-#      valor del bloque europeo (AEPD, Garante, DPC irlandesa, EDPS).
+#   23 fuentes sin feed conocido: necesitan scraper. Entre ellas las de
+#      mayor valor del bloque europeo (Garante, DPC irlandesa, EDPS).
+#      OJO: la AEPD estuvo en esta lista y no debia. Publica su RSS en
+#      /noticias/feed.xml como enlace del cuerpo de la pagina, no en el
+#      head ni en una ruta convencional, y la sonda no lo veia. Desde la
+#      corrida del 18-sep la sonda tambien lee enlaces del cuerpo, asi
+#      que esta lista puede achicarse mas.
 #
 #    2 fuentes INACCESIBLES por certificado TLS inválido: SIC (CO)
 #      y KZLD (BG). No es un problema del monitor: esos sitios sirven
@@ -235,8 +240,9 @@ feeds:
     country: UE
     type: Noticias
     site: https://edps.europa.eu/
-    url: ""
-    source: pending
+    url: https://www.edps.europa.eu/press-publications/press-news/press-releases_en
+    source: scraper
+    scraper_module: edps_press
     enabled: false
     note: Supervisa a las instituciones y organismos de la propia UE.
 
@@ -333,9 +339,9 @@ feeds:
     country: ES
     type: Noticias
     site: https://www.aepd.es/
-    url: ""
-    source: pending
-    enabled: false
+    url: https://www.aepd.es/noticias/feed.xml
+    source: rss
+    enabled: true
     note: >-
       Junto con CNIL y Garante, una de las autoridades más activas en
       resoluciones sancionadoras. Prioridad alta para el monitor.
