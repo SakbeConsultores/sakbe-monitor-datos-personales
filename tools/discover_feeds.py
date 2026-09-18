@@ -75,6 +75,14 @@ HEADERS = {
 
 TIMEOUT = 30
 
+# Timeout corto para validar un candidato a feed. El del home se queda en
+# 30 segundos porque ahí sí importa esperar, pero probar candidatos es un
+# juego de volumen: al agregar los enlaces del cuerpo, cada sitio pasó de
+# ~15 descargas a ~30, y con 30 segundos cada una la corrida se acercaba
+# al techo de 25 minutos del workflow. Un feed que no responde en 12
+# segundos no sirve para un pipeline que corre dos veces al día.
+CANDIDATE_TIMEOUT = 12
+
 # Rutas convencionales, ordenadas de más a menos probable.
 COMMON_PATHS = [
     "/rss.xml",          # Drupal (CNIL, EDPB y varios sitios europa.eu)
@@ -126,7 +134,7 @@ DOMAIN_PATHS = {
 }
 
 
-def fetch(url: str, allow_http_fallback: bool = True):
+def fetch(url: str, allow_http_fallback: bool = True, timeout: int = TIMEOUT):
     """
     GET tolerante. Devuelve la response o la excepción.
 
@@ -140,13 +148,13 @@ def fetch(url: str, allow_http_fallback: bool = True):
     reporte lo diga en lugar de esconderlo.
     """
     try:
-        return requests.get(url, headers=HEADERS, timeout=TIMEOUT, allow_redirects=True)
+        return requests.get(url, headers=HEADERS, timeout=timeout, allow_redirects=True)
     except requests.exceptions.SSLError as e:
         if allow_http_fallback and url.startswith("https://"):
             try:
                 r = requests.get(
                     "http://" + url[len("https://"):],
-                    headers=HEADERS, timeout=TIMEOUT, allow_redirects=True,
+                    headers=HEADERS, timeout=timeout, allow_redirects=True,
                 )
                 setattr(r, "via_http", True)
                 return r
@@ -166,7 +174,7 @@ def validate_feed(url: str) -> dict | None:
     sacarle al menos un item. Un HTML que responde 200 en /rss no
     cuenta, y es un caso común en estos sitios.
     """
-    r = fetch(url)
+    r = fetch(url, timeout=CANDIDATE_TIMEOUT)
     if isinstance(r, Exception) or r.status_code != 200:
         return None
 
@@ -235,12 +243,15 @@ def autodiscovery_candidates(response, html: str) -> list[str]:
         absoluta = urljoin(response.url, href)
         if urlparse(absoluta).netloc != dominio:
             continue
-        if absoluta not in found:
-            found.append(absoluta)
+        # La misma ruta con y sin barra final es el mismo feed: probarla
+        # dos veces solo gasta tiempo.
+        if absoluta.rstrip("/") in [f.rstrip("/") for f in found]:
+            continue
+        found.append(absoluta)
 
     # Tope defensivo: una página con decenas de enlaces .xml no debe
     # convertir el sondeo de un sitio en cien descargas.
-    return found[:12]
+    return found[:6]
 
 
 def probe(feed_cfg: dict) -> dict:
