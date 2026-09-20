@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-19T22:54:29.487309+00:00",
-  "total_items": 32,
+  "generated_at": "2026-09-20T18:11:13.192879+00:00",
+  "total_items": 30,
   "regions": [
     "LatAm",
     "Europa"
@@ -629,30 +629,6 @@
       "country": "ES",
       "type": "Noticias",
       "feed_url": "https://www.aepd.es/noticias/feed.xml"
-    },
-    {
-      "id": "3df0e1df-2fda-81ec-8af6-f4948120074e",
-      "title": "Participez aux Rencontres Informatique & Libertés le 29 septembre 2026",
-      "url": "https://www.cnil.fr/fr/ril-2026",
-      "published": "2026-08-31",
-      "summary": "La CNIL organise la 2ème édition de ses Rencontres Informatique &amp; Libertés le mardi 29&nbsp;septembre 2026. Cette matinée est l'occasion d’échanger sur différents sujets en lien avec la protection des données, notamment l’essor des lunettes connectées ou le rôle des sanctions.",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3de0e1df-2fda-8148-b7a1-f814af22e9ff",
-      "title": "IMY lanserar trygghetsapp för unga på sociala medier",
-      "url": "https://www.imy.se/nyheter/imy-lanserar-trygghetsapp-for-unga-pa-sociala-medier/",
-      "published": "2026-08-31",
-      "summary": "Integritetsskyddsmyndigheten (IMY) lanserar idag FantomApp i Sverige, en app som hjälper unga att skydda sina personuppgifter i sociala medier. Appen kan bland annat hjälpa till med säkerhetsinställningar för sociala medier, att testa lösenord och att blurra foton.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
     },
     {
       "id": "3de0e1df-2fda-81f4-90a8-ec8602c4f145",
