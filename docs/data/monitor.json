@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-20T23:10:30.277987+00:00",
-  "total_items": 30,
+  "generated_at": "2026-09-21T19:57:33.990084+00:00",
+  "total_items": 35,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,66 @@
     }
   ],
   "items": [
+    {
+      "id": "3e20e1df-2fda-81d3-83e2-d6f85a014b91",
+      "title": "Zástupci dozorových úřadů pěti zemí diskutovali v Lublani o nových digitálních výzvách",
+      "url": "https://uoou.gov.cz/novinky/vse/zastupci-dozorovych-uradu-peti-zemi-diskutovali-v-lublani-o-novych-digitalnich-vyzvach",
+      "published": "2026-09-21",
+      "summary": "Úřady pro ochranu osobních údajů ze Slovinska, Rakouska, Chorvatska, České republiky a Maďarska se ve dnech 14. až 16. září sešly ve slovinské Lublani na každoroční výměně odborných zkušeností. Setkání uspořádala slovinská Komisařka pro informace dr. Jelena Virant Burnik.",
+      "regulator": "ÚOOÚ (CZ)",
+      "region": "Europa",
+      "country": "CZ",
+      "type": "Noticias",
+      "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
+    },
+    {
+      "id": "3e20e1df-2fda-8160-b367-d84b2f1b5600",
+      "title": "EDPB antar riktlinjer med metod för när sanktionsavgift ska påföras",
+      "url": "https://www.imy.se/nyheter/edpb-antar-riktlinjer-med-metod-for-nar-sanktionsavgift-ska-paforas/",
+      "published": "2026-09-21",
+      "summary": "På sitt senaste plenarmöte har den Europeiska dataskyddsstyrelsen, EDPB, antagit nya riktlinjer som ska harmonisera hur dataskyddsmyndigheter beslutar om sanktionsavgifter. Integritetsskyddsmyndigheten (IMY) har lett arbetet med riktlinjerna.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3e20e1df-2fda-812e-941d-eb398580427d",
+      "title": "Webbinarium 9 oktober: Så hjälper IMY er med GDPR i innovationsprojekt",
+      "url": "https://www.imy.se/nyheter/webbinarium-9-oktober-sa-hjalper-imy-er-med-gdpr-i-innovationsprojekt--praktiska-exempel/",
+      "published": "2026-09-21",
+      "summary": "Den 9 oktober klockan 9.00–9.40 bjuder vi in till ett webbinarium om vår innovationssandlåda för dataskydd. Om ni vill utveckla en produkt eller tjänst som innebär att personuppgifter behandlas kan ni testa er idé kostnadsfritt tillsammans med oss.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3e20e1df-2fda-8166-a91c-fef851d21dee",
+      "title": "EDPB usvojio smjernice o izricanju upravnih novčanih kazni i drugih korektivnih mjera",
+      "url": "https://azop.hr/edpb-usvojio-smjernice-o-izricanju-upravnih-novcanih-kazni-i-drugih-korektivnih-mjera/",
+      "published": "2026-09-21",
+      "summary": "21. rujna 2026. – Europski odbor za zaštitu podataka (EDPB) na svojoj je posljednjoj plenarnoj sjednici usvojio Smjernice o primjeni ovlasti za izricanje upravnih novčanih kazni u odnosu na druge korektivne ovlasti iz Opće uredbe o zaštiti podataka te konačnu verziju Smjernica o međudjelovanju Akta o digitalnim uslugama (DSA) i Opće uredbe o zaštiti podataka. [&#8230;] Objava EDPB usvojio smjernice o izricanju upravnih novčanih kazni i drugih korektivnih mjera pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
+    {
+      "id": "3e20e1df-2fda-811d-9974-dc8459790726",
+      "title": "EDPB harmonises fining methodology and adopts final DSA-GDPR guidelines",
+      "url": "https://www.edpb.europa.eu/news/edpb-harmonises-fining-methodology-and-adopts-final-dsa-gdpr-guidelines_en",
+      "published": "2026-09-21",
+      "summary": "Brussels, 21 September – During its latest plenary, the EDPB has adopted guidelines on the application of the power to impose administrative fines in relation to other corrective powers under the GDPR and the final version of its guidelines on the interplay between the Digital Services Act (DSA) and the GDPR. The new EDPB guidelines are a major step in further aligning how Data Protection Authorities decide whether an administrative fine should be imposed, either on its own or alongside other corrective measures. The GDPR significantly increased the corrective powers of DPAs, with fines serving as an important instrument for effective enforcement. The guidelines reaffirm our commitment to providing greater clarity and ensuring the consistent application of the GDPR across Europe. EDPB Deputy Chair, Jelena Virant Burnik Data Protection Authorities (DPAs) should follow a five-step methodology when deciding whether to impose an administrative fine: the DPA checks if the infringement can lead to a fine, by finding support either directly in the GDPR or in national law. the DPA determines whether the party under investigation may be fined for the infringement in question. Whether the controller or the processor is liable depends on who is bound by the breached provision. the DPA assesses whether the infringement has been committed intentionally or negligently, since a culpable infringement is a condition for the imposition of a fine. the DPA assesses possible aggravating and mitigating factors. If the infringement is minor, there will generally be no fine and a reprimand may be issued instead; if it is not minor, there is a strong presumption that a fine should be imposed. the DPA assesses whether imposing an administrative fine would be effective, proportionate and dissuasive. In doing so, the DPA may consider whether, in the specific case, there is a reason to deviate from the standard approach. The guidelines also provide an overview of the corrective powers within th",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
     {
       "id": "3df0e1df-2fda-8129-a054-cab2e72ef1aa",
       "title": "IMY inleder granskning av politiska partiers massutskick av sms",
