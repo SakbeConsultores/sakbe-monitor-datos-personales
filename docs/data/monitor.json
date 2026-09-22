@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-21T19:57:33.990084+00:00",
-  "total_items": 35,
+  "generated_at": "2026-09-22T00:01:53.336314+00:00",
+  "total_items": 34,
   "regions": [
     "LatAm",
     "Europa"
@@ -677,18 +677,6 @@
       "country": "UE",
       "type": "Noticias",
       "feed_url": "https://www.edpb.europa.eu/feed/news_en"
-    },
-    {
-      "id": "3df0e1df-2fda-8190-a34e-dc591786cd1f",
-      "title": "La AEPD participará en las XX Jornadas STIC con una jornada dedicada a la protección de datos",
-      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-participara-xx-jornadas-stic",
-      "published": "2026-09-02",
-      "summary": "La AEPD participará en las XX Jornadas STIC con una jornada dedicada a la protección de datos AEPD Mié, 02/09/2026 La Agencia contará el 24 de noviembre con un espacio propio en un encuentro que celebra veinte años reuniendo a los principales actores públicos y privados del ecosistema de la ciberseguridad Las Jornadas están organizadas por el Centro Criptológico Nacional del Centro Nacional de Inteligencia, el Mando Conjunto del Ciberespacio y RootedCON Este año celebran su vigésima edición bajo el lema ‘IA ofensiva y amenaza cuántica: hacia una nueva ciberseguridad’",
-      "regulator": "AEPD",
-      "region": "Europa",
-      "country": "ES",
-      "type": "Noticias",
-      "feed_url": "https://www.aepd.es/noticias/feed.xml"
     },
     {
       "id": "3de0e1df-2fda-81f4-90a8-ec8602c4f145",
