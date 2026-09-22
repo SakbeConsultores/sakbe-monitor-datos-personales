@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T00:01:53.336314+00:00",
-  "total_items": 34,
+  "generated_at": "2026-09-22T18:48:05.996660+00:00",
+  "total_items": 40,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,78 @@
     }
   ],
   "items": [
+    {
+      "id": "3e30e1df-2fda-81d2-87c1-d6e2d6857e75",
+      "title": "EDPB harmonizuje metodiku ukládání pokut a schválil pokyny ke vztahu nařízení o digitálních službách a GDPR",
+      "url": "https://uoou.gov.cz/novinky/vse/edpb-harmonizuje-metodiku-ukladani-pokut-a-schvalil-pokyny-ke-vztahu-narizeni-o-digitalnich-sluzbach-a-gdpr",
+      "published": "2026-09-22",
+      "summary": "Na svém posledním plenárním zasedání přijal Evropský sbor pro ochranu osobních údajů (EDPB) pokyny k uplatňování pravomoci ukládat správní pokuty ve vztahu k jiným nápravným pravomocem podle GDPR a konečnou verzi svých pokynů ke vzájemnému působení mezi nařízením o digitálních službách a obecným nařízením o ochraně osobních údajů (GDPR).",
+      "regulator": "ÚOOÚ (CZ)",
+      "region": "Europa",
+      "country": "CZ",
+      "type": "Noticias",
+      "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
+    },
+    {
+      "id": "3e30e1df-2fda-819e-a97f-e7e999e48424",
+      "title": "Sanktionsavgift mot Miljödata för bristande säkerhet",
+      "url": "https://www.imy.se/nyheter/sanktionsavgift-mot-miljodata-for-bristande-sakerhet/",
+      "published": "2026-09-22",
+      "summary": "Integritetsskyddsmyndigheten (IMY) har granskat Miljödata i Karlskrona AB efter en stor läcka av personuppgifter i samband med ett dataintrång. Granskningen visar att Miljödata har haft bristande säkerhet för de personuppgifter man har hanterat. IMY beslutar därför om en sanktionsavgift på 1,8 miljoner kronor.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3e30e1df-2fda-817f-9a19-ccc1a9f43e39",
+      "title": "AP waarschuwt gebruikers camerabrillen dat filmen van anderen vrijwel altijd verboden is",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ap-waarschuwt-gebruikers-camerabrillen-dat-filmen-van-anderen-vrijwel-altijd-verboden-is",
+      "published": "2026-09-22",
+      "summary": "Camerabrillen zijn bezig aan een snelle opmars. Wie daarmee andere mensen filmt of fotografeert, mag die beelden echter niet zomaar gebruiken, delen of publiceren. Ook mensen die toevallig in beeld komen en herkenbaar zijn, hebben recht op bescherming van hun privacy. Omdat veel gebruikers van camerabrillen dat niet weten, komt de Autoriteit Persoonsgegevens (AP) met uitleg van de privacyregels.",
+      "regulator": "AP",
+      "region": "Europa",
+      "country": "NL",
+      "type": "Noticias",
+      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
+    },
+    {
+      "id": "3e30e1df-2fda-81fd-a3ce-d98b56d7a0ad",
+      "title": "EDPB harmonises fining methodology and adopts final DSA-GDPR guidelines",
+      "url": "https://idpc.org.mt/news-latest/edpb-harmonises-fining-methodology-and-adopts-final-dsa-gdpr-guidelines/",
+      "published": "2026-09-22",
+      "summary": "EDPB harmonises fining methodology and adopts final DSA-GDPR guidelines &#160; 22 September 2026 During its latest plenary, the EDPB has adopted&#160;guidelines on the application of the power to impose administrative fines in relation to other corrective powers under the GDPR and the final version of its guidelines on the interplay between the Digital Services Act [&#8230;] The post EDPB harmonises fining methodology and adopts final DSA-GDPR guidelines appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "3e30e1df-2fda-8114-8663-de31dde33eea",
+      "title": "Απόφαση για παράβαση της υποχρέωσης συνεργασίας με την Αρχή",
+      "url": "https://www.gov.cy/dataprotection/%ce%bc%ce%b7-%ce%ba%ce%b1%cf%84%ce%b7%ce%b3%ce%bf%cf%81%ce%b9%ce%bf%cf%80%ce%bf%ce%b9%ce%b7%ce%bc%ce%ad%ce%bd%ce%bf/apofasi-gia-paravasi-tis-ypochreosis-synergasias-me-tin-archi/",
+      "published": "2026-09-22",
+      "summary": "Η Επίτροπος Προστασίας Δεδομένων Προσωπικού Χαρακτήρα εξέδωσε Απόφαση, με την οποία διαπιστώθηκε παράβαση της υποχρέωσης συνεργασίας με την Αρχή Προστασίας Δεδομένων Προσωπικού Χαρακτήρα, σε σχέση με τη λειτουργία της εφαρμογής/διαδικτυακής&#8230;",
+      "regulator": "OCPDP",
+      "region": "Europa",
+      "country": "CY",
+      "type": "Noticias",
+      "feed_url": "https://www.gov.cy/dataprotection/feed/"
+    },
+    {
+      "id": "3e30e1df-2fda-81cc-a18e-ffb072e42fc0",
+      "title": "The Spanish DPA fined Securitas Direct 100 000 EUR for making the exercise of data subject rights more difficult by directing individuals to a chargeable telephone number",
+      "url": "https://www.edpb.europa.eu/news/the-spanish-dpa-fined-securitas-direct-100-000-eur-for-making-the-exercise-of-data-subject_en",
+      "published": "2026-09-22",
+      "summary": "Background information Date of final decision: 1 February 2023 National case Controller: SECURITAS DIRECT, S.A. Legal Reference(s): Article 12 (Transparent information, communication and modalities for the exercise of the rights of the data subject) Decision: Administrative fine, Compliance order Key words: Data subject rights Summary of the Decision Origin of the case A consumer association lodged a complaint against Securitas Direct concerning video surveillance notices that directed data subjects to a chargeable 902 telephone number to exercise their rights of access and objection. This was considered to impose a cost on data subjects and to hinder the exercise of their rights. Key Findings The use of a chargeable telephone number for the exercise of data subject rights was contrary to the GDPR requirement that such rights be exercisable free of charge and could discourage data subjects from exercising them. The availability of other free channels on the website did not remedy the issue, as the notice specifically referred data subjects to the 902 telephone number for this purpose. Decision The Spanish DPA (AEPD) found an infringement of Article 12(2) GDPR, which requires controllers to facilitate the exercise by data subjects of their rights under Articles 15 to 22 GDPR. The infringement is subject to the penalties laid down in Article 83(5)(b) GDPR. The Spanish DPA (AEPD) imposed a fine of 100 000 EUR on Securitas Direct for infringing Article 12 GDPR and ordered the company, as a corrective measure, to replace within 12 months the notices referring to the 902 telephone number in order to bring them into compliance with the GDPR. For further information: Sanctioning Procedure Decision – SECÚRITAS DIRECT ESPAÑA, S.A.U. (Spanish – ES)",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
     {
       "id": "3e20e1df-2fda-81d3-83e2-d6f85a014b91",
       "title": "Zástupci dozorových úřadů pěti zemí diskutovali v Lublani o nových digitálních výzvách",
