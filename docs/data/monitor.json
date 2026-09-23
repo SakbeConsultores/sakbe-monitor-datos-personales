@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-22T23:34:59.538533+00:00",
-  "total_items": 40,
+  "generated_at": "2026-09-23T19:00:07.016565+00:00",
+  "total_items": 37,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,42 @@
     }
   ],
   "items": [
+    {
+      "id": "3e40e1df-2fda-816e-b131-d8a267963fd0",
+      "title": "IMY begär klargörande om vilka brottsuppgifter som omfattas av artikel 10",
+      "url": "https://www.imy.se/nyheter/imy-begar-klargorande-om-vilka-brottsuppgifter-som-omfattas-av-artikel-10/",
+      "published": "2026-09-23",
+      "summary": "Dataskyddsförordningen (GDPR) ger ett starkt skydd för personuppgifter om lagöverträdelser. Men vad som räknas som personuppgifter om lagöverträdelser skiljer sig åt mellan olika medlemsländer. Integritetsskyddsmyndigheten (IMY) har därför vänt sig till Europeiska dataskyddsstyrelsen (EDPB) för att få ett klargörande.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3e40e1df-2fda-8111-8f1a-f66acb734922",
+      "title": "Amendes RGPD et interaction avec le règlement sur les services numériques : retour sur la plénière du CEPD du 17 septembre 2026",
+      "url": "https://www.cnil.fr/fr/pleniere-cepd-amendes-reglement-services-numeriques",
+      "published": "2026-09-23",
+      "summary": "Le 17 septembre 2026, le CEPD a adopté des lignes directrices sur le pouvoir des autorités de protection des données d’infliger des amendes administratives et la version finale de ses lignes directrices sur l'interaction entre le règlement sur les services numériques (DSA) et le RGPD.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3e40e1df-2fda-8175-ac80-c12b3c6f2ef2",
+      "title": "The Irish Data Protection Commission fines Google 403 000 000 EUR following Inquiry into Google’s processing of location data",
+      "url": "https://www.edpb.europa.eu/news/the-irish-data-protection-commission-fines-google-403-000-000-eur-following-inquiry_en",
+      "published": "2026-09-23",
+      "summary": "Background information Date of final decision: 21 September 2026 National case Legal Reference(s): Article 5 (Principles relating to processing of personal data), Article 6 (Lawfulness of processing), Article 12 (Transparent information, communication and modalities for the exercise of the rights of the data subject) and Article 13 (Information to be provided where personal data are collected from the data subject) Decision: Administrative fine, compliance order Key words: GDPR enforcement, technology, accountability, data subjects rights Summary of the Decision Origin of the case The Irish Data Protection Commission (DPC) has announced its final decision following an inquiry into Google Ireland Limited (Google). This own-volition Inquiry was launched by the DPC, in its role as the Lead Supervisory Authority for Google, in February 2020, following receipt of complaints from several European consumer rights organisations, including BEUC, regarding Google’s processing of location data in connection with certain services and products. The scope of the Inquiry concerned Google’s processing of location data in three specific features – “Web & App Activity”, “Location History” and “Location Accuracy” between the date of application of the GDPR, 25 May 2018 to 4 February 2020. Key Findings The decision, which was made by the Commissioners for Data Protection, finds that Google infringed the GDPR in respect of: the lawfulness and fairness of its processing of location data in Web & App Activity and Location History; its accountability obligations under the GDPR by failing to be able to demonstrate compliance with the lawfulness, fairness and transparency principle regarding its processing of personal data in Location Accuracy; its transparency obligations in respect of all three features referred to above; and its retention of location data in Web & App Activity and Location History. Decision The DPC has imposed administrative fines totalling 403 000 000 EUR and has ordered",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
     {
       "id": "3e30e1df-2fda-81d2-87c1-d6e2d6857e75",
       "title": "EDPB harmonizuje metodiku ukládání pokut a schválil pokyny ke vztahu nařízení o digitálních službách a GDPR",
@@ -677,78 +713,6 @@
       "country": "MT",
       "type": "Noticias",
       "feed_url": "https://idpc.org.mt/feed/"
-    },
-    {
-      "id": "3df0e1df-2fda-81b2-b10b-ee7114554ef5",
-      "title": "Nieuw voor mkb: praktische sjablonen om aan de privacyregels te voldoen",
-      "url": "https://autoriteitpersoonsgegevens.nl/actueel/nieuw-voor-mkb-praktische-sjablonen-om-aan-de-privacyregels-te-voldoen",
-      "published": "2026-09-03",
-      "summary": "De Autoriteit Persoonsgegevens (AP) heeft 2 praktische documenten gepubliceerd speciaal voor het mkb. Het gaat om sjablonen voor een verwerkingsregister en een privacyverklaring. Ondernemers kunnen hiermee makkelijker voldoen aan de privacyregels en zo de persoonsgegevens van hun klanten beter beschermen. Ook helpen de sjablonen ondernemers om meer grip te krijgen op wat zij met persoonsgegevens doen en dit goed uit te leggen aan hun klanten.",
-      "regulator": "AP",
-      "region": "Europa",
-      "country": "NL",
-      "type": "Noticias",
-      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
-    },
-    {
-      "id": "3df0e1df-2fda-81ec-9fd5-c4750b52c1c9",
-      "title": "Violation de données en matière de santé : sanction de 500 000 euros à l’encontre de l’HÔPITAL PRIVÉ DE LA LOIRE",
-      "url": "https://www.cnil.fr/fr/sanction-hopital-prive-loire",
-      "published": "2026-09-03",
-      "summary": "Le 3 septembre 2026, la CNIL a prononcé une sanction de 500&nbsp;000&nbsp;€ à l’encontre de l’HÔPITAL PRIVÉ DE LA LOIRE, pour ne pas avoir pris des mesures adaptées pour assurer la sécurité des données de ses patients et de certains de leurs proches.",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3df0e1df-2fda-8153-ac3a-d30f924fa127",
-      "title": "Ordre du jour de la séance plénière du 3 septembre 2026",
-      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-3-septembre-2026",
-      "published": "2026-09-03",
-      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 3 septembre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3de0e1df-2fda-81ca-b156-e1911d8f6703",
-      "title": "IMY vägleder AI-projekt i vård och omsorg",
-      "url": "https://www.imy.se/nyheter/imy-vagleder-ai-projekt-i-vard-och-omsorg/",
-      "published": "2026-09-03",
-      "summary": "Integritetsskyddsmyndigheten (IMY) ska stötta ett kommunalt projekt i Skåne att ta fram ett integritetssäkert AI-stöd inom vård och omsorg. Även ett bostadsbolag, som vill effektivisera bostadsuthyrningen med artificiell intelligens, ska få vägledning av myndigheten.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
-    },
-    {
-      "id": "3de0e1df-2fda-811f-a98f-db27e4502144",
-      "title": "IMY granskar ett IT-företag utifrån kreditupplysningslagen och GDPR",
-      "url": "https://www.imy.se/nyheter/imy-granskar-ett-it-foretag-utifran-kreditupplysningslagen-och-GDPR/",
-      "published": "2026-09-03",
-      "summary": "Integritetsskyddsmyndigheten (IMY) inleder tillsyn mot Cogno Scio AB för att bland annat undersöka om bolaget bedriver tillståndspliktig kreditupplysningsverksamhet.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
-    },
-    {
-      "id": "3de0e1df-2fda-81b9-9fad-ea3a7029a6e7",
-      "title": "Data Protection Commission announces Final Decision following Inquiry into the Health Service Executive (HSE)",
-      "url": "https://www.edpb.europa.eu/news/data-protection-commission-announces-final-decision-following-inquiry-into-the-health-service_en",
-      "published": "2026-09-03",
-      "summary": "Background information Date of final decision: 28 August 2026 National case Legal Reference(s): Article 5 (Principles relating to processing of personal data), Article 32 (Security of processing), Article 33 (Notification of a personal data breach to the supervisory authority), Article 34 (Communication of a personal data breach to the data subject) Decision: Administrative fine, Compliance order, Communication order personal data breach Key words: GDPR enforcement, Data subjects rights, Fines, Health and research Summary of the Decision Origin of the case This Inquiry commenced on 24 May 2024 as a result of two personal data breaches notified to the Data Protection Commission (DPC) in October 2023 and November 2023. In both cases, individuals gained unauthorised access to paper records stored and retained in both St. Loman’s Hospital (Mullingar, County Westmeath) and St Conal’s Hospital (Letterkenny, County Donegal). Both locations are former disused psychiatric hospitals.Videos uploaded to social media by intruders highlighted that medical records were stored and retained in both facilities. Key Findings The Data Protection Commission (DPC) has announced its final decision following an inquiry into the HSE’s processing of personal data contained in paper records, which are stored and retained in the HSE’s external storage facilities. The DPC’s findings identified data protection failings concerning the physical conditions of HSE document storage facilities and the integrity of the documents held within those facilities. Decision The DPC issued fines totalling €645 000, a reprimand and made a number of compliance orders. For further information: Data Protection Commission announces Final Decision following Inquiry into the Health Service Executive (HSE)",
-      "regulator": "EDPB",
-      "region": "Europa",
-      "country": "UE",
-      "type": "Noticias",
-      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
     },
     {
       "id": "3de0e1df-2fda-81f4-90a8-ec8602c4f145",
