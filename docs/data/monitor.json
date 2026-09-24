@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-23T23:36:32.077990+00:00",
-  "total_items": 37,
+  "generated_at": "2026-09-24T19:03:22.517034+00:00",
+  "total_items": 40,
   "regions": [
     "LatAm",
     "Europa"
@@ -331,6 +331,54 @@
   ],
   "items": [
     {
+      "id": "3e50e1df-2fda-81f6-a741-eeff9090054f",
+      "title": "Webbinarium: Säker AI-användning i vården",
+      "url": "https://www.imy.se/nyheter/webbinarium-saker-ai-anvandning-i-varden/",
+      "published": "2026-09-24",
+      "summary": "Den 21 oktober ordnar IMY tillsammans med Läkemedelsverket ett webbinarium om säker AI i vården. Vi kommer att prata om vilka dataskyddsregler och produktsäkerhetskrav som ställs på en digital produkt som behandlar personuppgifter med hjälp av AI för ett medicinskt ändamål.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3e50e1df-2fda-81ee-b18f-ca3e340c13cc",
+      "title": "Clôture de l’injonction prononcée à l’encontre de la société SOLOCAL MARKETING SERVICES",
+      "url": "https://www.cnil.fr/fr/cloture-injonction-solocal-marketing-services",
+      "published": "2026-09-24",
+      "summary": "Par délibération du 17 septembre 2026, la CNIL a clôturé l’injonction prononcée le 15&nbsp;mai 2025 à l’encontre de la société SOLOCAL MARKETING SERVICES.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3e50e1df-2fda-81bc-b17c-f223866dab53",
+      "title": "Ordre du jour de la séance plénière du 24 septembre 2026",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-24-septembre-2026",
+      "published": "2026-09-24",
+      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 24 septembre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3e50e1df-2fda-8162-b0f1-f5cde1e1047e",
+      "title": "La Agencia recuerda las garantías para utilizar IA en el análisis de currículums",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/agencia-recuerda-garantias-para-utilizar-ia-en-analisis-curriculums",
+      "published": "2026-09-23",
+      "summary": "La Agencia recuerda las garantías para utilizar IA en el análisis de currículums AEPD Mié, 23/09/2026 La AEPD realiza una advertencia a una empresa que evalúa implantar un sistema para analizar currículums y asignar puntuaciones La IA puede mejorar la eficiencia en los procesos de selección y su utilización debe incorporar las garantías de protección de datos desde el inicio Contenido completo de la advertencia",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
       "id": "3e40e1df-2fda-816e-b131-d8a267963fd0",
       "title": "IMY begär klargörande om vilka brottsuppgifter som omfattas av artikel 10",
       "url": "https://www.imy.se/nyheter/imy-begar-klargorande-om-vilka-brottsuppgifter-som-omfattas-av-artikel-10/",
@@ -511,6 +559,18 @@
       "feed_url": "https://www.imy.se/nyheter/rss"
     },
     {
+      "id": "3e50e1df-2fda-811d-9aa5-dd2804c8f36e",
+      "title": "Statut et organisation de la CNIL",
+      "url": "https://www.cnil.fr/fr/fonctionnement/statut-et-organisation-de-la-cnil",
+      "published": "2026-09-17",
+      "summary": "Créée en 1978 par la loi Informatique et Libertés, la CNIL est une autorité administrative indépendante, composée d’un Collège de 18 membres et d’une équipe d’agents contractuels de l’État.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
       "id": "3df0e1df-2fda-811e-bbaa-cba0d461a578",
       "title": "Ordre du jour de la séance plénière du 17 septembre 2026",
       "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-17-septembre-2026",
@@ -689,30 +749,6 @@
       "country": "HR",
       "type": "Noticias",
       "feed_url": "https://azop.hr/feed/"
-    },
-    {
-      "id": "3df0e1df-2fda-81c7-ab7e-dd42aac030f4",
-      "title": "AP opent deuren tijdens Rondje Rechtsstaat: kom langs",
-      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ap-opent-deuren-tijdens-rondje-rechtsstaat-kom-langs",
-      "published": "2026-09-04",
-      "summary": "Bent u nieuwsgierig naar wat er zich afspeelt achter de deuren van de Autoriteit Persoonsgegevens (AP) aan het Lange Voorhout nummer 7 in Den Haag? En wat de AP voor u doet? Op zaterdag 12 september bent u van 10.00 tot 16.00 uur van harte welkom tijdens Rondje Rechtsstaat. We geven u graag een uniek inkijkje in de wereld van de AP.",
-      "regulator": "AP",
-      "region": "Europa",
-      "country": "NL",
-      "type": "Noticias",
-      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
-    },
-    {
-      "id": "3de0e1df-2fda-81f8-88bf-f3c7b933cbdd",
-      "title": "EU law does not require the disclosure of information relating to all shareholders of public limited liability companies, including minority shareholders",
-      "url": "https://idpc.org.mt/news-latest/eu-law-does-not-require-the-disclosure-of-information-relating-to-all-shareholders-of-public-limited-liability-companies-including-minority-shareholders/",
-      "published": "2026-09-04",
-      "summary": "EU law does not require the disclosure of information relating to all shareholders of public limited liability companies, including minority shareholders &#160; 04 September 2026 In a recent judgement of the European Court of Justice (CJEU), the court stated that EU law does not require the disclosure of information relating to all shareholders of public [&#8230;] The post EU law does not require the disclosure of information relating to all shareholders of public limited liability companies, including minority shareholders appeared first on IDPC .",
-      "regulator": "IDPC",
-      "region": "Europa",
-      "country": "MT",
-      "type": "Noticias",
-      "feed_url": "https://idpc.org.mt/feed/"
     },
     {
       "id": "3de0e1df-2fda-81f4-90a8-ec8602c4f145",
