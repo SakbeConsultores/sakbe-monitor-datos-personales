@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-24T23:50:56.385685+00:00",
-  "total_items": 40,
+  "generated_at": "2026-09-25T19:13:43.439561+00:00",
+  "total_items": 41,
   "regions": [
     "LatAm",
     "Europa"
@@ -749,6 +749,18 @@
       "country": "HR",
       "type": "Noticias",
       "feed_url": "https://azop.hr/feed/"
+    },
+    {
+      "id": "3e60e1df-2fda-81b8-bc9a-c56486c11c82",
+      "title": "Comunicat_Presa_25_09_2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_25_09_2026&lang=ro",
+      "published": "",
+      "summary": "Amenda pentru incalcarea RGPD",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
     },
     {
       "id": "3de0e1df-2fda-81f4-90a8-ec8602c4f145",
