@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-26T23:31:27.628073+00:00",
-  "total_items": 41,
+  "generated_at": "2026-09-27T18:58:43.611442+00:00",
+  "total_items": 40,
   "regions": [
     "LatAm",
     "Europa"
@@ -737,18 +737,6 @@
       "country": "ES",
       "type": "Noticias",
       "feed_url": "https://www.aepd.es/noticias/feed.xml"
-    },
-    {
-      "id": "3de0e1df-2fda-81ca-b02c-f60ee3be1704",
-      "title": "Savjeti za učenike – sigurno kretanje digitalnim svijetom",
-      "url": "https://azop.hr/14977-2/",
-      "published": "2026-09-07",
-      "summary": "Vrijeme je za povratak u školske klupe! Uz školsko gradivo, važno je usvajati i znanja koja će učenicima pomoći i u sigurnom kretanju digitalnim svijetom. Naime, Internet, društvene mreže i različite aplikacije sastavni su dio svakodnevice učenika. Iako donose brojne mogućnosti za učenje, komunikaciju i zabavu, sa sobom nose i određene rizike. Zato je važno [&#8230;] Objava Savjeti za učenike &#8211; sigurno kretanje digitalnim svijetom pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
-      "regulator": "AZOP",
-      "region": "Europa",
-      "country": "HR",
-      "type": "Noticias",
-      "feed_url": "https://azop.hr/feed/"
     },
     {
       "id": "3e60e1df-2fda-81b8-bc9a-c56486c11c82",
