@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-27T23:46:40.291151+00:00",
-  "total_items": 40,
+  "generated_at": "2026-09-28T21:12:28.941960+00:00",
+  "total_items": 44,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,66 @@
     }
   ],
   "items": [
+    {
+      "id": "3e90e1df-2fda-8168-9b11-deab338e80eb",
+      "title": "Intresseanmälan till vårens innovationssandlåda har öppnat!",
+      "url": "https://www.imy.se/nyheter/intresseanmalan-till-varens-innovationssandlada-nu-oppen/",
+      "published": "2026-09-28",
+      "summary": "Står ni i startgroparna till att utveckla en produkt eller tjänst som innebär att personuppgifter kommer att behandlas? Då kan ni testa er idé kostnadsfritt i vår innovationssandlåda för dataskydd. Intresseanmälan är öppen under perioden 28 september till 23 november. Projektstart våren 2027.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3e90e1df-2fda-81db-884a-c457976de7db",
+      "title": "Eric Leijonrams tal på Nordic Privacy Arena",
+      "url": "https://www.imy.se/nyheter/eric-leijonrams-tal-pa-nordic-privacy-arena/",
+      "published": "2026-09-28",
+      "summary": "Integritetsskyddsmyndighetens generaldirektör Eric Leijonram inledningstalade på Nordic Privacy Arena. Han talade bland annat om IMY:s prioriteringar och hur det rådande omvärldsläget påverkar dataskyddsfrågor.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3e90e1df-2fda-81fa-896e-fd0511ad31c4",
+      "title": "The IDPC Newsletter #5 is out",
+      "url": "https://idpc.org.mt/news-latest/the-idpc-newsletter-5-is-out/",
+      "published": "2026-09-28",
+      "summary": "The IDPC Newsletter #5 is out &#160; 28 September 2026 &#160; The IDPC has published its fifth edition of its newsletter featuring the latest news related to data protection, GDPR, AI and many other topics and activities related to the work of this office. Subscribe today to get our newsletter in your inbox by clicking&#160;here. [&#8230;] The post The IDPC Newsletter #5 is out appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "3e90e1df-2fda-81ef-9e55-ec431e505460",
+      "title": "Évènement air 2026 : Convaincre ou manipuler ? L'éthique du numérique à l'épreuve des urnes, le 16 novembre à la CNIL",
+      "url": "https://www.cnil.fr/fr/air2026",
+      "published": "2026-09-28",
+      "summary": "Protection des droits des électeurs, ingérences étrangères… lundi 16&nbsp;novembre 2026, à partir de 14&nbsp;h, la CNIL vous invite à son événement dédié aux enjeux éthiques associés aux communications politiques et aux ingérences. Les inscriptions sont ouvertes.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3e90e1df-2fda-81c1-8156-c9f4ca8d4afb",
+      "title": "Europski nadzornik za zaštitu podataka Wojciech Wiewiórowski u radnom posjetu Agenciji",
+      "url": "https://azop.hr/europski-nadzornik-za-zastitu-podataka-wojciech-wiewiorowski-u-radnom-posjetu-agenciji-za-zastitu-osobnih-podataka/",
+      "published": "2026-09-28",
+      "summary": "Europski nadzornik za zaštitu podataka (EDPS) Wojciech Wiewiórowski, 23. rujna 2026. boravio je u radnom posjetu Agenciji za zaštitu osobnih podataka, uoči 24. sastanka nadzornih tijela srednje i istočne Europe. Tom prilikom održan je radni sastanak s ravnateljem Agencije i potpredsjednikom EDPB-a Zdravkom Vukićem i suradnicima, na kojem je dogovorena stručna suradnja EDPS-a i AZOP-a [&#8230;] Objava Europski nadzornik za zaštitu podataka Wojciech Wiewiórowski u radnom posjetu Agenciji pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
     {
       "id": "3e50e1df-2fda-81f6-a741-eeff9090054f",
       "title": "Webbinarium: Säker AI-användning i vården",
@@ -725,18 +785,6 @@
       "country": "UE",
       "type": "Noticias",
       "feed_url": "https://www.edpb.europa.eu/feed/news_en"
-    },
-    {
-      "id": "3df0e1df-2fda-81ba-881e-fdb4e192d381",
-      "title": "La AEPD estrena ‘Las claves de…’, un nuevo formato de diálogo con especialistas sobre privacidad y tecnologías emergentes",
-      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-estrena-las-claves-de-un-nuevo-formato-de-dialogo-con-especialistas",
-      "published": "2026-09-08",
-      "summary": "La AEPD estrena ‘Las claves de…’, un nuevo formato de diálogo con especialistas sobre privacidad y tecnologías emergentes AEPD Mar, 08/09/2026 El primer episodio, dedicado a ‘Neurotecnologías y neurodatos’, se celebrará el 6 de octubre a las 17:00 horas y podrá seguirse en directo a través de streaming El presidente de la Agencia, Lorenzo Cotino, charlará con Luis Miguel González de la Garza, catedrático de Derecho Constitucional de la UNED ‘Las claves de…’ se integra en ‘Diálogos de privacidad’, la sección del Laboratorio de la AEPD que aborda cuestiones de actualidad relacionadas con la protección de datos y las tecnologías emergentes La emisión en directo podrá seguirse en este enlace .",
-      "regulator": "AEPD",
-      "region": "Europa",
-      "country": "ES",
-      "type": "Noticias",
-      "feed_url": "https://www.aepd.es/noticias/feed.xml"
     },
     {
       "id": "3e60e1df-2fda-81b8-bc9a-c56486c11c82",
