@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T21:12:28.941960+00:00",
-  "total_items": 44,
+  "generated_at": "2026-09-29T00:57:26.017788+00:00",
+  "total_items": 39,
   "regions": [
     "LatAm",
     "Europa"
@@ -725,66 +725,6 @@
       "country": "FR",
       "type": "Noticias",
       "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3df0e1df-2fda-81fb-a8f9-cf918fb1326c",
-      "title": "Nota informativa de la AEPD",
-      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/nota-informativa-de-la-aepd",
-      "published": "2026-09-09",
-      "summary": "Nota informativa de la AEPD AEPD Mié, 09/09/2026",
-      "regulator": "AEPD",
-      "region": "Europa",
-      "country": "ES",
-      "type": "Noticias",
-      "feed_url": "https://www.aepd.es/noticias/feed.xml"
-    },
-    {
-      "id": "3df0e1df-2fda-8123-a41c-e7e15b97df75",
-      "title": "Non-respect des droits des personnes : sanction de 300 000 euros à l’encontre de la société EXTIA",
-      "url": "https://www.cnil.fr/fr/sanction-non-respect-droits-personnes-extia",
-      "published": "2026-09-09",
-      "summary": "Le 21 juillet 2026, la CNIL a sanctionné la société EXTIA d’une amende de 300&nbsp;000 euros pour divers manquements relatifs au respect des droits des personnes, notamment du droit à l’effacement des données personnelles («&nbsp;droit à l’oubli&nbsp;»).",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3de0e1df-2fda-812d-a757-e005003530f4",
-      "title": "Retention of electronic communications data: CJEU Advocate General issues opinion on the criteria for assessing the compatibility of national legislation with EU law",
-      "url": "https://idpc.org.mt/news-latest/retention-of-electronic-communications-data-cjeu-advocate-general-issues-opinion-on-the-criteria-for-assessing-the-compatibility-of-national-legislation-with-eu-law/",
-      "published": "2026-09-09",
-      "summary": "Retention of electronic communications data: CJEU Advocate General issues opinion on the criteria for assessing the compatibility of national legislation with EU law &#160; 09 September 2026 &#160; On 3 September 2026, the European Court of Justice (CJEU) issued an important opinion of the Advocate General at the Court, Maciej Szpunar. In 2022, Belgium adopted [&#8230;] The post Retention of electronic communications data: CJEU Advocate General issues opinion on the criteria for assessing the compatibility of national legislation with EU law appeared first on IDPC .",
-      "regulator": "IDPC",
-      "region": "Europa",
-      "country": "MT",
-      "type": "Noticias",
-      "feed_url": "https://idpc.org.mt/feed/"
-    },
-    {
-      "id": "3de0e1df-2fda-811a-a231-e6c363769fe6",
-      "title": "Commissioner interviewed by TVMnews on 2025 Annual Report",
-      "url": "https://idpc.org.mt/news-latest/commissioner-interviewed-by-tvmnews-on-2025-annual-report/",
-      "published": "2026-09-09",
-      "summary": "Commissioner interviewed by TVMnews on 2025 Annual Report &#160; 09 September 2026 &#160; Earlier this week, the Information and Data Protection Commissioner, Dr Reno Borg, was featured in a TVMnews report following the publication of the IDPC Annual Report 2025. The news item highlighted key developments in the office's work during the year, including the [&#8230;] The post Commissioner interviewed by TVMnews on 2025 Annual Report appeared first on IDPC .",
-      "regulator": "IDPC",
-      "region": "Europa",
-      "country": "MT",
-      "type": "Noticias",
-      "feed_url": "https://idpc.org.mt/feed/"
-    },
-    {
-      "id": "3de0e1df-2fda-81ae-bca1-fa9eb813b933",
-      "title": "Health data breach: the CNIL fined Hôpital Privé de la Loire 500 000 EUR",
-      "url": "https://www.edpb.europa.eu/news/health-data-breach-the-cnil-fined-hopital-prive-de-la-loire-500-000-eur_en",
-      "published": "2026-09-09",
-      "summary": "Background information Date of final decision: 3 September 2026 National case Controller: Hôpital Privé de la Loire Legal Reference: Article 32 (Security of processing), Article 34 (Communication of a personal data breach to the data subject), Decision: Administrative fine Keywords: Cybersecurity, Personal data breaches, Health and research Summary of the Decision Origin of the case In summer 2025, an attacker managed to connect to the Computerised Patient Summary (DPI) of the Hôpital Privé de la Loire (Loire’s private hospital), which centralises all the data of the individuals under care. It thus accessed the data of 524 867 patients (some of them health data) and 202 246 persons designated as “trusted third parties”. As a result of this data breach, the French Data Protection Authority (CNIL) carried out a check that identified several failures of the Hôpital Privé de la Loire to comply with the obligations laid down in the General Data Protection Regulation (GDPR). Key findings Failure to ensure the security of personal data (Article 32 GDPR) The authentication procedure to connect to the hospital’s e-Health Patient Summary, used by users outside the hospital, in particular doctors not affiliated with the hospital, was not sufficiently robust, due to the lack of VPNs and multifactor authentication means. The attacker took advantage of this vulnerability to access the data. Moreover, the access control policy was inadequate: it did not take account of the concept of care team, so that only professionals actually involved in the care of a patient had access to the information covered by medical confidentiality. This lack of access limitation allowed the attacker, using the credentials of a single user account, to access the data of all hospital patients. Finally, the hospital had not taken measures to detect suspicious activity within the e-Health Patient Summary in real time or in the very short term, and to trigger an alert mechanism if necessary. In those circu",
-      "regulator": "EDPB",
-      "region": "Europa",
-      "country": "UE",
-      "type": "Noticias",
-      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
     },
     {
       "id": "3e60e1df-2fda-81b8-bc9a-c56486c11c82",
