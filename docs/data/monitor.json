@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T00:57:26.017788+00:00",
-  "total_items": 39,
+  "generated_at": "2026-09-29T19:57:24.102190+00:00",
+  "total_items": 41,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,18 @@
     }
   ],
   "items": [
+    {
+      "id": "3ea0e1df-2fda-8161-9b54-e3f37e951165",
+      "title": "AZOP domaćin 24. sastanka nadzornih tijela za zaštitu podataka srednje i istočne Europe",
+      "url": "https://azop.hr/azop-domacin-24-sastanka-nadzornih-tijela-za-zastitu-podataka-srednje-i-istocne-europe/",
+      "published": "2026-09-29",
+      "summary": "Agencija za zaštitu osobnih podataka bila je domaćin 24. sastanka nadzornih tijela za zaštitu podataka srednje i istočne Europe (CEEDPA), održanog pod pokroviteljstvom Hrvatskoga sabora, koji se održao 25. i 26. rujna 2026. u Zadru. Ovogodišnji sastanak okupio je predstavnike nadzornih tijela diljem EU te visoke predstavnike Europskog nadzornika za zaštitu podataka (EDPS), Europskog odbora [&#8230;] Objava AZOP domaćin 24. sastanka nadzornih tijela za zaštitu podataka srednje i istočne Europe pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
     {
       "id": "3e90e1df-2fda-8168-9b11-deab338e80eb",
       "title": "Intresseanmälan till vårens innovationssandlåda har öppnat!",
@@ -725,6 +737,18 @@
       "country": "FR",
       "type": "Noticias",
       "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3ea0e1df-2fda-8174-86cc-eb4e9df37f96",
+      "title": "Comunicat_Presa_29_09_2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_29_09_2026&lang=ro",
+      "published": "",
+      "summary": "Plenara EDPB - 17 septembrie 2026",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
     },
     {
       "id": "3e60e1df-2fda-81b8-bc9a-c56486c11c82",
