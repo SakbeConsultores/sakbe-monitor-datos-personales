@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-30T00:19:47.421773+00:00",
-  "total_items": 38,
+  "generated_at": "2026-09-30T19:57:19.485574+00:00",
+  "total_items": 39,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,18 @@
     }
   ],
   "items": [
+    {
+      "id": "3eb0e1df-2fda-815f-bb4e-d4386752e616",
+      "title": "IMY granskar ICA:s användning av drogtester av arbetssökande",
+      "url": "https://www.imy.se/nyheter/imy-granskar-icas-anvandning-av-drogtester-av-arbetssokande/",
+      "published": "2026-09-30",
+      "summary": "Integritetsskyddsmyndigheten (IMY) inleder en granskning av ICA Gruppen AB och ICA Sverige AB vad gäller användning av drogtester av arbetssökande.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
     {
       "id": "3ea0e1df-2fda-8161-9b54-e3f37e951165",
       "title": "AZOP domaćin 24. sastanka nadzornih tijela za zaštitu podataka srednje i istočne Europe",
