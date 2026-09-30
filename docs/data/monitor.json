@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-29T19:57:24.102190+00:00",
-  "total_items": 41,
+  "generated_at": "2026-09-30T00:19:47.421773+00:00",
+  "total_items": 38,
   "regions": [
     "LatAm",
     "Europa"
@@ -701,42 +701,6 @@
       "country": "UE",
       "type": "Noticias",
       "feed_url": "https://www.edpb.europa.eu/feed/news_en"
-    },
-    {
-      "id": "3df0e1df-2fda-8157-b11b-f10daa7fc86e",
-      "title": "La CNIL publie le tome 2 de L’Agence Privacy : une nouvelle enquête pour mieux comprendre la cybercriminalité",
-      "url": "https://www.cnil.fr/fr/audeladelecran",
-      "published": "2026-09-10",
-      "summary": "Avec «&nbsp;Au-delà de l’écran&nbsp;», l’Agence Privacy revient avec de nouvelles aventures&nbsp;! Hypertrucage (deepfakes), arnaque aux sentiments, défis nocifs sur les réseaux sociaux, brouteurs : ce tome 2 aborde des risques numériques pour la vie privée auxquels adolescents comme parents peuvent être confrontés.",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3df0e1df-2fda-81ba-b324-db6f0e7c6bf5",
-      "title": "Facturation électronique : quels enjeux pour la protection des données personnelles ?",
-      "url": "https://www.cnil.fr/fr/facturation-electronique-quels-enjeux",
-      "published": "2026-09-10",
-      "summary": "Depuis le 1er septembre 2026, la réforme relative à la facturation électronique entre entreprises est entrée en vigueur. La CNIL aide les entreprises à comprendre les enjeux et à assurer la sécurité des données traitées.",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3df0e1df-2fda-810d-9a4f-e42bf3827a74",
-      "title": "Ordre du jour de la séance plénière du 10 septembre 2026",
-      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-10-septembre-2026",
-      "published": "2026-09-10",
-      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 10 septembre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
     },
     {
       "id": "3ea0e1df-2fda-8174-86cc-eb4e9df37f96",
