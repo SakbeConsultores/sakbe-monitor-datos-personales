@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-01T00:30:25.203420+00:00",
-  "total_items": 38,
+  "generated_at": "2026-10-01T20:19:49.319304+00:00",
+  "total_items": 40,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,30 @@
     }
   ],
   "items": [
+    {
+      "id": "3ec0e1df-2fda-816f-81c0-d189c1ba14d9",
+      "title": "Cybermois 2026 : la CNIL et Cybermalveillance.gouv.fr publient une nouvelle ressource pour adopter les bons réflexes face à une violation de données",
+      "url": "https://www.cnil.fr/fr/cybermois-2026",
+      "published": "2026-10-01",
+      "summary": "À l’occasion du Mois européen de la cybersécurité, Cybermois en France, la CNIL et Cybermalveillance.gouv.fr s’associent autour d’un nouveau support pratique pour aider les particuliers à réagir en cas de violation de données personnelles et à adopter les bons réflexes pour limiter les risques.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3ec0e1df-2fda-8124-8bca-e1b14559677f",
+      "title": "Ordre du jour de la séance plénière du 1er octobre 2026",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-1er-octobre-2026",
+      "published": "2026-10-01",
+      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 1er octobre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
     {
       "id": "3eb0e1df-2fda-815f-bb4e-d4386752e616",
       "title": "IMY granskar ICA:s användning av drogtester av arbetssökande",
