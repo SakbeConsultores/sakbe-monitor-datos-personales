@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-03T23:44:39.093938+00:00",
-  "total_items": 46,
+  "generated_at": "2026-10-04T18:37:08.608300+00:00",
+  "total_items": 45,
   "regions": [
     "LatAm",
     "Europa"
@@ -773,18 +773,6 @@
       "country": "NL",
       "type": "Noticias",
       "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
-    },
-    {
-      "id": "3de0e1df-2fda-81d5-a49b-ef502e8e7aec",
-      "title": "Pravo pacijenata na pristup osobnim podacima u Bolničkom Informacijskom Sustavu (BIS)",
-      "url": "https://azop.hr/pravo-pacijenata-na-pristup-osobnim-podacima-u-bis-u/",
-      "published": "2026-09-14",
-      "summary": "Objavljeno: 14.9.2026. Agencija za zaštitu osobnih podataka zaprimila je vaš upit u vezi s postupanjem po zahtjevima pacijenata za dostavu evidencije pristupa njihovoj medicinskoj dokumentaciji putem Bolničkog informacijskog sustava, koja se generira u Excel formatu i, među ostalim, sadržava imena i prezimena djelatnika koji su pristupali zdravstvenom kartonu pacijenta. U vezi s navedenim očitujemo se [&#8230;] Objava Pravo pacijenata na pristup osobnim podacima u Bolničkom Informacijskom Sustavu (BIS) pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
-      "regulator": "AZOP",
-      "region": "Europa",
-      "country": "HR",
-      "type": "Noticias",
-      "feed_url": "https://azop.hr/feed/"
     },
     {
       "id": "3ed0e1df-2fda-817a-8c8e-dddd8c638f81",
