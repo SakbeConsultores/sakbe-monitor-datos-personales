@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T01:43:57.281828+00:00",
-  "total_items": 48,
+  "generated_at": "2026-10-06T20:11:18.726255+00:00",
+  "total_items": 51,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,42 @@
     }
   ],
   "items": [
+    {
+      "id": "3f10e1df-2fda-814e-83c5-ca655ab1f08d",
+      "title": "IMY har genomfört rundabordssamtal om politisk reklam",
+      "url": "https://www.imy.se/nyheter/imy-har-genomfort-rundabordssamtal-om-politisk-reklam/",
+      "published": "2026-10-06",
+      "summary": "Sverige är ett av de första länderna i EU som har haft val efter att EU-förordningen om politisk reklam började gälla i oktober 2025. IMY bjöd därför in aktörer till ett rundabordssamtal, bland annat för att utvärdera myndighetens vägledning om riktad politisk onlinereklam.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3f10e1df-2fda-8131-a617-f4628f3fce25",
+      "title": "Commissioner Reno Borg Represents Malta at EU-LAC Data Governance Dialogue in Madrid",
+      "url": "https://idpc.org.mt/news-latest/commissioner-reno-borg-represents-malta-at-eu-lac-data-governance-dialogue-in-madrid/",
+      "published": "2026-10-06",
+      "summary": "Commissioner Reno Borg Represents Malta at EU-LAC Data Governance Dialogue in Madrid &#160; 06 October 2026 Malta’s Information and Data Protection Commissioner (IDPC), Reno Borg, participated in the 2nd EU-LAC Digital Alliance High-Level Policy Dialogue on Data Governance, held in Madrid on 29 and 30 September. The event brought together more than 100 policymakers, data [&#8230;] The post Commissioner Reno Borg Represents Malta at EU-LAC Data Governance Dialogue in Madrid appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "3f10e1df-2fda-818b-b09b-e14ab5a4cb0a",
+      "title": "La AEPD señala las garantías para incorporar inteligencia artificial a los sistemas de videovigilancia",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-sennala-garantias-para-incorporar-ia-a-sistemas-videovigilancia",
+      "published": "2026-10-06",
+      "summary": "La AEPD señala las garantías para incorporar inteligencia artificial a los sistemas de videovigilancia AEPD Mar, 06/10/2026 La Agencia ha dirigido sendas advertencias a dos ayuntamientos cuyos proyectos de videovigilancia prevén funcionalidades de análisis automatizado de imágenes mediante inteligencia artificial Estas tecnologías pueden servir de apoyo para garantizar la seguridad, siempre que se integren las garantías de protección de datos desde el diseño de los proyectos La AEPD destaca que la disponibilidad de una tecnología no justifica por sí misma su utilización, que debe responder a una finalidad concreta y superar un análisis de necesidad y proporcionalidad Contenido de las advertencias: AI-00170-2026 y AI-00171-2026",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
     {
       "id": "3f00e1df-2fda-816d-85d2-e37cb97798a4",
       "title": "Známe nejlepší pověřence pro ochranu osobních údajů roku 2025",
