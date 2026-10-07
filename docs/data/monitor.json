@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-06T20:11:18.726255+00:00",
-  "total_items": 51,
+  "generated_at": "2026-10-07T00:36:22.967651+00:00",
+  "total_items": 48,
   "regions": [
     "LatAm",
     "Europa"
@@ -809,42 +809,6 @@
       "country": "SE",
       "type": "Noticias",
       "feed_url": "https://www.imy.se/nyheter/rss"
-    },
-    {
-      "id": "3e50e1df-2fda-811d-9aa5-dd2804c8f36e",
-      "title": "Statut et organisation de la CNIL",
-      "url": "https://www.cnil.fr/fr/fonctionnement/statut-et-organisation-de-la-cnil",
-      "published": "2026-09-17",
-      "summary": "Créée en 1978 par la loi Informatique et Libertés, la CNIL est une autorité administrative indépendante, composée d’un Collège de 18 membres et d’une équipe d’agents contractuels de l’État.",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3df0e1df-2fda-811e-bbaa-cba0d461a578",
-      "title": "Ordre du jour de la séance plénière du 17 septembre 2026",
-      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-17-septembre-2026",
-      "published": "2026-09-17",
-      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 17 septembre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3de0e1df-2fda-81fb-b6a6-ccfea75a3352",
-      "title": "Čelnici nadzornih tijela Srednje Europe na prijemu kod predsjednice Republike Slovenije",
-      "url": "https://azop.hr/celnici-nadzornih-tijela-srednje-europe-na-prijemu-kod-predsjednice-slovenije/",
-      "published": "2026-09-17",
-      "summary": "U okviru Zajedničkog sastanka nadzornih tijela za zaštitu podataka Srednje Europe, održan je i prijem kod predsjednice Republike Slovenije Nataše Pirc Musar kojemu su nazočili ravnatelj Agencije Zdravko Vukić i načelnik Sektora za nadzor, istrage, tehnologije i sigurnost Karlo Paljug Zorko. Sugovornici su s predsjednicom razgovarali o aktualnim izazovima u području zaštite osobnih podataka koje [&#8230;] Objava Čelnici nadzornih tijela Srednje Europe na prijemu kod predsjednice Republike Slovenije pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
-      "regulator": "AZOP",
-      "region": "Europa",
-      "country": "HR",
-      "type": "Noticias",
-      "feed_url": "https://azop.hr/feed/"
     },
     {
       "id": "3ed0e1df-2fda-817a-8c8e-dddd8c638f81",
