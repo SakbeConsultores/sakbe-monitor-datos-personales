@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T00:36:22.967651+00:00",
-  "total_items": 48,
+  "generated_at": "2026-10-07T20:35:54.384031+00:00",
+  "total_items": 50,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,18 @@
     }
   ],
   "items": [
+    {
+      "id": "3f20e1df-2fda-81b8-9596-d349188b3908",
+      "title": "IMY granskar behandling av personuppgifter om barn som besöker badhus",
+      "url": "https://www.imy.se/nyheter/imy-granskar-behandling-av-personuppgifter-om-barn-som-besoker-badhus/",
+      "published": "2026-10-07",
+      "summary": "Integritetsskyddsmyndigheten (IMY) inleder en granskning av hur personuppgifter om barn behandlas på Åbybadet i Mölndals stad.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
     {
       "id": "3f10e1df-2fda-814e-83c5-ca655ab1f08d",
       "title": "IMY har genomfört rundabordssamtal om politisk reklam",
@@ -809,6 +821,18 @@
       "country": "SE",
       "type": "Noticias",
       "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3f20e1df-2fda-81cb-a26f-c7bc2e767c8f",
+      "title": "Comunicat_Presa_07.10.2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_07.10.2026&lang=ro",
+      "published": "",
+      "summary": "Sanc t iune pentru incalcarea RGPD",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
     },
     {
       "id": "3ed0e1df-2fda-817a-8c8e-dddd8c638f81",
