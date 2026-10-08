@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-08T00:56:05.715762+00:00",
-  "total_items": 49,
+  "generated_at": "2026-10-08T20:40:29.176494+00:00",
+  "total_items": 55,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,78 @@
     }
   ],
   "items": [
+    {
+      "id": "3f30e1df-2fda-811c-a513-eeafdf55f2e8",
+      "title": "Clôture de l’injonction prononcée à l’encontre de FRANCE TRAVAIL",
+      "url": "https://www.cnil.fr/fr/cloture-injonction-france-travail",
+      "published": "2026-10-08",
+      "summary": "Par délibération du 23 septembre 2026, la CNIL a clos l’injonction prononcée le 22&nbsp;janvier 2026 à l’encontre de FRANCE TRAVAIL, sans liquider l’astreinte prévue compte tenu de sa mise en conformité.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3f30e1df-2fda-813d-8bd5-f57db8bbbc04",
+      "title": "La AEPD publica el segundo número de la revista científica ‘Privacidad, Innovación y Tecnología’",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-publica-segundo-numero-revista-cientifica-privacidad-innovacion-tecnologia",
+      "published": "2026-10-08",
+      "summary": "La AEPD publica el segundo número de la revista científica ‘Privacidad, Innovación y Tecnología’ AEPD Jue, 08/10/2026 El monográfico está dedicado al 10º aniversario del Reglamento General de Protección de Datos y analiza algunos de sus principales retos ante la evolución tecnológica Los artículos centrales abordan la responsabilidad proactiva, el derecho a explicación en las decisiones automatizadas y la protección de datos desde el diseño en el uso de inteligencia artificial generativa por parte de las administraciones públicas La sección Estudios de privacidad reúne nueve investigaciones sobre cuestiones como neurodatos, anonimización, brechas de datos personales, ciudades inteligentes, publicidad política algorítmica o identidad sintética",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
+      "id": "3f30e1df-2fda-8123-8ae8-f770c23ee8c3",
+      "title": "Poziv na sudjelovanje u javnom savjetovanju o Nacrtu prijedloga Pravilnika o provedbi postupka jednostavne nabave",
+      "url": "https://azop.hr/poziv-na-sudjelovanje-u-javnom-savjetovanju-o-nacrtu-prijedloga-pravilnika-o-provedbi-postupka-jednostavne-nabave/",
+      "published": "2026-10-08",
+      "summary": "Objavljeno 8.10.2026. Na temelju članka 15. stavka 2. Zakona o javnoj nabavi („Narodne novine“, broj 120/16., 114/22. i 48/26.), i članka 21. stavka 1. Pravilnika o radu Agencije za zaštitu osobnih podataka („Narodne novine&#8221;, broj 106/25), Ravnatelj Agencije za zaštitu osobnih podataka je utvrdio Nacrt prijedloga Pravilnika o provedbi postupka jednostavne nabave. Budući je riječ [&#8230;] Objava Poziv na sudjelovanje u javnom savjetovanju o Nacrtu prijedloga Pravilnika o provedbi postupka jednostavne nabave pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
+    {
+      "id": "3f30e1df-2fda-81d2-90af-f65d3d97b2f2",
+      "title": "Dutch DPA fines Uber EUR 824 990 000 for unlawful automated decision-making and insufficient information on profiling",
+      "url": "https://www.edpb.europa.eu/news/dutch-dpa-fines-uber-eur-824-990-000-for-unlawful-automated-decision-making-and-insufficient_en",
+      "published": "2026-10-08",
+      "summary": "Background information Cross-border case Legal Reference(s): Article 22 (Automated individual decision making, including profiling) and Article 13 (Information to be provided where personal data are collected from the data subject) Decision: Administrative fine Key words: Automated decision making, profiling and online tracking, fines Summary of the Decision The Autoriteit Persoonsgegevens (AP), the Dutch data protection authority, imposes a fine of EUR 824 990 000 on Uber. The reason for this is that the AP has ruled that Uber made fully automated decisions about drivers. In case of suspicions of fraud or customer reviews that were too low, drivers' accounts were automatically temporarily deactivated or, in case of persistent low customer reviews, permanently deactivated. As a result, their income was lost via Uber during the deactivation. Origin of the case Complaints from 171 French Uber drivers, submitted through the Ligue des droits de l’Homme (LDH) to the French Commission Nationale de l'Informatique et des Libertés (CNIL), led to the investigation. As Uber’s European headquarters are in the Netherlands, the case was handled by the Dutch data protection authority, the Autoriteit Persoonsgegevens (AP), under the GDPR One-Stop-Shop procedure. The case concerned incidents between 2018 and 2022. Key Findings According to the AP, Uber has violated the prohibition of fully automated decision-making under the General Data Protection Regulation (GDPR). The AP also found that Uber did not sufficiently inform drivers about automatic decision-making. Uber has now stopped the violations. Decision At the moment, the Autoriteit Persoonsgegevens (AP) imposed an administrative fine of EUR 824 990 000 on Uber for unlawful automated decision-making and insufficient information about profiling. Uber has appealed the fine, and there is no final judicial decision yet. For further information: Uber fined nearly 825 million euros for automated driver blocking",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "3f30e1df-2fda-8122-9210-f287bc180929",
+      "title": "Hellenic DPA decision on a data breach involving E.E.T.A.A. S.A. as processor for the Ministry of Social Cohesion and Family Affairs",
+      "url": "https://www.edpb.europa.eu/news/hellenic-dpa-decision-on-a-data-breach-involving-eetaa-sa-as-processor-for-the-ministry-of_en",
+      "published": "2026-10-08",
+      "summary": "Background information Date of final decision: 28/07/2026 National case Controller: Ministry of Social Cohesion and Family Affairs Legal Reference(s): Article 25 (Data protection by design and by default), Article 28 (Processor), Article 32 (Security of processing), Article 33 (Notification of a personal data breach to the supervisory authority) and Article 34 (Communication of a personal data breach to the data subject) Decision: Administrative fine, Compliance order, Summary of the Decision Origin of the case The Hellenic Data Protection Authority (DPA) investigated a large-scale personal data breach affecting the information systems of the Hellenic Agency for Local Development and Local Government (E.E.T.A.A.) S.A., which were used to implement programmes of the Ministry of Social Cohesion and Family Affairs. Key Findings The breach affected databases containing personal data of a large number of data subjects, including identification and contact details, financial and health data. The Hellenic DPA found that the Ministry of Social Cohesion and Family Affairs, in its capacity as controller, had complied with its obligations concerning the notification of the breach to the Authority and its communication to the affected data subjects. However, the Authority found that the success of the attack was associated with E.E.T.A.A.’s continued use of outdated information systems and inadequate security measures, despite its awareness of the relevant risks. The DPA found infringements of the requirements relating to the security of processing, as well as deficiencies in compliance with the requirements of Article 28 GDPR governing the relationship between the controller and the processor. Decision The Hellenic DPA imposed administrative fines of EUR 200 000 on the Ministry of Social Cohesion and Family Affairs and EUR 150 000 on E.E.T.A.A. It also ordered the parties (i.e. the Ministry and E.E.T.A.A.) to enter into a data processing agreement pursuant to Article 28 GDPR a",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "3f30e1df-2fda-816c-82cd-e3c34823617b",
+      "title": "Swedish DPA fines Miljödata i Karlskrona approximately EUR 160 000 for insufficient technical and organisational measures to ensure information security",
+      "url": "https://www.edpb.europa.eu/news/swedish-dpa-fines-miljodata-i-karlskrona-approximately-eur-160-000-for-insufficient-technical_en",
+      "published": "2026-10-08",
+      "summary": "Background information Date of final decision: 22/09/2026 National case Legal Reference(s): Article 32 (Security of processing) Decision: Administrative fine Website topics: Cybersecurity, personal data breaches Summary of the Decision Origin of the case In August 2025, the IT service provider Miljödata was targeted in a cyberattack, during which a malicious actor gained access to a large volume of personal data and subsequently published data on the darknet. According to the company, the incident affected 2.2 million individuals. Among Miljödata’s customers affected by the attack are a majority of Sweden’s municipalities, several regions, and government agencies, as well as a large number of private companies. The compromised data included personal identity numbers, contact details, and sensitive data related to sick leave, rehabilitation, and student-related incidents in schools. Key Findings The review shows that the company did not maintain a sufficiently high level of technical and organizational security, given the types of personal data it processed. Miljödata failed to conduct adequate checks when installing new software and did not have automated real-time monitoring of its systems to detect intrusions or suspicious activity. Decision IMY, the Swedish Data Protection Authority, assesses that Miljödata acted negligently and has therefore decided to impose an administrative fine of SEK 1 800 000 (approximately EUR 160 000) for violating Article 32(1) GDPR. For further information: Administrative Fine against Miljödata",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
     {
       "id": "3f20e1df-2fda-81b8-9596-d349188b3908",
       "title": "IMY granskar behandling av personuppgifter om barn som besöker badhus",
