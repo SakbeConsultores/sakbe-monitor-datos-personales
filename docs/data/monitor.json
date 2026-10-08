@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-07T20:35:54.384031+00:00",
-  "total_items": 50,
+  "generated_at": "2026-10-08T00:56:05.715762+00:00",
+  "total_items": 49,
   "regions": [
     "LatAm",
     "Europa"
@@ -809,18 +809,6 @@
       "country": "UE",
       "type": "Noticias",
       "feed_url": "https://www.edpb.europa.eu/feed/news_en"
-    },
-    {
-      "id": "3df0e1df-2fda-8129-a054-cab2e72ef1aa",
-      "title": "IMY inleder granskning av politiska partiers massutskick av sms",
-      "url": "https://www.imy.se/nyheter/imy-inleder-granskning-av-politiska-partiers-massutskick-av-sms/",
-      "published": "2026-09-18",
-      "summary": "Integritetsskyddsmyndigheten (IMY) inleder en granskning av Sverigedemokraternas massutskick av sms inför valet. Granskningen gäller bland annat hur urvalet av mottagare har skett och vilken rättslig grund man har haft för behandlingen av personuppgifter. En granskning kommer även att ske av Örebropartiets sms-utskick.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
     },
     {
       "id": "3f20e1df-2fda-81cb-a26f-c7bc2e767c8f",
