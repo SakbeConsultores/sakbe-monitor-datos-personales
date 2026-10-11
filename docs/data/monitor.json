@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-10T19:14:50.622764+00:00",
-  "total_items": 63,
+  "generated_at": "2026-10-11T00:12:00.969519+00:00",
+  "total_items": 58,
   "regions": [
     "LatAm",
     "Europa"
@@ -912,66 +912,6 @@
       "url": "https://www.edpb.europa.eu/news/the-spanish-dpa-fined-securitas-direct-100-000-eur-for-making-the-exercise-of-data-subject_en",
       "published": "2026-09-22",
       "summary": "Background information Date of final decision: 1 February 2023 National case Controller: SECURITAS DIRECT, S.A. Legal Reference(s): Article 12 (Transparent information, communication and modalities for the exercise of the rights of the data subject) Decision: Administrative fine, Compliance order Key words: Data subject rights Summary of the Decision Origin of the case A consumer association lodged a complaint against Securitas Direct concerning video surveillance notices that directed data subjects to a chargeable 902 telephone number to exercise their rights of access and objection. This was considered to impose a cost on data subjects and to hinder the exercise of their rights. Key Findings The use of a chargeable telephone number for the exercise of data subject rights was contrary to the GDPR requirement that such rights be exercisable free of charge and could discourage data subjects from exercising them. The availability of other free channels on the website did not remedy the issue, as the notice specifically referred data subjects to the 902 telephone number for this purpose. Decision The Spanish DPA (AEPD) found an infringement of Article 12(2) GDPR, which requires controllers to facilitate the exercise by data subjects of their rights under Articles 15 to 22 GDPR. The infringement is subject to the penalties laid down in Article 83(5)(b) GDPR. The Spanish DPA (AEPD) imposed a fine of 100 000 EUR on Securitas Direct for infringing Article 12 GDPR and ordered the company, as a corrective measure, to replace within 12 months the notices referring to the 902 telephone number in order to bring them into compliance with the GDPR. For further information: Sanctioning Procedure Decision – SECÚRITAS DIRECT ESPAÑA, S.A.U. (Spanish – ES)",
-      "regulator": "EDPB",
-      "region": "Europa",
-      "country": "UE",
-      "type": "Noticias",
-      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
-    },
-    {
-      "id": "3e20e1df-2fda-81d3-83e2-d6f85a014b91",
-      "title": "Zástupci dozorových úřadů pěti zemí diskutovali v Lublani o nových digitálních výzvách",
-      "url": "https://uoou.gov.cz/novinky/vse/zastupci-dozorovych-uradu-peti-zemi-diskutovali-v-lublani-o-novych-digitalnich-vyzvach",
-      "published": "2026-09-21",
-      "summary": "Úřady pro ochranu osobních údajů ze Slovinska, Rakouska, Chorvatska, České republiky a Maďarska se ve dnech 14. až 16. září sešly ve slovinské Lublani na každoroční výměně odborných zkušeností. Setkání uspořádala slovinská Komisařka pro informace dr. Jelena Virant Burnik.",
-      "regulator": "ÚOOÚ (CZ)",
-      "region": "Europa",
-      "country": "CZ",
-      "type": "Noticias",
-      "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
-    },
-    {
-      "id": "3e20e1df-2fda-8160-b367-d84b2f1b5600",
-      "title": "EDPB antar riktlinjer med metod för när sanktionsavgift ska påföras",
-      "url": "https://www.imy.se/nyheter/edpb-antar-riktlinjer-med-metod-for-nar-sanktionsavgift-ska-paforas/",
-      "published": "2026-09-21",
-      "summary": "På sitt senaste plenarmöte har den Europeiska dataskyddsstyrelsen, EDPB, antagit nya riktlinjer som ska harmonisera hur dataskyddsmyndigheter beslutar om sanktionsavgifter. Integritetsskyddsmyndigheten (IMY) har lett arbetet med riktlinjerna.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
-    },
-    {
-      "id": "3e20e1df-2fda-812e-941d-eb398580427d",
-      "title": "Webbinarium 9 oktober: Så hjälper IMY er med GDPR i innovationsprojekt",
-      "url": "https://www.imy.se/nyheter/webbinarium-9-oktober-sa-hjalper-imy-er-med-gdpr-i-innovationsprojekt--praktiska-exempel/",
-      "published": "2026-09-21",
-      "summary": "Den 9 oktober klockan 9.00–9.40 bjuder vi in till ett webbinarium om vår innovationssandlåda för dataskydd. Om ni vill utveckla en produkt eller tjänst som innebär att personuppgifter behandlas kan ni testa er idé kostnadsfritt tillsammans med oss.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
-    },
-    {
-      "id": "3e20e1df-2fda-8166-a91c-fef851d21dee",
-      "title": "EDPB usvojio smjernice o izricanju upravnih novčanih kazni i drugih korektivnih mjera",
-      "url": "https://azop.hr/edpb-usvojio-smjernice-o-izricanju-upravnih-novcanih-kazni-i-drugih-korektivnih-mjera/",
-      "published": "2026-09-21",
-      "summary": "21. rujna 2026. – Europski odbor za zaštitu podataka (EDPB) na svojoj je posljednjoj plenarnoj sjednici usvojio Smjernice o primjeni ovlasti za izricanje upravnih novčanih kazni u odnosu na druge korektivne ovlasti iz Opće uredbe o zaštiti podataka te konačnu verziju Smjernica o međudjelovanju Akta o digitalnim uslugama (DSA) i Opće uredbe o zaštiti podataka. [&#8230;] Objava EDPB usvojio smjernice o izricanju upravnih novčanih kazni i drugih korektivnih mjera pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
-      "regulator": "AZOP",
-      "region": "Europa",
-      "country": "HR",
-      "type": "Noticias",
-      "feed_url": "https://azop.hr/feed/"
-    },
-    {
-      "id": "3e20e1df-2fda-811d-9974-dc8459790726",
-      "title": "EDPB harmonises fining methodology and adopts final DSA-GDPR guidelines",
-      "url": "https://www.edpb.europa.eu/news/edpb-harmonises-fining-methodology-and-adopts-final-dsa-gdpr-guidelines_en",
-      "published": "2026-09-21",
-      "summary": "Brussels, 21 September – During its latest plenary, the EDPB has adopted guidelines on the application of the power to impose administrative fines in relation to other corrective powers under the GDPR and the final version of its guidelines on the interplay between the Digital Services Act (DSA) and the GDPR. The new EDPB guidelines are a major step in further aligning how Data Protection Authorities decide whether an administrative fine should be imposed, either on its own or alongside other corrective measures. The GDPR significantly increased the corrective powers of DPAs, with fines serving as an important instrument for effective enforcement. The guidelines reaffirm our commitment to providing greater clarity and ensuring the consistent application of the GDPR across Europe. EDPB Deputy Chair, Jelena Virant Burnik Data Protection Authorities (DPAs) should follow a five-step methodology when deciding whether to impose an administrative fine: the DPA checks if the infringement can lead to a fine, by finding support either directly in the GDPR or in national law. the DPA determines whether the party under investigation may be fined for the infringement in question. Whether the controller or the processor is liable depends on who is bound by the breached provision. the DPA assesses whether the infringement has been committed intentionally or negligently, since a culpable infringement is a condition for the imposition of a fine. the DPA assesses possible aggravating and mitigating factors. If the infringement is minor, there will generally be no fine and a reprimand may be issued instead; if it is not minor, there is a strong presumption that a fine should be imposed. the DPA assesses whether imposing an administrative fine would be effective, proportionate and dissuasive. In doing so, the DPA may consider whether, in the specific case, there is a reason to deviate from the standard approach. The guidelines also provide an overview of the corrective powers within th",
       "regulator": "EDPB",
       "region": "Europa",
       "country": "UE",
