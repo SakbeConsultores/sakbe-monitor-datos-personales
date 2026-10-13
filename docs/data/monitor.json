@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-12T22:28:53.116635+00:00",
-  "total_items": 54,
+  "generated_at": "2026-10-13T02:32:17.266904+00:00",
+  "total_items": 50,
   "regions": [
     "LatAm",
     "Europa"
@@ -821,54 +821,6 @@
       "country": "FR",
       "type": "Noticias",
       "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3e50e1df-2fda-8162-b0f1-f5cde1e1047e",
-      "title": "La Agencia recuerda las garantías para utilizar IA en el análisis de currículums",
-      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/agencia-recuerda-garantias-para-utilizar-ia-en-analisis-curriculums",
-      "published": "2026-09-23",
-      "summary": "La Agencia recuerda las garantías para utilizar IA en el análisis de currículums AEPD Mié, 23/09/2026 La AEPD realiza una advertencia a una empresa que evalúa implantar un sistema para analizar currículums y asignar puntuaciones La IA puede mejorar la eficiencia en los procesos de selección y su utilización debe incorporar las garantías de protección de datos desde el inicio Contenido completo de la advertencia",
-      "regulator": "AEPD",
-      "region": "Europa",
-      "country": "ES",
-      "type": "Noticias",
-      "feed_url": "https://www.aepd.es/noticias/feed.xml"
-    },
-    {
-      "id": "3e40e1df-2fda-816e-b131-d8a267963fd0",
-      "title": "IMY begär klargörande om vilka brottsuppgifter som omfattas av artikel 10",
-      "url": "https://www.imy.se/nyheter/imy-begar-klargorande-om-vilka-brottsuppgifter-som-omfattas-av-artikel-10/",
-      "published": "2026-09-23",
-      "summary": "Dataskyddsförordningen (GDPR) ger ett starkt skydd för personuppgifter om lagöverträdelser. Men vad som räknas som personuppgifter om lagöverträdelser skiljer sig åt mellan olika medlemsländer. Integritetsskyddsmyndigheten (IMY) har därför vänt sig till Europeiska dataskyddsstyrelsen (EDPB) för att få ett klargörande.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
-    },
-    {
-      "id": "3e40e1df-2fda-8111-8f1a-f66acb734922",
-      "title": "Amendes RGPD et interaction avec le règlement sur les services numériques : retour sur la plénière du CEPD du 17 septembre 2026",
-      "url": "https://www.cnil.fr/fr/pleniere-cepd-amendes-reglement-services-numeriques",
-      "published": "2026-09-23",
-      "summary": "Le 17 septembre 2026, le CEPD a adopté des lignes directrices sur le pouvoir des autorités de protection des données d’infliger des amendes administratives et la version finale de ses lignes directrices sur l'interaction entre le règlement sur les services numériques (DSA) et le RGPD.",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3e40e1df-2fda-8175-ac80-c12b3c6f2ef2",
-      "title": "The Irish Data Protection Commission fines Google 403 000 000 EUR following Inquiry into Google’s processing of location data",
-      "url": "https://www.edpb.europa.eu/news/the-irish-data-protection-commission-fines-google-403-000-000-eur-following-inquiry_en",
-      "published": "2026-09-23",
-      "summary": "Background information Date of final decision: 21 September 2026 National case Legal Reference(s): Article 5 (Principles relating to processing of personal data), Article 6 (Lawfulness of processing), Article 12 (Transparent information, communication and modalities for the exercise of the rights of the data subject) and Article 13 (Information to be provided where personal data are collected from the data subject) Decision: Administrative fine, compliance order Key words: GDPR enforcement, technology, accountability, data subjects rights Summary of the Decision Origin of the case The Irish Data Protection Commission (DPC) has announced its final decision following an inquiry into Google Ireland Limited (Google). This own-volition Inquiry was launched by the DPC, in its role as the Lead Supervisory Authority for Google, in February 2020, following receipt of complaints from several European consumer rights organisations, including BEUC, regarding Google’s processing of location data in connection with certain services and products. The scope of the Inquiry concerned Google’s processing of location data in three specific features – “Web & App Activity”, “Location History” and “Location Accuracy” between the date of application of the GDPR, 25 May 2018 to 4 February 2020. Key Findings The decision, which was made by the Commissioners for Data Protection, finds that Google infringed the GDPR in respect of: the lawfulness and fairness of its processing of location data in Web & App Activity and Location History; its accountability obligations under the GDPR by failing to be able to demonstrate compliance with the lawfulness, fairness and transparency principle regarding its processing of personal data in Location Accuracy; its transparency obligations in respect of all three features referred to above; and its retention of location data in Web & App Activity and Location History. Decision The DPC has imposed administrative fines totalling 403 000 000 EUR and has ordered",
-      "regulator": "EDPB",
-      "region": "Europa",
-      "country": "UE",
-      "type": "Noticias",
-      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
     },
     {
       "id": "3f20e1df-2fda-81cb-a26f-c7bc2e767c8f",
