@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T02:32:17.266904+00:00",
-  "total_items": 50,
+  "generated_at": "2026-10-13T20:37:12.058521+00:00",
+  "total_items": 52,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,30 @@
     }
   ],
   "items": [
+    {
+      "id": "3f80e1df-2fda-8156-89a3-c21cca43c98d",
+      "title": "Le CEPD publie une déclaration sur les enjeux de protection des données liés aux lunettes connectées",
+      "url": "https://www.cnil.fr/fr/cepd-declaration-lunettes-connectees",
+      "published": "2026-10-13",
+      "summary": "Lors de sa dernière plénière, le CEPD a adopté une déclaration sur les lunettes connectées et publié le rapport intitulé « Le regard connecté. Une sociologie des usages et des défis liés aux lunettes connectées », élaboré dans le cadre du programme de réserve d’experts (Support Pool of Expert).",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3f80e1df-2fda-8165-9e4c-e355ca00963c",
+      "title": "EDPB publishes statement on the data protection challenges of smart glasses",
+      "url": "https://www.edpb.europa.eu/news/edpb-publishes-statement-on-the-data-protection-challenges-of-smart-glasses_en",
+      "published": "2026-10-13",
+      "summary": "Brussels, 13 October – During its latest plenary, the EDPB has adopted statement on smart glasses and published the report “The connected gaze. Video recording, surveillance and administering evidence in the age of smart glasses” *, developed in the context of the Support Pool of Expert (SPE) programme **. As smart glasses become widely available and more frequently used, they raise significant questions for the protection of individuals’ personal data and rights and freedoms even if they create new opportunities for communication, assistance, and innovation. “These devices look like ordinary glasses, but they include cameras and microphones and are connected to the internet. This raises serious privacy concerns, as individuals may be recorded without their knowledge. The risks are even greater in sensitive environments—such as hospitals, schools, or workplaces—and when recordings are shared on social networks. And of course, children are especially at risk when using these glasses or when they are filmed.“ EDPB Chair, Anu Talus The EDPB’s text is an initial statement which provides preliminary guidance to users, manufacturers and service providers while increasing awareness about the risks these devices pose. Shared responsibility The user’s responsibility for processing personal data under the GDPR depends on the way they use their smart glasses. For example, if this involves sharing a photo or video on a public social media account, or if smart glasses are used as part of official, professional, or political activities, the user would be considered a data controller . However, if the user shares a photo or records a video of family members or friends, or if they use the device for personal translation purposes in a private context, this would be considered a purely personal activity for which the GDPR would not apply (household exemption). In any case, even when the GDPR does not apply, the use of smart glasses may still be subject to criminal, civil, or labour l",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
     {
       "id": "3f70e1df-2fda-816d-b080-c95e3b85408b",
       "title": "Välkommen till årets DSO-konferens!",
