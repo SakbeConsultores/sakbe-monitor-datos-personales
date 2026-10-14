@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-13T20:37:12.058521+00:00",
-  "total_items": 52,
+  "generated_at": "2026-10-14T00:15:29.288355+00:00",
+  "total_items": 49,
   "regions": [
     "LatAm",
     "Europa"
@@ -809,42 +809,6 @@
       "country": "HR",
       "type": "Noticias",
       "feed_url": "https://azop.hr/feed/"
-    },
-    {
-      "id": "3e50e1df-2fda-81f6-a741-eeff9090054f",
-      "title": "Webbinarium: Säker AI-användning i vården",
-      "url": "https://www.imy.se/nyheter/webbinarium-saker-ai-anvandning-i-varden/",
-      "published": "2026-09-24",
-      "summary": "Den 21 oktober ordnar IMY tillsammans med Läkemedelsverket ett webbinarium om säker AI i vården. Vi kommer att prata om vilka dataskyddsregler och produktsäkerhetskrav som ställs på en digital produkt som behandlar personuppgifter med hjälp av AI för ett medicinskt ändamål.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
-    },
-    {
-      "id": "3e50e1df-2fda-81ee-b18f-ca3e340c13cc",
-      "title": "Clôture de l’injonction prononcée à l’encontre de la société SOLOCAL MARKETING SERVICES",
-      "url": "https://www.cnil.fr/fr/cloture-injonction-solocal-marketing-services",
-      "published": "2026-09-24",
-      "summary": "Par délibération du 17 septembre 2026, la CNIL a clôturé l’injonction prononcée le 15&nbsp;mai 2025 à l’encontre de la société SOLOCAL MARKETING SERVICES.",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3e50e1df-2fda-81bc-b17c-f223866dab53",
-      "title": "Ordre du jour de la séance plénière du 24 septembre 2026",
-      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-24-septembre-2026",
-      "published": "2026-09-24",
-      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 24 septembre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
     },
     {
       "id": "3f20e1df-2fda-81cb-a26f-c7bc2e767c8f",
