@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-14T00:15:29.288355+00:00",
-  "total_items": 49,
+  "generated_at": "2026-10-14T19:18:24.501795+00:00",
+  "total_items": 52,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,42 @@
     }
   ],
   "items": [
+    {
+      "id": "3f90e1df-2fda-8171-b42c-dcd34fc38910",
+      "title": "Uttalande om smarta glasögon på EU-nivå",
+      "url": "https://www.imy.se/nyheter/uttalande-om-smarta-glasogon-pa-eu-niva/",
+      "published": "2026-10-14",
+      "summary": "Smarta glasögon blir allt svårare att skilja från vanliga glasögon. Nu kommer den Europeiska dataskyddsstyrelsen (EDPB) med ett uttalande på EU-nivå. Bland annat trycker EDPB på behovet av att glasögonen tydligt visar för omgivningen när de spelar in.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3f90e1df-2fda-816f-abd2-dd2d97087b63",
+      "title": "Nieuwe EDPB-guidelines over samenspel DSA/AVG en AVG-boetes",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/nieuwe-edpb-guidelines-over-samenspel-dsaavg-en-avg-boetes",
+      "published": "2026-10-14",
+      "summary": "De European Data Protection Board (EDPB) heeft nieuwe guidelines vastgesteld voor de wisselwerking tussen de Algemene verordening gegevensbescherming (AVG) en de Digital Services Act (DSA). Daarnaast stelde de EDPB nieuwe guidelines op voor de procedure rond het opleggen van AVG-boetes.",
+      "regulator": "AP",
+      "region": "Europa",
+      "country": "NL",
+      "type": "Noticias",
+      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
+    },
+    {
+      "id": "3f90e1df-2fda-8167-a409-d2b6e33eb0bf",
+      "title": "EDPB publishes statement on the data protection challenges of smart glasses",
+      "url": "https://idpc.org.mt/news-latest/edpb-publishes-statement-on-the-data-protection-challenges-of-smart-glasses/",
+      "published": "2026-10-14",
+      "summary": "EDPB publishes statement on the data protection challenges of smart glasses &#160; 14 October 2026 During its latest plenary, the European Data Protection Board (EDPB) has adopted&#160; a statement on smart glasses and published the report “The connected gaze. Video recording, surveillance and administering evidence in the age of smart glasses”, developed in the context [&#8230;] The post EDPB publishes statement on the data protection challenges of smart glasses appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
     {
       "id": "3f80e1df-2fda-8156-89a3-c21cca43c98d",
       "title": "Le CEPD publie une déclaration sur les enjeux de protection des données liés aux lunettes connectées",
