@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-14T23:52:47.556955+00:00",
-  "total_items": 52,
+  "generated_at": "2026-10-15T19:03:46.257249+00:00",
+  "total_items": 55,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,42 @@
     }
   ],
   "items": [
+    {
+      "id": "3fa0e1df-2fda-8110-9b2e-c21db42574b7",
+      "title": "EDPB zveřejnilo prohlášení o výzvách v oblasti ochrany údajů v souvislosti s inteligentními brýlemi",
+      "url": "https://uoou.gov.cz/novinky/vse/edpb-zverejnilo-prohlaseni-o-vyzvach-v-oblasti-ochrany-udaju-v-souvislosti-s-inteligentnimi-brylemi",
+      "published": "2026-10-15",
+      "summary": "Evropský sbor pro ochranu osobních údajů (EDPB) přijal na svém posledním plenárním zasedání prohlášení o inteligentních brýlích a zveřejnil zprávu „Propojený pohled. Videozáznam, sledování a správa důkazů ve věku inteligentních brýlí“*, vyvinutou v rámci programu „Podpůrná skupina odborníků“ (SPE)**.",
+      "regulator": "ÚOOÚ (CZ)",
+      "region": "Europa",
+      "country": "CZ",
+      "type": "Noticias",
+      "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
+    },
+    {
+      "id": "3fa0e1df-2fda-8193-93b9-d89642afe6e7",
+      "title": "EDPB usvojio izjavu o pametnim naočalama",
+      "url": "https://azop.hr/edpb-usvojio-izjavu-o-pametnim-naocalama/",
+      "published": "2026-10-15",
+      "summary": "Objava EDPB usvojio izjavu o pametnim naočalama pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
+    {
+      "id": "3fa0e1df-2fda-813a-83b8-d4cad931eb5f",
+      "title": "Clôture de l’injonction prononcée à l’encontre de GOOGLE",
+      "url": "https://www.cnil.fr/fr/cloture-injonction-google",
+      "published": "2026-10-14",
+      "summary": "Par décision du 23 septembre 2026, la formation restreinte de la CNIL a clos l’injonction prononcée le 1er septembre 2025 à l’encontre des sociétés GOOGLE LLC et GOOGLE IRELAND LIMITED.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
     {
       "id": "3f90e1df-2fda-8171-b42c-dcd34fc38910",
       "title": "Uttalande om smarta glasögon på EU-nivå",
