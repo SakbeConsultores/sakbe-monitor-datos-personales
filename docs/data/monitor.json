@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T19:03:46.257249+00:00",
-  "total_items": 55,
+  "generated_at": "2026-10-15T23:39:36.828215+00:00",
+  "total_items": 56,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,18 @@
     }
   ],
   "items": [
+    {
+      "id": "3fa0e1df-2fda-8186-81be-f2714e5c5e0d",
+      "title": "Abierta la convocatoria de artículos para el tercer número de la Revista PIT, que abordará la interacción del RGPD con otras normas",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-convocatoria-de-articulos-para-tercer-numero-revsita-pit",
+      "published": "2026-10-15",
+      "summary": "Abierta la convocatoria de artículos para el tercer número de la Revista PIT, que abordará la interacción del RGPD con otras normas AEPD Jue, 15/10/2026 La AEPD invita a investigadores, académicos, profesionales y responsables públicos a enviar trabajos originales para el próximo número de la revista Privacidad, Innovación y Tecnología (PIT) El plazo para presentar artículos estará abierto del 1 de noviembre al 20 de diciembre de 2026, y la publicación del número está prevista para abril de 2027",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
     {
       "id": "3fa0e1df-2fda-8110-9b2e-c21db42574b7",
       "title": "EDPB zveřejnilo prohlášení o výzvách v oblasti ochrany údajů v souvislosti s inteligentními brýlemi",
