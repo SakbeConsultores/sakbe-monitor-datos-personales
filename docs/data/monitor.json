@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-15T23:39:36.828215+00:00",
-  "total_items": 56,
+  "generated_at": "2026-10-16T18:46:04.603414+00:00",
+  "total_items": 63,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,78 @@
     }
   ],
   "items": [
+    {
+      "id": "3fb0e1df-2fda-8105-bdd2-f3248fa06300",
+      "title": "AP onderzoekt websites vanwege misleidende cookiebanner",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ap-onderzoekt-websites-vanwege-misleidende-cookiebanner",
+      "published": "2026-10-16",
+      "summary": "De Autoriteit Persoonsgegevens (AP) is een onderzoek gestart naar 2 organisaties die een misleidende cookiebanner blijven gebruiken op hun website, ondanks uitleg en een waarschuwing van de AP. De cookiebanner van deze organisaties heeft geen direct zichtbare knop waarmee websitebezoekers volgsoftware (trackingcookies) kunnen weigeren. Hierdoor zullen bezoekers eerder trackingcookies accepteren.",
+      "regulator": "AP",
+      "region": "Europa",
+      "country": "NL",
+      "type": "Noticias",
+      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
+    },
+    {
+      "id": "3fb0e1df-2fda-8153-9d8a-fb1fd9a5be12",
+      "title": "Reconstitution d’adresses électroniques professionnelles : quels sont vos droits ?",
+      "url": "https://www.cnil.fr/fr/reconstitution-adresses-professionnelles-vos-droits",
+      "published": "2026-10-16",
+      "summary": "Lorsque vos données personnelles sont accessibles sur Internet, elles peuvent être récupérées par des organismes pour reconstituer votre adresse électronique professionnelle, notamment pour faire de la prospection. La reconstitution d’adresse électronique doit respecter le RGPD afin d’être légale. La CNIL fait le point sur vos droits.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3fb0e1df-2fda-817b-8e93-dc54ac0c158e",
+      "title": "Reconstitution d’adresses électroniques professionnelles : dans quel cadre est-ce autorisé ?",
+      "url": "https://www.cnil.fr/fr/reconstitution-adresses-professionnelles-quel-cadre",
+      "published": "2026-10-16",
+      "summary": "La reconstitution d’adresses électroniques professionnelles à partir de données accessibles en ligne est utilisée pour contacter des interlocuteurs, notamment dans le cadre de la prospection. Elle est encadrée par le RGPD et ne peut reposer sur l’intérêt légitime que si certaines conditions sont remplies.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3fb0e1df-2fda-8114-acdd-e2087c692176",
+      "title": "De la protection des données à la création de valeur en finance : des autorités européennes publient une étude et des bonnes pratiques",
+      "url": "https://www.cnil.fr/fr/protection-donnees-valeur-finance-etude-autorites-europeennes",
+      "published": "2026-10-16",
+      "summary": "La CNIL, l’ICO et la CNPD publient leur étude conjointe «&nbsp;De la protection des données à la création de valeur en finance&nbsp;: évaluation des données, comptabilité, fusions-acquisitions et gouvernance&nbsp;», rassemblant analyses et bonnes pratiques à destination des entreprises et des acteurs financiers.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3fb0e1df-2fda-81a3-8471-e9df44faf4cc",
+      "title": "Norwegian DPA fines Xandr EUR 8 600 000 for unlawful processing of personal data",
+      "url": "https://www.edpb.europa.eu/news/norwegian-dpa-fines-xandr-eur-8-600-000-for-unlawful-processing-of-personal-data_en",
+      "published": "2026-10-16",
+      "summary": "Background information Date of final decision: 2 October 2026 National case Controller: Xandr Inc. Legal References: Article 6 (Lawfulness of processing), Article 9 (Processing of special categories of personal data) Decision: Administrative fine Key words: Fines, Basic principles, Marketing, Online platforms Summary of the Decision Origin of the case The case started in 2020 when the Norwegian Consumer Council lodged a complaint against the advertising technology company Xandr (at the time AppNexus, now a part of Microsoft) with the Norwegian DPA (Data Protection Authority). The case concerns real-time bidding in Grindr, a location-based dating app aimed at gay, bi, trans and queer people. Key Findings The Norwegian DPA has found it proven by clear preponderance of probability that Xandr processed Grindr users’ personal data, at least the fact that individuals were using Grindr, their advertising ID and IP addresses, during real-time bidding. These are personal data under Article 4(1) GDPR and data concerning sexual orientation under Article 9(1) GDPR. Xandr is considered a joint controller for the processing, both as supply-side and demand-side platform. Since the data were special category personal data, explicit consent under Article 9(2)(a) was the relevant legal basis for the processing. Xandr did not obtain consent itself, but relied on Grindr’s consent, which were invalid under Articles 4(11) and 7 GDPR. The DPA holds that accountability cannot be outsourced; each joint controller must independently verify that consent is valid and covers its own processing. The infringements were at least negligent. In light of the fact that the infringements concern some of the most central provisions in the GDPR, including sensitive data, the Norwegian DPA regards the infringements of high seriousness. Decision The Norwegian DPA imposed an administrative fine of EUR 8 600 000 on Xandr Inc. for processing personal data of Grindr users in Norway without a legal basis in vio",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "3fb0e1df-2fda-819e-8d16-e0419c7686eb",
+      "title": "Ordre du jour de la séance plénière du 15 octobre 2026",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-15-octobre-2026",
+      "published": "2026-10-15",
+      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 15 octobre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
     {
       "id": "3fa0e1df-2fda-8186-81be-f2714e5c5e0d",
       "title": "Abierta la convocatoria de artículos para el tercer número de la Revista PIT, que abordará la interacción del RGPD con otras normas",
@@ -893,6 +965,18 @@
       "country": "HR",
       "type": "Noticias",
       "feed_url": "https://azop.hr/feed/"
+    },
+    {
+      "id": "3fb0e1df-2fda-81ee-9959-e7260a7b6956",
+      "title": "Comunicat_Presa_16.10.2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_16.10.2026&lang=ro",
+      "published": "",
+      "summary": "Sanc t iune pentru incalcarea RGPD",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
     },
     {
       "id": "3f20e1df-2fda-81cb-a26f-c7bc2e767c8f",
