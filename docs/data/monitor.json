@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-18T23:00:55.047560+00:00",
-  "total_items": 58,
+  "generated_at": "2026-10-19T20:32:57.747584+00:00",
+  "total_items": 60,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,30 @@
     }
   ],
   "items": [
+    {
+      "id": "3fe0e1df-2fda-8126-b876-cf6814ff479b",
+      "title": "Revoir le webinaire - Nouveau régime de la prospection téléphonique : comment et quand recueillir le consentement de la personne concernée ?",
+      "url": "https://www.cnil.fr/fr/webinaire-demarchage-telephonique",
+      "published": "2026-10-19",
+      "summary": "La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers&nbsp;une série de webinaires. Retrouvez ce nouvel épisode consacré à la prospection téléphonique.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "3fe0e1df-2fda-8164-82ea-f4caf4841459",
+      "title": "Radni sastanak Agencije za zaštitu osobnih podataka Republike Hrvatske i Bosne i Hercegovine",
+      "url": "https://azop.hr/radni-sastanak-agencije-za-zastitu-osobnih-podataka-republike-hrvatske-i-bosne-i-hercegovine/",
+      "published": "2026-10-19",
+      "summary": "Ravnatelj Zdravko Vukić, u petak 16. listopada u prostorijama AZOP-a, održao je radni sastanak s Antom Borasom, zamjenikom ravnatelja Agencije za zaštitu osobnih podataka Bosne i Hercegovina. Tijekom radnog sastanka predstavljene su aktivnosti dvaju nadzornih tijela, razmijenjena iskustva i primjeri dobre prakse te aktualni izazovi u području zaštite osobnih podataka s kojima se oba tijela [&#8230;] Objava Radni sastanak Agencije za zaštitu osobnih podataka Republike Hrvatske i Bosne i Hercegovine pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
     {
       "id": "3fb0e1df-2fda-8105-bdd2-f3248fa06300",
       "title": "AP onderzoekt websites vanwege misleidende cookiebanner",
@@ -895,16 +919,16 @@
       "feed_url": "https://www.imy.se/nyheter/rss"
     },
     {
-      "id": "3ea0e1df-2fda-8161-9b54-e3f37e951165",
-      "title": "AZOP domaćin 24. sastanka nadzornih tijela za zaštitu podataka srednje i istočne Europe",
-      "url": "https://azop.hr/azop-domacin-24-sastanka-nadzornih-tijela-za-zastitu-podataka-srednje-i-istocne-europe/",
-      "published": "2026-09-29",
-      "summary": "Agencija za zaštitu osobnih podataka bila je domaćin 24. sastanka nadzornih tijela za zaštitu podataka srednje i istočne Europe (CEEDPA), održanog pod pokroviteljstvom Hrvatskoga sabora, koji se održao 25. i 26. rujna 2026. u Zadru. Ovogodišnji sastanak okupio je predstavnike nadzornih tijela diljem EU te visoke predstavnike Europskog nadzornika za zaštitu podataka (EDPS), Europskog odbora [&#8230;] Objava AZOP domaćin 24. sastanka nadzornih tijela za zaštitu podataka srednje i istočne Europe pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
-      "regulator": "AZOP",
+      "id": "3fe0e1df-2fda-81a3-afba-f60323c2824b",
+      "title": "Comunicat_Presa_19_10_2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_19_10_2026&lang=ro",
+      "published": "",
+      "summary": "Plenara EDPB 13-14 octombrie 2026",
+      "regulator": "ANSPDCP",
       "region": "Europa",
-      "country": "HR",
+      "country": "RO",
       "type": "Noticias",
-      "feed_url": "https://azop.hr/feed/"
+      "feed_url": "https://www.dataprotection.ro/feed"
     },
     {
       "id": "3fb0e1df-2fda-81ee-9959-e7260a7b6956",
