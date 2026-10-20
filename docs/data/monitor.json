@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T19:09:57.924498+00:00",
-  "total_items": 63,
+  "generated_at": "2026-10-20T23:47:47.487644+00:00",
+  "total_items": 64,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,18 @@
     }
   ],
   "items": [
+    {
+      "id": "3ff0e1df-2fda-8111-a162-eeb309408d95",
+      "title": "La AEPD recibe más de 3.000 notificaciones de brechas de datos personales en el primer semestre del año",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-recibe-mas-de-3.000-notificaciones-de-brechas-de",
+      "published": "2026-10-20",
+      "summary": "La AEPD recibe más de 3.000 notificaciones de brechas de datos personales en el primer semestre del año AEPD Mar, 20/10/2026 Las brechas de datos personales notificadas a la Agencia en el primer semestre de 2026 superan a las recibidas durante todo 2025 Esta cifra es un indicador del aumento de ciberincidentes y otros casos en los que una brecha puede llegar a constituir un riesgo para los derechos y libertades de las personas La AEPD recuerda la importancia de que responsables y encargados adopten medidas adecuadas al riesgo y estén preparados para gestionar estas brechas",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
     {
       "id": "3ff0e1df-2fda-8147-96a7-ff8b4afdd947",
       "title": "IMY tar fram vägledning om molntjänster i offentlig sektor",
