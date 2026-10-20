@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T20:32:57.747584+00:00",
+  "generated_at": "2026-10-20T00:14:15.933240+00:00",
   "total_items": 60,
   "regions": [
     "LatAm",
@@ -330,6 +330,18 @@
     }
   ],
   "items": [
+    {
+      "id": "3ff0e1df-2fda-81ec-9276-ea7616102ba6",
+      "title": "La Agencia y la autoridad de Luxemburgo firman un memorando para reforzar su cooperación",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-agencia-y-la-autoridad-de-luxemburgo-firman-un-memorando-cooperaci%C3%B3n",
+      "published": "2026-10-19",
+      "summary": "La Agencia y la autoridad de Luxemburgo firman un memorando para reforzar su cooperación AEPD Lun, 19/10/2026 Ambas autoridades podrán colaborar en publicaciones y notas técnicas conjuntas. También prevén analizar los principales desafíos de la privacidad y el impacto de las tecnologías emergentes",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
     {
       "id": "3fe0e1df-2fda-8126-b876-cf6814ff479b",
       "title": "Revoir le webinaire - Nouveau régime de la prospection téléphonique : comment et quand recueillir le consentement de la personne concernée ?",
@@ -905,18 +917,6 @@
       "country": "FR",
       "type": "Noticias",
       "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3eb0e1df-2fda-815f-bb4e-d4386752e616",
-      "title": "IMY granskar ICA:s användning av drogtester av arbetssökande",
-      "url": "https://www.imy.se/nyheter/imy-granskar-icas-anvandning-av-drogtester-av-arbetssokande/",
-      "published": "2026-09-30",
-      "summary": "Integritetsskyddsmyndigheten (IMY) inleder en granskning av ICA Gruppen AB och ICA Sverige AB vad gäller användning av drogtester av arbetssökande.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
     },
     {
       "id": "3fe0e1df-2fda-81a3-afba-f60323c2824b",
