@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T00:14:15.933240+00:00",
-  "total_items": 60,
+  "generated_at": "2026-10-20T19:09:57.924498+00:00",
+  "total_items": 63,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,42 @@
     }
   ],
   "items": [
+    {
+      "id": "3ff0e1df-2fda-8147-96a7-ff8b4afdd947",
+      "title": "IMY tar fram vägledning om molntjänster i offentlig sektor",
+      "url": "https://www.imy.se/nyheter/imy-tar-fram-vagledning-om-molntjanster-i-offentlig-sektor/",
+      "published": "2026-10-20",
+      "summary": "För att hjälpa offentlig sektor att använda molntjänster på ett säkert sätt tar Integritetsskyddsmyndigheten (IMY) fram en vägledning på området. Som en del av det arbetet har IMY ställt frågor till 19 kommuner, regioner och statliga myndigheter om deras användning av molntjänster.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "3ff0e1df-2fda-810d-ba31-de576dd34f62",
+      "title": "IDPC officials attend regional data protection meeting in Croatia",
+      "url": "https://idpc.org.mt/news-latest/idpc-officials-attend-regional-data-protection-meeting-in-croatia/",
+      "published": "2026-10-20",
+      "summary": "IDPC officials attend regional data protection meeting in Croatia &#160; 20 October 2026 Malta’s Information and Data Protection Commissioner (IDPC) Reno Borg, and Marco Fagnano, Legal Counsel and AI Regulatory Manager at the IDPC, participated in the 24th Meeting of Central and Eastern Europe Data Protection Authorities (CEEDPA), held in Zadar, Croatia, on 25 and [&#8230;] The post IDPC officials attend regional data protection meeting in Croatia appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "3ff0e1df-2fda-813a-82a3-ebc8abe81e2e",
+      "title": "Journée RGPD à Poitiers : cybersécurité, IA et conformité au cœur des enjeux de protection des données",
+      "url": "https://www.cnil.fr/fr/journee-rgpd-2026-poitiers",
+      "published": "2026-10-20",
+      "summary": "La CNIL organise une nouvelle Journée RGPD à Poitiers le 1er décembre 2026. Cet évènement sera l’occasion d’échanger avec les acteurs du territoire sur les actualités en matière de protection des données personnelles et les enjeux concrets auxquels sont confrontés les professionnels.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
     {
       "id": "3ff0e1df-2fda-81ec-9276-ea7616102ba6",
       "title": "La Agencia y la autoridad de Luxemburgo firman un memorando para reforzar su cooperación",
