@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-20T23:47:47.487644+00:00",
-  "total_items": 64,
+  "generated_at": "2026-10-21T19:15:20.168980+00:00",
+  "total_items": 63,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,18 @@
     }
   ],
   "items": [
+    {
+      "id": "4000e1df-2fda-8125-b35b-c380d8eaa25d",
+      "title": "Potpisan Sporazum o suradnji između Agencije za zaštitu osobnih podataka i Državnog odvjetništva Republike Hrvatske",
+      "url": "https://azop.hr/potpisan-sporazum-o-suradnji-izmedu-drzavnog-odvjetnistva-republike-hrvatske-i-agencije-za-zastitu-osobnih-podataka/",
+      "published": "2026-10-21",
+      "summary": "Ravnatelj Agencije za zaštitu osobnih podataka Zdravko Vukić i Glavni državni odvjetnik Republike Hrvatske Ivan Turudić potpisali su 20. listopada 2026., u prostorijama Državnog odvjetništva Republike Hrvatske Sporazum o suradnji Državnog odvjetništva Republike Hrvatske i AZOP-a. Potpisivanju Sporazuma prisustvovali su Glavni državni odvjetnik Republike Hrvatske Ivan Turudić, zamjenici Glavnog državnog odvjetnika Republike Hrvatske Gordana Križanić, [&#8230;] Objava Potpisan Sporazum o suradnji između Agencije za zaštitu osobnih podataka i Državnog odvjetništva Republike Hrvatske pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
     {
       "id": "3ff0e1df-2fda-8111-a162-eeb309408d95",
       "title": "La AEPD recibe más de 3.000 notificaciones de brechas de datos personales en el primer semestre del año",
@@ -941,30 +953,6 @@
       "country": "HR",
       "type": "Noticias",
       "feed_url": "https://azop.hr/feed/"
-    },
-    {
-      "id": "3ec0e1df-2fda-816f-81c0-d189c1ba14d9",
-      "title": "Cybermois 2026 : la CNIL et Cybermalveillance.gouv.fr publient une nouvelle ressource pour adopter les bons réflexes face à une violation de données",
-      "url": "https://www.cnil.fr/fr/cybermois-2026",
-      "published": "2026-10-01",
-      "summary": "À l’occasion du Mois européen de la cybersécurité, Cybermois en France, la CNIL et Cybermalveillance.gouv.fr s’associent autour d’un nouveau support pratique pour aider les particuliers à réagir en cas de violation de données personnelles et à adopter les bons réflexes pour limiter les risques.",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3ec0e1df-2fda-8124-8bca-e1b14559677f",
-      "title": "Ordre du jour de la séance plénière du 1er octobre 2026",
-      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-1er-octobre-2026",
-      "published": "2026-10-01",
-      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 1er octobre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
     },
     {
       "id": "3fe0e1df-2fda-81a3-afba-f60323c2824b",
