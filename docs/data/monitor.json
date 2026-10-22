@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-21T23:58:57.495630+00:00",
-  "total_items": 63,
+  "generated_at": "2026-10-22T19:10:50.378854+00:00",
+  "total_items": 59,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,18 @@
     }
   ],
   "items": [
+    {
+      "id": "4010e1df-2fda-819c-9b0c-f35bf4ebbc0e",
+      "title": "Sårbarheter i programmeringsspråket PHP",
+      "url": "https://www.imy.se/nyheter/sarbarheter-i-programmeringsspraket-php/",
+      "published": "2026-10-22",
+      "summary": "Den 21 oktober beskrevs två allvarliga säkerhetsbrister i programmeringsspråket PHP som används av många webbplatser. Den utbredda användningen av PHP gör problemet omfattande. Det är sårbarheter som kan utnyttjas av angripare och situationen innebär en risk för bland annat läckage av personuppgifter och bedrägerier.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
     {
       "id": "4000e1df-2fda-8125-b35b-c380d8eaa25d",
       "title": "Potpisan Sporazum o suradnji između Agencije za zaštitu osobnih podataka i Državnog odvjetništva Republike Hrvatske",
@@ -893,66 +905,6 @@
       "country": "MT",
       "type": "Noticias",
       "feed_url": "https://idpc.org.mt/feed/"
-    },
-    {
-      "id": "3ed0e1df-2fda-81c0-97ad-f3135bf5d6c0",
-      "title": "Privacy Days Praha 2026: Zjednodušování GDPR, digitální regulace a umělá inteligence v praxi",
-      "url": "https://uoou.gov.cz/novinky/vse/privacy-days-praha-2026-zjednodusovani-gdpr-digitalni-regulace-a-umela-inteligence-v-praxi",
-      "published": "2026-10-02",
-      "summary": "Zjednodušování evropské digitální regulace, zkušenosti s uplatňováním GDPR a právní otázky využívání umělé inteligence byly hlavními tématy desátého ročníku mezinárodní konference Privacy Days Praha. Výroční konferenci uspořádal Spolek pro ochranu osobních údajů ve dnech 1. a 2. října 2026 ve spolupráci s Úřadem pro ochranu osobních údajů a Evropskou federací pověřenců pro ochranu osobních údajů (EFDPO).",
-      "regulator": "ÚOOÚ (CZ)",
-      "region": "Europa",
-      "country": "CZ",
-      "type": "Noticias",
-      "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
-    },
-    {
-      "id": "3ed0e1df-2fda-8191-aea8-fd3ad915ff60",
-      "title": "IMY genomför rundabordssamtal om anonymisering",
-      "url": "https://www.imy.se/nyheter/imy-genomfor-rundabordssamtal-om-anonymisering/",
-      "published": "2026-10-02",
-      "summary": "Integritetsskyddsmyndigheten (IMY) genomför idag ett rundabordssamtal för att diskutera de riktlinjer kring anonymisering av personuppgifter som tagits fram av Europeiska dataskyddsstyrelsen, EDPB.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
-    },
-    {
-      "id": "3ed0e1df-2fda-81ac-9b61-c039d5da0233",
-      "title": "Violations de données personnelles : dans quels cas peut-on être indemnisé ?",
-      "url": "https://www.cnil.fr/fr/violations-de-donnees-personnelles-cas-indemnite",
-      "published": "2026-10-02",
-      "summary": "Une fuite ou un vol de données peut causer un préjudice pour les personnes concernées. Si l’incident résulte d’un manquement au RGPD, elles peuvent, sous certaines conditions, demander une indemnisation. C’est au juge, et non à la CNIL, de l’accorder.",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3ed0e1df-2fda-8198-92d3-cbc918e5cc8d",
-      "title": "Predstavnik AZOP-a na dijalogu o upravljanju podacima EU-a i LAC-a",
-      "url": "https://azop.hr/predstavnik-azop-a-na-dijalogu-o-upravljanju-podacima-eu-a-i-lac-a/",
-      "published": "2026-10-02",
-      "summary": "Od 29. do 30. rujna 2026. godine u Madridu, u okviru provedbe Projekta Digitalnog saveza EU-a i LAC-a (Latinske Amerike i Kariba), održan je drugi dijalog na visokoj razini o politikama upravljanja podacima. Ovaj Projekt nastoji ojačati digitalnu suradnju između Europe, Latinske Amerike i Kariba promicanjem usklađenih javnih politika, odgovornih inovacija i institucionalnih kapaciteta, a [&#8230;] Objava Predstavnik AZOP-a na dijalogu o upravljanju podacima EU-a i LAC-a pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
-      "regulator": "AZOP",
-      "region": "Europa",
-      "country": "HR",
-      "type": "Noticias",
-      "feed_url": "https://azop.hr/feed/"
-    },
-    {
-      "id": "3ed0e1df-2fda-81e1-b1cc-e3e61cf0213f",
-      "title": "Upravna novčana kazna priređivaču igara na sreću u iznosu od 2,59 milijuna eura",
-      "url": "https://azop.hr/upravna-novcana-kazna-priredivacu-igara-na-srecu-u-iznosu-od-259-milijuna-eura/",
-      "published": "2026-10-02",
-      "summary": "Agencija za zaštitu osobnih podataka, po službenoj dužnosti provela je nadzorno postupanje nad voditeljem obrade, društvom koje obavlja djelatnost priređivanja igara na sreću te je zbog niže navedenih kršenja Opće uredbe o zaštiti podataka izrekla upravnu novčanu kaznu u ukupnom iznosu od 2.590.000,00 eura. Obrada biometrijskih podataka bez valjane privole i u opsegu koji nije [&#8230;] Objava Upravna novčana kazna priređivaču igara na sreću u iznosu od 2,59 milijuna eura pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
-      "regulator": "AZOP",
-      "region": "Europa",
-      "country": "HR",
-      "type": "Noticias",
-      "feed_url": "https://azop.hr/feed/"
     },
     {
       "id": "3fe0e1df-2fda-81a3-afba-f60323c2824b",
