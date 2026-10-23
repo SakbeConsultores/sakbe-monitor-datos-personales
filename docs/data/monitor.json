@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-22T23:57:40.825106+00:00",
-  "total_items": 59,
+  "generated_at": "2026-10-23T19:12:46.563418+00:00",
+  "total_items": 60,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,18 @@
     }
   ],
   "items": [
+    {
+      "id": "4020e1df-2fda-81af-8c2a-d477ca806504",
+      "title": "Ordre du jour de la séance plénière du 22 octobre 2026",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-22-octobre-2026",
+      "published": "2026-10-22",
+      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 22 octobre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
     {
       "id": "4010e1df-2fda-819c-9b0c-f35bf4ebbc0e",
       "title": "Sårbarheter i programmeringsspråket PHP",
