@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-24T23:06:35.796357+00:00",
-  "total_items": 60,
+  "generated_at": "2026-10-25T18:21:53.781619+00:00",
+  "total_items": 57,
   "regions": [
     "LatAm",
     "Europa"
@@ -881,42 +881,6 @@
       "country": "ES",
       "type": "Noticias",
       "feed_url": "https://www.aepd.es/noticias/feed.xml"
-    },
-    {
-      "id": "3f00e1df-2fda-816d-85d2-e37cb97798a4",
-      "title": "Známe nejlepší pověřence pro ochranu osobních údajů roku 2025",
-      "url": "https://uoou.gov.cz/novinky/vse/zname-nejlepsi-poverence-pro-ochranu-osobnich-udaju-roku-2025",
-      "published": "2026-10-05",
-      "summary": "Na závěr mezinárodní konference Privacy Days Praha 2026 byly vyhlášeny výsledky ocenění nejlepšího pověřence pro ochranu osobních údajů za rok 2025, pořádané Spolkem pro ochranu osobních údajů. V soukromém sektoru byl oceněn Andrej Lobotka ze společnosti L'Oreal, ve veřejném sektoru Jiří Boháček ze Správy železnic.",
-      "regulator": "ÚOOÚ (CZ)",
-      "region": "Europa",
-      "country": "CZ",
-      "type": "Noticias",
-      "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
-    },
-    {
-      "id": "3f00e1df-2fda-816b-b382-cb80f01e64d1",
-      "title": "Wetsvoorstel kredietregistratie gaat goede kant op, maar nog aanpassingen nodig",
-      "url": "https://autoriteitpersoonsgegevens.nl/actueel/wetsvoorstel-kredietregistratie-gaat-goede-kant-op-maar-nog-aanpassingen-nodig",
-      "published": "2026-10-05",
-      "summary": "Op aandringen van de Autoriteit Persoonsgegevens (AP) werkt het kabinet aan privacy-vriendelijkere regels voor de kredietregistratie in Nederland. Die moeten zorgen voor een betere bescherming van persoonsgegevens bij het afsluiten van bijvoorbeeld een banklening of een telefoonabonnement. Een nieuw wetsvoorstel hierover gaat de goede kant op, maar moet volgens de AP op een aantal punten nog worden verbeterd.",
-      "regulator": "AP",
-      "region": "Europa",
-      "country": "NL",
-      "type": "Noticias",
-      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
-    },
-    {
-      "id": "3f00e1df-2fda-81cf-9704-fca137e9f06e",
-      "title": "Advocate General: GDPR erasure right may apply to baptismal registers",
-      "url": "https://idpc.org.mt/news-latest/advocate-general-gdpr-erasure-right-may-apply-to-baptismal-registers/",
-      "published": "2026-10-05",
-      "summary": "Advocate General: GDPR erasure right may apply to baptismal registers &#160; 05 October 2026 A Belgian national who had been baptised as a Catholic as a child asked the Diocese of Ghent to delete any reference to him from all physical or digital register or archive. He relied on the General Data Protection Regulation (GDPR). [&#8230;] The post Advocate General: GDPR erasure right may apply to baptismal registers appeared first on IDPC .",
-      "regulator": "IDPC",
-      "region": "Europa",
-      "country": "MT",
-      "type": "Noticias",
-      "feed_url": "https://idpc.org.mt/feed/"
     },
     {
       "id": "3fe0e1df-2fda-81a3-afba-f60323c2824b",
