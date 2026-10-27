@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-26T20:26:30.742461+00:00",
-  "total_items": 55,
+  "generated_at": "2026-10-27T00:21:45.934438+00:00",
+  "total_items": 54,
   "regions": [
     "LatAm",
     "Europa"
@@ -845,18 +845,6 @@
       "country": "UE",
       "type": "Noticias",
       "feed_url": "https://www.edpb.europa.eu/feed/news_en"
-    },
-    {
-      "id": "3f20e1df-2fda-81b8-9596-d349188b3908",
-      "title": "IMY granskar behandling av personuppgifter om barn som besöker badhus",
-      "url": "https://www.imy.se/nyheter/imy-granskar-behandling-av-personuppgifter-om-barn-som-besoker-badhus/",
-      "published": "2026-10-07",
-      "summary": "Integritetsskyddsmyndigheten (IMY) inleder en granskning av hur personuppgifter om barn behandlas på Åbybadet i Mölndals stad.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
     },
     {
       "id": "3fe0e1df-2fda-81a3-afba-f60323c2824b",
