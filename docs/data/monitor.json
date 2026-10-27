@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-27T00:21:45.934438+00:00",
-  "total_items": 54,
+  "generated_at": "2026-10-27T20:04:57.966431+00:00",
+  "total_items": 57,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,42 @@
     }
   ],
   "items": [
+    {
+      "id": "4060e1df-2fda-8120-9209-c430aa5d40ef",
+      "title": "Byla spuštěna registrace na seminář Realizace práva na informace v kontextu ochrany osobních údajů a soukromí II.",
+      "url": "https://uoou.gov.cz/novinky/vse/registrace-na-seminar-realizace-prava-na-informace-v-kontextu-ochrany-osobnich-udaju-a-soukromi-ii",
+      "published": "2026-10-27",
+      "summary": "Úřad pro ochranu osobních údajů zahájil registraci na odborný seminář určený široké veřejnosti k tématu Realizace práva na informace v kontextu ochrany osobních údajů a soukromí II.",
+      "regulator": "ÚOOÚ (CZ)",
+      "region": "Europa",
+      "country": "CZ",
+      "type": "Noticias",
+      "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
+    },
+    {
+      "id": "4060e1df-2fda-8128-87ee-ded1fd586205",
+      "title": "Brister i polisens skyltning om kamerabevakning på Göteborgs centralstation",
+      "url": "https://www.imy.se/nyheter/brister-i-polisens-skyltning-om-kamerabevakning-pa-goteborgs-centralstation/",
+      "published": "2026-10-27",
+      "summary": "Integritetsskyddsmyndigheten (IMY) har granskat Polismyndighetens information om kamerabevakning på Göteborgs centralstation. IMY finner att skyltningen har varit otillräcklig, bland annat eftersom skyltning saknats för resenärer som anländer med tåg. IMY förelägger Polismyndigheten att åtgärda bristerna inom tre månader.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "4060e1df-2fda-81f8-af85-c767d56f9c85",
+      "title": "ANTAI informa sobre la reglamentación de la Ley 316 de 2022 sobre conflicto de intereses",
+      "url": "https://antai.gob.pa/antai-informa-sobre-la-reglamentacion-de-la-ley-316-de-2022-sobre-conflicto-de-intereses/",
+      "published": "2026-10-27",
+      "summary": "Tiempo de lectura: &#60; 1 minuto &#160; Panamá, 27 de octubre de 2026. La Autoridad Nacional de Transparencia y Acceso a la Información (ANTAI), como autoridad rectora en materia de conflicto de intereses, informa a los sujetos obligados y a la ciudadanía en general que, mediante el Decreto Ejecutivo No. 77 de 27 de octubre de 2026, publicado en la Gaceta [&#8230;]",
+      "regulator": "ANTAI",
+      "region": "LatAm",
+      "country": "PA",
+      "type": "Noticias",
+      "feed_url": "https://antai.gob.pa/feed/"
+    },
     {
       "id": "4050e1df-2fda-8196-b209-cdb84b7b5fc5",
       "title": "ÚOOÚ diskutoval s krajskými pověřenci o ochraně osobních údajů v praxi",
