@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-10-29T00:47:29.055113+00:00",
-  "total_items": 45,
+  "generated_at": "2026-10-29T20:13:20.232887+00:00",
+  "total_items": 47,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,30 @@
     }
   ],
   "items": [
+    {
+      "id": "4080e1df-2fda-8196-afda-f068be331a24",
+      "title": "AP informeert incassobureaus over verantwoorde inzet AI",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ap-informeert-incassobureaus-over-verantwoorde-inzet-ai",
+      "published": "2026-10-29",
+      "summary": "Incassobureaus gebruiken steeds vaker algoritmes en AI, zo blijkt uit een steekproef van de Autoriteit Persoonsgegevens (AP) onder 29 bureaus. Het werk gaat hierdoor sneller, maar het leidt ook tot risico’s op onjuiste beslissingen, discriminatie en ongelijke behandeling. Om verkeerd gebruik van computersystemen te helpen voorkomen, komt de AP met aanbevelingen aan de incassosector.",
+      "regulator": "AP",
+      "region": "Europa",
+      "country": "NL",
+      "type": "Noticias",
+      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
+    },
+    {
+      "id": "4080e1df-2fda-8117-826e-d5630135d7fd",
+      "title": "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT",
+      "url": "https://www.cnil.fr/fr/sanction-cookies-app-fnac",
+      "published": "2026-10-29",
+      "summary": "Le 22 octobre 2026, la CNIL a sanctionné les sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT d’une amende de 7&nbsp;millions d’euros pour non-respect des règles applicables en matière de traceurs (cookies).",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
     {
       "id": "4060e1df-2fda-8120-9209-c430aa5d40ef",
       "title": "Byla spuštěna registrace na seminář Realizace práva na informace v kontextu ochrany osobních údajů a soukromí II.",
