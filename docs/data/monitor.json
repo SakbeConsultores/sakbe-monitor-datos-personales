@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-02T00:34:27.899775+00:00",
-  "total_items": 44,
+  "generated_at": "2026-11-02T23:05:03.983812+00:00",
+  "total_items": 45,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,18 @@
     }
   ],
   "items": [
+    {
+      "id": "40c0e1df-2fda-81c3-a54e-d1699f7f2312",
+      "title": "EDPS Opinion: EU-US border information exchange – effective safeguards are essential to protect fundamental rights in practice",
+      "url": "https://idpc.org.mt/news-latest/edps-opinion-eu-us-border-information-exchange-effective-safeguards-are-essential-to-protect-fundamental-rights-in-practice/",
+      "published": "2026-11-02",
+      "summary": "EDPS Opinion: EU-US border information exchange - effective safeguards are essential to protect fundamental rights in practice &#160; 02 November 2026 On 10 September 2026, the European Commission issued a proposal for a framework agreement between the European Union and the United States that would set common conditions for reciprocal exchange of information between the [&#8230;] The post EDPS Opinion: EU-US border information exchange &#8211; effective safeguards are essential to protect fundamental rights in practice appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
     {
       "id": "4090e1df-2fda-81af-8a81-df4fd0d880e7",
       "title": "V Bratislavě se konaly Open Talks",
