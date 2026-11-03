@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T02:53:13.562518+00:00",
-  "total_items": 41,
+  "generated_at": "2026-11-03T20:55:34.633676+00:00",
+  "total_items": 42,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,18 @@
     }
   ],
   "items": [
+    {
+      "id": "40d0e1df-2fda-81d0-b303-ec73452caebd",
+      "title": "Söktjänster behandlar personuppgifter på otillåtet sätt",
+      "url": "https://www.imy.se/nyheter/soktjanster-behandlar-personuppgifter-pa-otillatet-satt/",
+      "published": "2026-11-03",
+      "summary": "Integritetsskyddsmyndigheten (IMY) har granskat fyra söktjänster som behandlar stora mängder uppgifter om privatpersoner. Granskningarna visar att två söktjänster har behandlat uppgifter om brott på ett otillåtet sätt. Två andra söktjänster har brustit vad gäller rätten till radering.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
     {
       "id": "40c0e1df-2fda-81c3-a54e-d1699f7f2312",
       "title": "EDPS Opinion: EU-US border information exchange – effective safeguards are essential to protect fundamental rights in practice",
