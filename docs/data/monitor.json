@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-03T20:55:34.633676+00:00",
-  "total_items": 42,
+  "generated_at": "2026-11-04T01:13:52.819876+00:00",
+  "total_items": 38,
   "regions": [
     "LatAm",
     "Europa"
@@ -629,54 +629,6 @@
       "country": "UE",
       "type": "Noticias",
       "feed_url": "https://www.edpb.europa.eu/feed/news_en"
-    },
-    {
-      "id": "3fb0e1df-2fda-819e-8d16-e0419c7686eb",
-      "title": "Ordre du jour de la séance plénière du 15 octobre 2026",
-      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-15-octobre-2026",
-      "published": "2026-10-15",
-      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 15 octobre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3fa0e1df-2fda-8186-81be-f2714e5c5e0d",
-      "title": "Abierta la convocatoria de artículos para el tercer número de la Revista PIT, que abordará la interacción del RGPD con otras normas",
-      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-convocatoria-de-articulos-para-tercer-numero-revsita-pit",
-      "published": "2026-10-15",
-      "summary": "Abierta la convocatoria de artículos para el tercer número de la Revista PIT, que abordará la interacción del RGPD con otras normas AEPD Jue, 15/10/2026 La AEPD invita a investigadores, académicos, profesionales y responsables públicos a enviar trabajos originales para el próximo número de la revista Privacidad, Innovación y Tecnología (PIT) El plazo para presentar artículos estará abierto del 1 de noviembre al 20 de diciembre de 2026, y la publicación del número está prevista para abril de 2027",
-      "regulator": "AEPD",
-      "region": "Europa",
-      "country": "ES",
-      "type": "Noticias",
-      "feed_url": "https://www.aepd.es/noticias/feed.xml"
-    },
-    {
-      "id": "3fa0e1df-2fda-8110-9b2e-c21db42574b7",
-      "title": "EDPB zveřejnilo prohlášení o výzvách v oblasti ochrany údajů v souvislosti s inteligentními brýlemi",
-      "url": "https://uoou.gov.cz/novinky/vse/edpb-zverejnilo-prohlaseni-o-vyzvach-v-oblasti-ochrany-udaju-v-souvislosti-s-inteligentnimi-brylemi",
-      "published": "2026-10-15",
-      "summary": "Evropský sbor pro ochranu osobních údajů (EDPB) přijal na svém posledním plenárním zasedání prohlášení o inteligentních brýlích a zveřejnil zprávu „Propojený pohled. Videozáznam, sledování a správa důkazů ve věku inteligentních brýlí“*, vyvinutou v rámci programu „Podpůrná skupina odborníků“ (SPE)**.",
-      "regulator": "ÚOOÚ (CZ)",
-      "region": "Europa",
-      "country": "CZ",
-      "type": "Noticias",
-      "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
-    },
-    {
-      "id": "3fa0e1df-2fda-8193-93b9-d89642afe6e7",
-      "title": "EDPB usvojio izjavu o pametnim naočalama",
-      "url": "https://azop.hr/edpb-usvojio-izjavu-o-pametnim-naocalama/",
-      "published": "2026-10-15",
-      "summary": "Objava EDPB usvojio izjavu o pametnim naočalama pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
-      "regulator": "AZOP",
-      "region": "Europa",
-      "country": "HR",
-      "type": "Noticias",
-      "feed_url": "https://azop.hr/feed/"
     },
     {
       "id": "4090e1df-2fda-818e-a3b6-c7a5090e6ec9",
