@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-04T01:13:52.819876+00:00",
-  "total_items": 38,
+  "generated_at": "2026-11-04T21:15:41.361306+00:00",
+  "total_items": 42,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,54 @@
     }
   ],
   "items": [
+    {
+      "id": "40e0e1df-2fda-81b2-a98b-c43988c694b6",
+      "title": "Webbinarium: Sociala medier och GDPR i LSS-verksamhet",
+      "url": "https://www.imy.se/nyheter/webbinarium-sociala-medier-och-gdpr-i-lss-verksamhet/",
+      "published": "2026-11-04",
+      "summary": "Den 27 november anordnar IMY ett webbinarium om vilka krav GDPR ställer på LSS-verksamheter vid publicering av bilder och filmer på sociala medier.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "40e0e1df-2fda-8139-8d57-fcff63c14e7b",
+      "title": "EDPB helps kids stay safe online – featuring IDPC Children's Campaign material",
+      "url": "https://idpc.org.mt/news-latest/edpb-helps-kids-stay-safe-online-featuring-idpc-childrens-campaign-material/",
+      "published": "2026-11-04",
+      "summary": "EDPB helps kids stay safe online - featuring IDPC Children's Campaign material &#160; 04 November 2026 European Data Protection Authorities (DPAs) work together to protect personal data, especially for children who are more vulnerable online. Kids may not recognise risks easily, trust strangers, or share personal data carelessly. Many apps collect their data, and without [&#8230;] The post EDPB helps kids stay safe online &#8211; featuring IDPC Children&#039;s Campaign material appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "40e0e1df-2fda-8184-8b1c-eab9ad84cb2e",
+      "title": "Privacy for Kids : le CEPD lance une plateforme dédiée à la vie privée des enfants",
+      "url": "https://www.cnil.fr/fr/cepd-privacy-for-kids",
+      "published": "2026-11-04",
+      "summary": "Le Comité européen de la protection des données (CEPD), en lien avec différentes autorités de protection de données, dont la CNIL, lance sa plateforme Privacy for kids dédiée à l’éducation au numérique.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "40e0e1df-2fda-8145-94e3-ef165819b107",
+      "title": "Poziv na online edukaciju o osnovama zaštite osobnih podataka – 6. studenog 2026.",
+      "url": "https://azop.hr/poziv-na-besplatnu-online-edukaciju-o-osnovama-zastite-osobnih-podataka-6-studenog-2026/",
+      "published": "2026-11-04",
+      "summary": "Dok organizacije sve više koriste nove tehnologije i AI alate, Agencija za zaštitu osobnih podataka u radu s organizacijama primjećuje da mnogima i dalje izazov predstavljaju osnovne obveze iz Opće uredbe o zaštiti podataka (GDPR). Stoga Agencija organizira besplatnu online edukaciju o osnovama zaštite osobnih podataka u petak 6. studenoga 2026., od 13 do 15 [&#8230;] Objava Poziv na online edukaciju o osnovama zaštite osobnih podataka &#8211; 6. studenog 2026. pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
     {
       "id": "40d0e1df-2fda-81d0-b303-ec73452caebd",
       "title": "Söktjänster behandlar personuppgifter på otillåtet sätt",
