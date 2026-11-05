@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T01:25:48.340791+00:00",
-  "total_items": 37,
+  "generated_at": "2026-11-05T21:27:40.437367+00:00",
+  "total_items": 48,
   "regions": [
     "LatAm",
     "Europa"
@@ -331,6 +331,90 @@
   ],
   "items": [
     {
+      "id": "40f0e1df-2fda-8195-8702-d70a170c9eac",
+      "title": "IMY granskar Arbetsförmedlingens AI-system för arbetssökande",
+      "url": "https://www.imy.se/nyheter/imy-granskar-arbetsformedlingens-ai-system-for-arbetssokande/",
+      "published": "2026-11-05",
+      "summary": "Integritetsskyddsmyndigheten (IMY) inleder en granskning av Arbetsförmedlingen. Granskningen gäller ett AI-system som används för att bedöma vilka insatser en arbetssökande kan få för att komma i arbete eller börja studera.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "40f0e1df-2fda-81b4-a730-f0f35282c52e",
+      "title": "Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs",
+      "url": "https://www.cnil.fr/fr/rejeu-de-session-recommandation",
+      "published": "2026-11-05",
+      "summary": "La CNIL publie une recommandation relative aux outils de rejeu de session permettant le suivi et l'analyse du comportement en ligne des utilisateurs. L’objectif est d’aider les acteurs qui conçoivent ces outils et ceux qui les utilisent dans leur mise en conformité.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "40f0e1df-2fda-81ed-bcdb-e9de4d5bb7d7",
+      "title": "Rejeu de session : ces outils qui enregistrent votre activité en ligne",
+      "url": "https://www.cnil.fr/fr/rejeu-de-session-vos-droits",
+      "published": "2026-11-05",
+      "summary": "Lorsque vous naviguez sur Internet ou que vous utilisez une application sur votre téléphone, vos actions peuvent être enregistrées par ce que l’on appelle des outils de rejeu de session. À quoi servent-ils et quels sont vos droits&nbsp;?",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "40f0e1df-2fda-81bb-99df-d557767fe49d",
+      "title": "Ordre du jour de la séance plénière du 5 novembre 2026",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-5-novembre-2026",
+      "published": "2026-11-05",
+      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 5 novembre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "40f0e1df-2fda-8179-87ce-f7d803f7b284",
+      "title": "La AEPD y la Autoridad helénica de protección de datos publican una guía conjunta sobre entornos de tratamiento seguro",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-y-la-autoridad-helenica-de-proteccion-de-datos",
+      "published": "2026-11-05",
+      "summary": "La AEPD y la Autoridad helénica de protección de datos publican una guía conjunta sobre entornos de tratamiento seguro AEPD Jue, 05/11/2026 Estos entornos son una garantía para la reutilización de datos sensibles, en particular los de salud, ya que se tratan sin salir de un entorno controlado Ambas autoridades recuerdan que quien proporciona el entorno debe mantener un control real y efectivo, también cuando recurre a terceros La guía incluye una metodología de análisis de riesgos con un catálogo de medidas, el análisis de técnicas de ingeniería de protección de datos y un caso práctico en investigación sanitaria desarrollado por fases Acceso a la guía en inglés y en español",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
+      "id": "40f0e1df-2fda-81f9-b57d-df2036c63b9b",
+      "title": "Suspensión de términos administrativos en la Oficina Regional de Veraguas",
+      "url": "https://antai.gob.pa/suspension-de-terminos-administrativos-en-la-oficina-regional-de-veraguas/",
+      "published": "2026-11-05",
+      "summary": "Tiempo de lectura: 2 minutos Panamá, 4 de noviembre de 2026. La Autoridad Nacional de Transparencia y Acceso a la Información (ANTAI) comunica al público en general que, en cumplimiento de lo dispuesto en el Decreto Ejecutivo N.º 38 de 5 de diciembre de 2025 y en atención al Decreto Alcaldicio N.º 13 de 23 de octubre de 2026, emitido [&#8230;]",
+      "regulator": "ANTAI",
+      "region": "LatAm",
+      "country": "PA",
+      "type": "Noticias",
+      "feed_url": "https://antai.gob.pa/feed/"
+    },
+    {
+      "id": "40f0e1df-2fda-81e3-884c-de07661a5e14",
+      "title": "¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/como-decide-un-algoritmo-te-invitamos-al-segundo-episodio-de-las-claves",
+      "published": "2026-11-04",
+      "summary": "¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves AEPD Mié, 04/11/2026 En ‘Las claves de la transparencia algorítmica’, el presidente de la Agencia, Lorenzo Cotino, conversará con Clara Velasco, vicepresidenta de la Comisión de Garantía del Derecho de Acceso a la Información Pública de Cataluña y profesora de Derecho Administrativo de la Universitat Pompeu Fabra El programa se emitirá el 10 de noviembre a las 17:00 horas, podrá seguirse en directo en streaming y los asistentes podrán formular sus preguntas La conversación analizará cómo garantizar que estos sistemas sean comprensibles y controlables, y que se rindan cuentas sobre ellos La emisión en directo podrá seguirse en este enlace",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
       "id": "40e0e1df-2fda-81b2-a98b-c43988c694b6",
       "title": "Webbinarium: Sociala medier och GDPR i LSS-verksamhet",
       "url": "https://www.imy.se/nyheter/webbinarium-sociala-medier-och-gdpr-i-lss-verksamhet/",
@@ -451,6 +535,18 @@
       "feed_url": "https://www.cnil.fr/fr/rss.xml"
     },
     {
+      "id": "40f0e1df-2fda-8134-a761-c7bbc4ce6d67",
+      "title": "La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistentes",
+      "published": "2026-10-27",
+      "summary": "La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales AEPD Mar, 27/10/2026 Los asistentes y agentes de IA son una herramienta de gestión personal que ya no se limita a responder preguntas: puede actuar en nombre de la persona, desde gestionar el calendario o el correo hasta completar compras o reservas La Agencia propone hacerse cinco preguntas antes de delegar: qué puede ver el asistente, qué puede recordar, qué puede hacer en nuestro nombre, dónde envía los datos y si afecta a otras personas La AEPD aconseja conceder solo los accesos imprescindibles, no pulsar “permitir siempre” sin comprender su alcance, exigir confirmación antes de enviar, compartir, pagar o contratar, y tener en cuenta que el asistente podría ejecutar instrucciones ocultas, incluso invisibles, en correos, webs o documentos Casos ya conocidos, como el de un agente que cerró una venta y facilitó la dirección de su usuario al comprador sin que este lo supiera, muestran que no se trata de riesgos teóricos ‘Asistentes y agentes de IA: Que la IA actúe por ti, no sin ti’",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
       "id": "4060e1df-2fda-8120-9209-c430aa5d40ef",
       "title": "Byla spuštěna registrace na seminář Realizace práva na informace v kontextu ochrany osobních údajů a soukromí II.",
       "url": "https://uoou.gov.cz/novinky/vse/registrace-na-seminar-realizace-prava-na-informace-v-kontextu-ochrany-osobnich-udaju-a-soukromi-ii",
@@ -497,6 +593,18 @@
       "country": "CZ",
       "type": "Noticias",
       "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
+    },
+    {
+      "id": "40f0e1df-2fda-81da-b63d-ddf13a4e1642",
+      "title": "Abierta la inscripción para la jornada de la AEPD sobre ciberseguridad y protección de datos en las XX Jornadas STIC",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-inscripcion-para-jornada-de-aepd-sobre-ciberseguridad-xx-jorandas-stic",
+      "published": "2026-10-22",
+      "summary": "Abierta la inscripción para la jornada de la AEPD sobre ciberseguridad y protección de datos en las XX Jornadas STIC AEPD Jue, 22/10/2026 El presidente de la Agencia, Lorenzo Cotino, y el adjunto, Francisco Pérez Bes, serán los encargados de la apertura del encuentro el día 24 de noviembre Dos mesas redondas analizarán los nuevos retos de la ciberseguridad para la protección de datos y el papel de la persona DPD ante un ciberataque A las mesas se suman cuatro ponencias dedicadas a las medidas de seguridad, sanciones en brechas de datos, uso de datos biométricos y espacios de datos Las personas interesadas en asistir a esta jornada de la AEPD podrán inscribirse aquí hasta el 20 de noviembre o completar aforo",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
     },
     {
       "id": "4020e1df-2fda-81af-8c2a-d477ca806504",
@@ -617,6 +725,30 @@
       "country": "HR",
       "type": "Noticias",
       "feed_url": "https://azop.hr/feed/"
+    },
+    {
+      "id": "40f0e1df-2fda-819f-a392-fcc234fc298f",
+      "title": "Comunicat_Presa_05_11_2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_05_11_2026&lang=ro",
+      "published": "",
+      "summary": "Amenda pentru incalcarea RGPD",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
+    },
+    {
+      "id": "40f0e1df-2fda-811e-8726-cc3c0514f5d4",
+      "title": "Comunicat_Presa_05_11_2026_2",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_05_11_2026_2&lang=ro",
+      "published": "",
+      "summary": "O noua sanc t iune pentru incalcarea RGPD",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
     },
     {
       "id": "4090e1df-2fda-818e-a3b6-c7a5090e6ec9",
