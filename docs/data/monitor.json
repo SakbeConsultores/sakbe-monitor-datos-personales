@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-06T01:29:19.572337+00:00",
-  "total_items": 48,
+  "generated_at": "2026-11-06T21:01:51.837608+00:00",
+  "total_items": 49,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,18 @@
     }
   ],
   "items": [
+    {
+      "id": "4100e1df-2fda-8142-9028-f2c74b4d8f75",
+      "title": "Recherches internes : quelles sont les obligations pour les professionnels de santé ?",
+      "url": "https://www.cnil.fr/fr/recherches-internes-sante-quelles-obligations",
+      "published": "2026-11-06",
+      "summary": "Votre établissement emploie des professionnels de santé qui mènent des recherches internes&nbsp;? La CNIL rappelle les règles.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
     {
       "id": "40f0e1df-2fda-8195-8702-d70a170c9eac",
       "title": "IMY granskar Arbetsförmedlingens AI-system för arbetssökande",
