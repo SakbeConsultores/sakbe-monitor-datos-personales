@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-07T19:22:10.570691+00:00",
-  "total_items": 49,
+  "generated_at": "2026-11-08T00:25:31.582854+00:00",
+  "total_items": 46,
   "regions": [
     "LatAm",
     "Europa"
@@ -701,42 +701,6 @@
       "country": "FR",
       "type": "Noticias",
       "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3ff0e1df-2fda-81ec-9276-ea7616102ba6",
-      "title": "La Agencia y la autoridad de Luxemburgo firman un memorando para reforzar su cooperación",
-      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-agencia-y-la-autoridad-de-luxemburgo-firman-un-memorando-cooperaci%C3%B3n",
-      "published": "2026-10-19",
-      "summary": "La Agencia y la autoridad de Luxemburgo firman un memorando para reforzar su cooperación AEPD Lun, 19/10/2026 Ambas autoridades podrán colaborar en publicaciones y notas técnicas conjuntas. También prevén analizar los principales desafíos de la privacidad y el impacto de las tecnologías emergentes",
-      "regulator": "AEPD",
-      "region": "Europa",
-      "country": "ES",
-      "type": "Noticias",
-      "feed_url": "https://www.aepd.es/noticias/feed.xml"
-    },
-    {
-      "id": "3fe0e1df-2fda-8126-b876-cf6814ff479b",
-      "title": "Revoir le webinaire - Nouveau régime de la prospection téléphonique : comment et quand recueillir le consentement de la personne concernée ?",
-      "url": "https://www.cnil.fr/fr/webinaire-demarchage-telephonique",
-      "published": "2026-10-19",
-      "summary": "La CNIL vous propose de décrypter un sujet ou une actualité en lien avec la protection des données à travers&nbsp;une série de webinaires. Retrouvez ce nouvel épisode consacré à la prospection téléphonique.",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "3fe0e1df-2fda-8164-82ea-f4caf4841459",
-      "title": "Radni sastanak Agencije za zaštitu osobnih podataka Republike Hrvatske i Bosne i Hercegovine",
-      "url": "https://azop.hr/radni-sastanak-agencije-za-zastitu-osobnih-podataka-republike-hrvatske-i-bosne-i-hercegovine/",
-      "published": "2026-10-19",
-      "summary": "Ravnatelj Zdravko Vukić, u petak 16. listopada u prostorijama AZOP-a, održao je radni sastanak s Antom Borasom, zamjenikom ravnatelja Agencije za zaštitu osobnih podataka Bosne i Hercegovina. Tijekom radnog sastanka predstavljene su aktivnosti dvaju nadzornih tijela, razmijenjena iskustva i primjeri dobre prakse te aktualni izazovi u području zaštite osobnih podataka s kojima se oba tijela [&#8230;] Objava Radni sastanak Agencije za zaštitu osobnih podataka Republike Hrvatske i Bosne i Hercegovine pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
-      "regulator": "AZOP",
-      "region": "Europa",
-      "country": "HR",
-      "type": "Noticias",
-      "feed_url": "https://azop.hr/feed/"
     },
     {
       "id": "40f0e1df-2fda-819f-a392-fcc234fc298f",
