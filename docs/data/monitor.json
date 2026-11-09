@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T00:44:50.991415+00:00",
-  "total_items": 42,
+  "generated_at": "2026-11-09T23:45:31.787153+00:00",
+  "total_items": 44,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,30 @@
     }
   ],
   "items": [
+    {
+      "id": "4130e1df-2fda-81cc-87b6-cf85cc41f2a2",
+      "title": "Nytt lektionsmaterial ska göra elever säkrare på nätet",
+      "url": "https://www.imy.se/nyheter/nytt-lektionsmaterial-ska-gora-elever-sakrare-pa-natet/",
+      "published": "2026-11-09",
+      "summary": "Integritetsskyddsmyndigheten (IMY) har tagit fram ”Ditt liv på nätet”, ett kostnadsfritt lektionsmaterial om personuppgifter och dataskydd för elever i årskurs 4–7.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "4130e1df-2fda-8195-bed6-c595139e46ec",
+      "title": "Cybersécurité des collectivités territoriales : la CNIL prononce dix sanctions",
+      "url": "https://www.cnil.fr/fr/sanctions-cybersecurite-collectivites-territoriales",
+      "published": "2026-11-09",
+      "summary": "En novembre 2026, la CNIL a prononcé dix sanctions simplifiées à l’encontre de collectivités territoriales et d’un établissement public, pour des manquements relatifs à la cybersécurité.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
     {
       "id": "4100e1df-2fda-8142-9028-f2c74b4d8f75",
       "title": "Recherches internes : quelles sont les obligations pour les professionnels de santé ?",
