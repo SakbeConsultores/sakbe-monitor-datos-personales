@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-09T23:45:31.787153+00:00",
-  "total_items": 44,
+  "generated_at": "2026-11-10T03:28:05.362419+00:00",
+  "total_items": 43,
   "regions": [
     "LatAm",
     "Europa"
@@ -665,18 +665,6 @@
       "country": "SE",
       "type": "Noticias",
       "feed_url": "https://www.imy.se/nyheter/rss"
-    },
-    {
-      "id": "4000e1df-2fda-8125-b35b-c380d8eaa25d",
-      "title": "Potpisan Sporazum o suradnji između Agencije za zaštitu osobnih podataka i Državnog odvjetništva Republike Hrvatske",
-      "url": "https://azop.hr/potpisan-sporazum-o-suradnji-izmedu-drzavnog-odvjetnistva-republike-hrvatske-i-agencije-za-zastitu-osobnih-podataka/",
-      "published": "2026-10-21",
-      "summary": "Ravnatelj Agencije za zaštitu osobnih podataka Zdravko Vukić i Glavni državni odvjetnik Republike Hrvatske Ivan Turudić potpisali su 20. listopada 2026., u prostorijama Državnog odvjetništva Republike Hrvatske Sporazum o suradnji Državnog odvjetništva Republike Hrvatske i AZOP-a. Potpisivanju Sporazuma prisustvovali su Glavni državni odvjetnik Republike Hrvatske Ivan Turudić, zamjenici Glavnog državnog odvjetnika Republike Hrvatske Gordana Križanić, [&#8230;] Objava Potpisan Sporazum o suradnji između Agencije za zaštitu osobnih podataka i Državnog odvjetništva Republike Hrvatske pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
-      "regulator": "AZOP",
-      "region": "Europa",
-      "country": "HR",
-      "type": "Noticias",
-      "feed_url": "https://azop.hr/feed/"
     },
     {
       "id": "40f0e1df-2fda-819f-a392-fcc234fc298f",
