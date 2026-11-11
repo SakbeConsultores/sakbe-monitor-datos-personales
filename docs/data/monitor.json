@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-10T21:16:37.649034+00:00",
-  "total_items": 48,
+  "generated_at": "2026-11-11T01:12:02.089125+00:00",
+  "total_items": 45,
   "regions": [
     "LatAm",
     "Europa"
@@ -677,42 +677,6 @@
       "country": "CZ",
       "type": "Noticias",
       "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
-    },
-    {
-      "id": "40f0e1df-2fda-81da-b63d-ddf13a4e1642",
-      "title": "Abierta la inscripción para la jornada de la AEPD sobre ciberseguridad y protección de datos en las XX Jornadas STIC",
-      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/abierta-la-inscripcion-para-jornada-de-aepd-sobre-ciberseguridad-xx-jorandas-stic",
-      "published": "2026-10-22",
-      "summary": "Abierta la inscripción para la jornada de la AEPD sobre ciberseguridad y protección de datos en las XX Jornadas STIC AEPD Jue, 22/10/2026 El presidente de la Agencia, Lorenzo Cotino, y el adjunto, Francisco Pérez Bes, serán los encargados de la apertura del encuentro el día 24 de noviembre Dos mesas redondas analizarán los nuevos retos de la ciberseguridad para la protección de datos y el papel de la persona DPD ante un ciberataque A las mesas se suman cuatro ponencias dedicadas a las medidas de seguridad, sanciones en brechas de datos, uso de datos biométricos y espacios de datos Las personas interesadas en asistir a esta jornada de la AEPD podrán inscribirse aquí hasta el 20 de noviembre o completar aforo",
-      "regulator": "AEPD",
-      "region": "Europa",
-      "country": "ES",
-      "type": "Noticias",
-      "feed_url": "https://www.aepd.es/noticias/feed.xml"
-    },
-    {
-      "id": "4020e1df-2fda-81af-8c2a-d477ca806504",
-      "title": "Ordre du jour de la séance plénière du 22 octobre 2026",
-      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-22-octobre-2026",
-      "published": "2026-10-22",
-      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 22 octobre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "4010e1df-2fda-819c-9b0c-f35bf4ebbc0e",
-      "title": "Sårbarheter i programmeringsspråket PHP",
-      "url": "https://www.imy.se/nyheter/sarbarheter-i-programmeringsspraket-php/",
-      "published": "2026-10-22",
-      "summary": "Den 21 oktober beskrevs två allvarliga säkerhetsbrister i programmeringsspråket PHP som används av många webbplatser. Den utbredda användningen av PHP gör problemet omfattande. Det är sårbarheter som kan utnyttjas av angripare och situationen innebär en risk för bland annat läckage av personuppgifter och bedrägerier.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
     },
     {
       "id": "4140e1df-2fda-81f9-8976-e2155d5e54ea",
