@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-11T01:12:02.089125+00:00",
-  "total_items": 45,
+  "generated_at": "2026-11-11T21:51:59.232436+00:00",
+  "total_items": 49,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,42 @@
     }
   ],
   "items": [
+    {
+      "id": "4150e1df-2fda-8123-9e06-d976707c8f02",
+      "title": "AP: Vooruitgang Belastingdienst gaat langzaam",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ap-vooruitgang-belastingdienst-gaat-langzaam",
+      "published": "2026-11-11",
+      "summary": "De Belastingdienst houdt zich op veel belangrijke terreinen nog niet aan de privacywetgeving. De verbetering gaat ook te langzaam. Tegelijkertijd werpt het geïntensiveerde toezicht van de Autoriteit Persoonsgegevens (AP) vruchten af: de Belastingdienst is zichtbaar bezig de problemen op te lossen. Dat blijkt uit de eerste editie van de 'Staat van de gegevensbescherming bij de Belastingdienst', die de AP vandaag publiceert.",
+      "regulator": "AP",
+      "region": "Europa",
+      "country": "NL",
+      "type": "Noticias",
+      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
+    },
+    {
+      "id": "4150e1df-2fda-8182-9483-da822ec43f71",
+      "title": "La Agencia Española de Protección de Datos ante la difusión en TikTok de contenidos de abuso sexual infantil",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/agencia-espanola-de-proteccion-de-datos-ante-la-difusion-tiktok-abuso-sexual-infantil",
+      "published": "2026-11-11",
+      "summary": "La Agencia Española de Protección de Datos ante la difusión en TikTok de contenidos de abuso sexual infantil AEPD Mié, 11/11/2026",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
+      "id": "4150e1df-2fda-8185-beaf-de58dfcd6bf6",
+      "title": "EDPB odabrao temu koordiniranog provedbenog djelovanja za 2027. godinu",
+      "url": "https://azop.hr/edpb-odabrao-temu-koordiniranog-provedbenog-djelovanja-za-2027-godinu/",
+      "published": "2026-11-11",
+      "summary": "Bruxelles, 11. studenoga – Europski odbor za zaštitu podataka (EDPB) na posljednjoj je plenarnoj sjednici donio izjavu o prvom preispitivanju funkcioniranja odluke o primjerenosti za Republiku Koreju te konačnu verziju preporuka o zahtjevu za odobrenje te elementima i načelima koje trebaju sadržavati obvezujuća korporativna pravila za izvršitelje obrade (BCR-P). Odbor je ujedno odabrao temu svojeg [&#8230;] Objava EDPB odabrao temu koordiniranog provedbenog djelovanja za 2027. godinu pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
     {
       "id": "4140e1df-2fda-814b-b277-cda1051f24bd",
       "title": "Experti ÚOOÚ vystoupili na Právnické fakultě Univerzity Palackého v Olomouci",
@@ -677,6 +713,18 @@
       "country": "CZ",
       "type": "Noticias",
       "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
+    },
+    {
+      "id": "4150e1df-2fda-818e-af14-c34c5730b815",
+      "title": "Comunicat_Presa_11.11.2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_11.11.2026&lang=ro",
+      "published": "",
+      "summary": "Amenda pentru incalcarea RGPD",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
     },
     {
       "id": "4140e1df-2fda-81f9-8976-e2155d5e54ea",
