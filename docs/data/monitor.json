@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-12T02:13:08.161226+00:00",
-  "total_items": 49,
+  "generated_at": "2026-11-12T21:49:29.384943+00:00",
+  "total_items": 53,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,54 @@
     }
   ],
   "items": [
+    {
+      "id": "4160e1df-2fda-81a3-8c93-e43123629f99",
+      "title": "Na listopadovém zasedání EDPB se řešila data v Koreji, podniková pravidla a téma CEF 2027",
+      "url": "https://uoou.gov.cz/novinky/vse/listopadove-zasedani-edpb-data-v-koreji-podnikova-pravidla-cef-2027",
+      "published": "2026-11-12",
+      "summary": "Během svého posledního plenárního zasedání přijal EDPB prohlášení o prvním přezkumu fungování rozhodnutí o odpovídající ochraně Korejské republiky a konečnou verzi doporučení k žádosti o schválení a k prvkům a principům obsaženým v pravidlech pro závazná podniková pravidla pro zpracovatele (BCR-P). Sbor také vybral téma pro svou šestou koordinovanou dozorovou akci (CEF).",
+      "regulator": "ÚOOÚ (CZ)",
+      "region": "Europa",
+      "country": "CZ",
+      "type": "Noticias",
+      "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
+    },
+    {
+      "id": "4160e1df-2fda-818e-af13-d88f4ffb3834",
+      "title": "EDPB adopts statement on review of the Republic of Korea adequacy, processor BCR recommendations, and selects topic for 2027 coordinated enforcement action",
+      "url": "https://idpc.org.mt/news-latest/edpb-adopts-statement-on-review-of-the-republic-of-korea-adequacy-processor-bcr-recommendations-and-selects-topic-for-2027-coordinated-enforcement-action/",
+      "published": "2026-11-12",
+      "summary": "EDPB adopts statement on review of the Republic of Korea adequacy, processor BCR recommendations, and selects topic for 2027 coordinated enforcement action &#160; 12 November 2026 &#160; During its latest plenary, the European Data Protection Board (EDPB) has adopted a statement on the first review of the functioning of the adequacy decision of the Republic [&#8230;] The post EDPB adopts statement on review of the Republic of Korea adequacy, processor BCR recommendations, and selects topic for 2027 coordinated enforcement action appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "4160e1df-2fda-8120-aa81-fcf30fecaeb8",
+      "title": "Actualité du CEPD : adéquation de la Corée du Sud, versions finales des BCR-ST, et action coordonnée sur le recrutement via IA",
+      "url": "https://www.cnil.fr/fr/actualite-du-cepd-adequation-de-la-coree-du-sud-versions-finales-des-bcr-st-et-action-coordonnee-sur",
+      "published": "2026-11-12",
+      "summary": "Le 10 novembre 2026, le Comité européen de la protection des données (CEPD) a adopté une déclaration sur l’adéquation de la Corée du Sud en matière de protection des données, ses recommandations finales sur les règles d’entreprises contraignantes et le thème de la sixième action coordonnée (CEF).",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "4160e1df-2fda-815d-af68-edbb930463f3",
+      "title": "La Red Iberoamericana de Protección de Datos aprueba unos Estándares internacionales pioneros sobre inteligencia artificial y protección de datos personales",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-red-iberoamericana-de-proteccion-de-datos-aprueba-unos",
+      "published": "2026-11-12",
+      "summary": "La Red Iberoamericana de Protección de Datos aprueba unos Estándares internacionales pioneros sobre inteligencia artificial y protección de datos personales AEPD Jue, 12/11/2026 La Red Iberoamericana de Protección de Datos (RIPD) ha aprobado por unanimidad unos Estándares que precisan cómo aplicar la protección de datos cuando empresas y administraciones utilizan inteligencia artificial (IA) Se trata del primer instrumento internacional que aborda de forma integral y sistemática, mediante un cuerpo articulado de disposiciones, las especialidades de la aplicación de la protección de datos personales a los tratamientos con IA Los Estándares especifican cómo deben protegerse los datos personales que los sistemas de IA infieren o deducen sobre las personas y establecen que el hecho de que los datos estén disponibles públicamente no autoriza, por sí solo, su utilización para entrenar sistemas de IA El texto recoge que las personas deben poder saber si sus datos se han usado en un sistema de IA y, en caso de decisiones automatizadas, impugnar sus conclusiones, exigir intervención humana real y ejercer los derechos correspondientes El documento incluye pautas específicas para la IA generativa y agéntica, la biometría, el reconocimiento de emociones y los neurodatos",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
     {
       "id": "4150e1df-2fda-8123-9e06-d976707c8f02",
       "title": "AP: Vooruitgang Belastingdienst gaat langzaam",
