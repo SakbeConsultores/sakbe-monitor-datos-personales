@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-13T01:46:19.520938+00:00",
-  "total_items": 53,
+  "generated_at": "2026-11-13T21:24:13.560034+00:00",
+  "total_items": 55,
   "regions": [
     "LatAm",
     "Europa"
@@ -761,6 +761,30 @@
       "country": "CZ",
       "type": "Noticias",
       "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
+    },
+    {
+      "id": "4170e1df-2fda-813b-92f5-feb8815bae78",
+      "title": "Comunicat_Presa_13_11_2026_2",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_13_11_2026_2&lang=ro",
+      "published": "",
+      "summary": "Amenda pentru incalcarea RGPD",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
+    },
+    {
+      "id": "4170e1df-2fda-815f-9296-fc9d34d44b62",
+      "title": "Comunicat_Presa_13_11_2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_13_11_2026&lang=ro",
+      "published": "",
+      "summary": "Sanc t iune pentru incalcarea RGPD",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
     },
     {
       "id": "4150e1df-2fda-818e-af14-c34c5730b815",
