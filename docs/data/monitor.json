@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-14T19:53:00.951066+00:00",
-  "total_items": 55,
+  "generated_at": "2026-11-15T00:59:07.780332+00:00",
+  "total_items": 54,
   "regions": [
     "LatAm",
     "Europa"
@@ -749,18 +749,6 @@
       "country": "PA",
       "type": "Noticias",
       "feed_url": "https://antai.gob.pa/feed/"
-    },
-    {
-      "id": "4050e1df-2fda-8196-b209-cdb84b7b5fc5",
-      "title": "ÚOOÚ diskutoval s krajskými pověřenci o ochraně osobních údajů v praxi",
-      "url": "https://uoou.gov.cz/novinky/vse/uoou-diskutoval-s-krajskymi-poverenci-o-ochrane-osobnich-udaju-v-praxi",
-      "published": "2026-10-26",
-      "summary": "Zástupce Úřadu pro ochranu osobních údajů se 19. října 2026 zúčastnil pracovního setkání pověřenců pro ochranu osobních údajů krajských úřadů. Setkání hostil Krajský úřad Středočeského kraje, za který je organizačně zajistil Ing. Jaroslav Vítek, MBA. ÚOOÚ zastupoval Mgr. Bc. David Burian, ředitel odboru předávání, akreditací a konzultací.",
-      "regulator": "ÚOOÚ (CZ)",
-      "region": "Europa",
-      "country": "CZ",
-      "type": "Noticias",
-      "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
     },
     {
       "id": "4170e1df-2fda-813b-92f5-feb8815bae78",
