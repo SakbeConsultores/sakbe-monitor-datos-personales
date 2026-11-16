@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-15T20:19:39.492291+00:00",
-  "total_items": 54,
+  "generated_at": "2026-11-16T00:56:32.692381+00:00",
+  "total_items": 50,
   "regions": [
     "LatAm",
     "Europa"
@@ -701,54 +701,6 @@
       "country": "FR",
       "type": "Noticias",
       "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "40f0e1df-2fda-8134-a761-c7bbc4ce6d67",
-      "title": "La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales",
-      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-publica-un-decalogo-para-delegar-tareas-en-asistentes",
-      "published": "2026-10-27",
-      "summary": "La AEPD publica un decálogo para delegar tareas en asistentes y agentes de IA sin perder el control sobre los datos personales AEPD Mar, 27/10/2026 Los asistentes y agentes de IA son una herramienta de gestión personal que ya no se limita a responder preguntas: puede actuar en nombre de la persona, desde gestionar el calendario o el correo hasta completar compras o reservas La Agencia propone hacerse cinco preguntas antes de delegar: qué puede ver el asistente, qué puede recordar, qué puede hacer en nuestro nombre, dónde envía los datos y si afecta a otras personas La AEPD aconseja conceder solo los accesos imprescindibles, no pulsar “permitir siempre” sin comprender su alcance, exigir confirmación antes de enviar, compartir, pagar o contratar, y tener en cuenta que el asistente podría ejecutar instrucciones ocultas, incluso invisibles, en correos, webs o documentos Casos ya conocidos, como el de un agente que cerró una venta y facilitó la dirección de su usuario al comprador sin que este lo supiera, muestran que no se trata de riesgos teóricos ‘Asistentes y agentes de IA: Que la IA actúe por ti, no sin ti’",
-      "regulator": "AEPD",
-      "region": "Europa",
-      "country": "ES",
-      "type": "Noticias",
-      "feed_url": "https://www.aepd.es/noticias/feed.xml"
-    },
-    {
-      "id": "4060e1df-2fda-8120-9209-c430aa5d40ef",
-      "title": "Byla spuštěna registrace na seminář Realizace práva na informace v kontextu ochrany osobních údajů a soukromí II.",
-      "url": "https://uoou.gov.cz/novinky/vse/registrace-na-seminar-realizace-prava-na-informace-v-kontextu-ochrany-osobnich-udaju-a-soukromi-ii",
-      "published": "2026-10-27",
-      "summary": "Úřad pro ochranu osobních údajů zahájil registraci na odborný seminář určený široké veřejnosti k tématu Realizace práva na informace v kontextu ochrany osobních údajů a soukromí II.",
-      "regulator": "ÚOOÚ (CZ)",
-      "region": "Europa",
-      "country": "CZ",
-      "type": "Noticias",
-      "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
-    },
-    {
-      "id": "4060e1df-2fda-8128-87ee-ded1fd586205",
-      "title": "Brister i polisens skyltning om kamerabevakning på Göteborgs centralstation",
-      "url": "https://www.imy.se/nyheter/brister-i-polisens-skyltning-om-kamerabevakning-pa-goteborgs-centralstation/",
-      "published": "2026-10-27",
-      "summary": "Integritetsskyddsmyndigheten (IMY) har granskat Polismyndighetens information om kamerabevakning på Göteborgs centralstation. IMY finner att skyltningen har varit otillräcklig, bland annat eftersom skyltning saknats för resenärer som anländer med tåg. IMY förelägger Polismyndigheten att åtgärda bristerna inom tre månader.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
-    },
-    {
-      "id": "4060e1df-2fda-81f8-af85-c767d56f9c85",
-      "title": "ANTAI informa sobre la reglamentación de la Ley 316 de 2022 sobre conflicto de intereses",
-      "url": "https://antai.gob.pa/antai-informa-sobre-la-reglamentacion-de-la-ley-316-de-2022-sobre-conflicto-de-intereses/",
-      "published": "2026-10-27",
-      "summary": "Tiempo de lectura: &#60; 1 minuto &#160; Panamá, 27 de octubre de 2026. La Autoridad Nacional de Transparencia y Acceso a la Información (ANTAI), como autoridad rectora en materia de conflicto de intereses, informa a los sujetos obligados y a la ciudadanía en general que, mediante el Decreto Ejecutivo No. 77 de 27 de octubre de 2026, publicado en la Gaceta [&#8230;]",
-      "regulator": "ANTAI",
-      "region": "LatAm",
-      "country": "PA",
-      "type": "Noticias",
-      "feed_url": "https://antai.gob.pa/feed/"
     },
     {
       "id": "4170e1df-2fda-813b-92f5-feb8815bae78",
