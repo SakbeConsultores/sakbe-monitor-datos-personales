@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-16T00:56:32.692381+00:00",
-  "total_items": 50,
+  "generated_at": "2026-11-16T23:43:36.612095+00:00",
+  "total_items": 55,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,54 @@
     }
   ],
   "items": [
+    {
+      "id": "41a0e1df-2fda-819b-9ca0-cd6f7e917e2b",
+      "title": "Automatiserat beslutsfattande i fokus för EDPB:s kommande samordnade åtgärd",
+      "url": "https://www.imy.se/nyheter/automatiserat-beslutsfattande-i-fokus-for-edpbs-kommande-samordnade-atgard/",
+      "published": "2026-11-16",
+      "summary": "På sitt senaste plenarmöte beslutade den Europeiska dataskyddsstyrelsen, EDPB, att nästa samordnade åtgärd ska handla om automatiserat beslutsfattande vid rekrytering.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "41a0e1df-2fda-8169-9147-cbd659a9f0d4",
+      "title": "EDPB adopts final guidelines on processing personal data based on legitimate interest",
+      "url": "https://idpc.org.mt/news-latest/edpb-adopts-final-guidelines-on-processing-personal-data-based-on-legitimate-interest/",
+      "published": "2026-11-16",
+      "summary": "EDPB adopts final guidelines on processing personal data based on legitimate interest &#160; 16 November 2026 The European Data Protection Board (EDPB) has adopted the final version of its Guidelines 1/2024 on the processing of personal data based on legitimate interest under Article 6(1)(f) of the General Data Protection Regulation (GDPR), following a public consultation. [&#8230;] The post EDPB adopts final guidelines on processing personal data based on legitimate interest appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "41a0e1df-2fda-81be-848e-f7311edaf632",
+      "title": "La AEPD archiva sus actuaciones sobre TikTok tras la denuncia del Ministerio Fiscal ante el juzgado",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-archiva-sus-actuaciones-sobre-tiktok-tras--ministerio-fiscal",
+      "published": "2026-11-16",
+      "summary": "La AEPD archiva sus actuaciones sobre TikTok tras la denuncia del Ministerio Fiscal ante el juzgado AEPD Lun, 16/11/2026",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
+      "id": "41a0e1df-2fda-814e-bb94-d86ce57d93d7",
+      "title": "Ordre du jour de la séance plénière du 12 novembre 2026",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-12-novembre-2026",
+      "published": "2026-11-12",
+      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 12 novembre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
     {
       "id": "4160e1df-2fda-81a3-8c93-e43123629f99",
       "title": "Na listopadovém zasedání EDPB se řešila data v Koreji, podniková pravidla a téma CEF 2027",
@@ -701,6 +749,18 @@
       "country": "FR",
       "type": "Noticias",
       "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "41a0e1df-2fda-81f2-a412-f491b2898a66",
+      "title": "Comunicat_Presa_16_11_2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_16_11_2026&lang=ro",
+      "published": "",
+      "summary": "Sanc t iune pentru incalcarea RGPD",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
     },
     {
       "id": "4170e1df-2fda-813b-92f5-feb8815bae78",
