@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T03:42:20.305798+00:00",
-  "total_items": 55,
+  "generated_at": "2026-11-17T22:51:21.803040+00:00",
+  "total_items": 63,
   "regions": [
     "LatAm",
     "Europa"
@@ -331,6 +331,54 @@
   ],
   "items": [
     {
+      "id": "41b0e1df-2fda-81ad-8eb2-ecf66c1114e8",
+      "title": "Anmäl intresse till innovationssandlådan senast måndag 23/11",
+      "url": "https://www.imy.se/nyheter/anmal-intresse-till-innovationssandladan-senast-mandag-2311/",
+      "published": "2026-11-17",
+      "summary": "Ska ni behandla personuppgifter i nytt projekt? I IMY:s innovationssandlåda för dataskydd får ni fördjupad och kostnadsfri vägledning i GDPR. Sandlådan vänder sig till både privat och offentlig sektor. Intresseanmälan stänger måndag 23 november. Välkommen med er intresseanmälan!",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "41b0e1df-2fda-81e2-b82f-f7b19b458189",
+      "title": "EDPS supports EU KIDS Act aims and calls for safety by design for all users",
+      "url": "https://idpc.org.mt/news-latest/edps-supports-eu-kids-act-aims-and-calls-for-safety-by-design-for-all-users/",
+      "published": "2026-11-17",
+      "summary": "EDPS supports EU KIDS Act aims and calls for safety by design for all users &#160; 17 November 2026 On 17 September 2026, the European Commission presented its&#160;proposal for the EU KIDS Act (‘EU Keeping Internet Digital Spaces Accountable and Trustworthy’). In its Opinion published on 12 November, the European Data Protection Supervisor (EDPS)&#160;strongly welcomes [&#8230;] The post EDPS supports EU KIDS Act aims and calls for safety by design for all users appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "41b0e1df-2fda-81b9-9275-ff2e2042ac91",
+      "title": "La CNIL a prononcé 38 nouvelles sanctions en procédure simplifiée depuis juin 2026",
+      "url": "https://www.cnil.fr/fr/38-sanctions-simplifiees",
+      "published": "2026-11-17",
+      "summary": "Cookies, sécurité des données, prospection commerciale, non-coopération&nbsp;: entre juin et octobre 2026, la CNIL a prononcé 38&nbsp;nouvelles sanctions dans le cadre de la procédure simplifiée, dont 23 ont pour origine des plaintes.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "41b0e1df-2fda-8141-aac2-e67935817683",
+      "title": "ANTAI sanciona económicamente a 33 servidores públicos y recomienda la destitución de 11 funcionarios por Nepotismo, Conflicto de Intereses y uso inadecuado del tiempo de trabajo",
+      "url": "https://antai.gob.pa/antai-sanciona-economicamente-a-33-servidores-publicos-y-recomienda-la-destitucion-de-11-funcionarios-por-nepotismo-conflicto-de-intereses-y-uso-inadecuado-del-tiempo-de-trabajo/",
+      "published": "2026-11-17",
+      "summary": "Tiempo de lectura: 4 minutos Panamá, 17 de noviembre de 2026. En estricto cumplimiento del artículo 29 de la Ley No. 33 de 25 de abril de 2013, y en ejercicio de su mandato legal de promover la transparencia, la integridad y la ética en la función pública, la Autoridad Nacional de Transparencia y Acceso a la Información (ANTAI) da [&#8230;]",
+      "regulator": "ANTAI",
+      "region": "LatAm",
+      "country": "PA",
+      "type": "Noticias",
+      "feed_url": "https://antai.gob.pa/feed/"
+    },
+    {
       "id": "41a0e1df-2fda-819b-9ca0-cd6f7e917e2b",
       "title": "Automatiserat beslutsfattande i fokus för EDPB:s kommande samordnade åtgärd",
       "url": "https://www.imy.se/nyheter/automatiserat-beslutsfattande-i-fokus-for-edpbs-kommande-samordnade-atgard/",
@@ -365,6 +413,42 @@
       "country": "ES",
       "type": "Noticias",
       "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
+      "id": "41b0e1df-2fda-81a4-95be-fd089543f1bf",
+      "title": "ANTAI condena atentado contra el periodista Rolando Rodríguez y reafirma su compromiso con la Libertad de Expresión",
+      "url": "https://antai.gob.pa/antai-condena-atentado-contra-el-periodista-rolando-rodriguez-y-reafirma-su-compromiso-con-la-libertad-de-expresion/",
+      "published": "2026-11-14",
+      "summary": "Tiempo de lectura: &#60; 1 minuto Panamá, 14 de noviembre de 2026. La Autoridad Nacional de Transparencia y Acceso a la Información (ANTAI) condena enérgicamente el atentado contra el periodista Rolando Rodríguez, del diario La Prensa, y expresa su solidaridad con el comunicador, sus familiares, colegas y con todo el gremio periodístico panameño. Desde la ANTAI reiteramos que la libertad de [&#8230;]",
+      "regulator": "ANTAI",
+      "region": "LatAm",
+      "country": "PA",
+      "type": "Noticias",
+      "feed_url": "https://antai.gob.pa/feed/"
+    },
+    {
+      "id": "41b0e1df-2fda-81ff-8cbc-d0a9404bda3c",
+      "title": "COMUNICADO",
+      "url": "https://antai.gob.pa/comunicado-13-11-2026/",
+      "published": "2026-11-13",
+      "summary": "Tiempo de lectura: &#60; 1 minuto Panamá, 13 de noviembre de 2026. La Autoridad Nacional de Transparencia y Acceso a la Información (ANTAI) aclara a la opinión pública que las 57 sanciones impuestas desde el inicio de esta administración a 57 servidores públicos de la UNACHI fueron resultado de investigaciones administrativas por faltas al Código Uniforme de Ética de los Servidores [&#8230;]",
+      "regulator": "ANTAI",
+      "region": "LatAm",
+      "country": "PA",
+      "type": "Noticias",
+      "feed_url": "https://antai.gob.pa/feed/"
+    },
+    {
+      "id": "41b0e1df-2fda-8108-b2d0-ec5cb6a80562",
+      "title": "ANTAI capacita a servidores públicos del ITSE sobre el Monitoreo de Transparencia",
+      "url": "https://antai.gob.pa/antai-capacita-a-servidores-publicos-del-itse-sobre-el-monitoreo-de-transparencia/",
+      "published": "2026-11-13",
+      "summary": "Tiempo de lectura: 3 minutos Panamá, 13 de noviembre de 2026. La Autoridad Nacional de Transparencia y Acceso a la Información (ANTAI), a través de la Dirección de Transparencia y Acceso a la Información, capacitó a servidores públicos de distintas oficinas y direcciones del Instituto Técnico Superior Especializado (ITSE), responsables de gestionar y publicar la información institucional. La jornada tuvo [&#8230;]",
+      "regulator": "ANTAI",
+      "region": "LatAm",
+      "country": "PA",
+      "type": "Noticias",
+      "feed_url": "https://antai.gob.pa/feed/"
     },
     {
       "id": "41a0e1df-2fda-814e-bb94-d86ce57d93d7",
@@ -749,6 +833,18 @@
       "country": "FR",
       "type": "Noticias",
       "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "41b0e1df-2fda-819b-870e-d178427c01ec",
+      "title": "Comunicat_Presa_17_11_2026",
+      "url": "https://www.dataprotection.ro:443/?page=Comunicat_Presa_17_11_2026&lang=ro",
+      "published": "",
+      "summary": "Amenda pentru incalcarea RGPD",
+      "regulator": "ANSPDCP",
+      "region": "Europa",
+      "country": "RO",
+      "type": "Noticias",
+      "feed_url": "https://www.dataprotection.ro/feed"
     },
     {
       "id": "41a0e1df-2fda-81f2-a412-f491b2898a66",
