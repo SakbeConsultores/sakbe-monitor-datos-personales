@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T02:53:38.476896+00:00",
-  "total_items": 60,
+  "generated_at": "2026-11-18T22:37:51.353338+00:00",
+  "total_items": 62,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,30 @@
     }
   ],
   "items": [
+    {
+      "id": "41c0e1df-2fda-81ca-a36a-e3fcfd641175",
+      "title": "Cornélie Koguciuk wint AP-scriptieprijs 2026",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/cornelie-koguciuk-wint-ap-scriptieprijs-2026",
+      "published": "2026-11-18",
+      "summary": "Cornélie Koguciuk (Tilburg University) heeft met haar masterscriptie ‘Sensitive Data, Vulnerable Bodies: Assessing GDPR Protections for Privacy And Autonomy in Reproductive Health Apps’ de tweede editie van de AP-scriptieprijs gewonnen. Dit werd bekendgemaakt tijdens de prijsuitreiking in Den Haag op maandag 16 november.",
+      "regulator": "AP",
+      "region": "Europa",
+      "country": "NL",
+      "type": "Noticias",
+      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
+    },
+    {
+      "id": "41c0e1df-2fda-81c5-a4d4-c0b7050f85cb",
+      "title": "Processing of personal data by Europol: the Court of Justice confirms that the action brought by the EDPS against the amendment of the Europol regulation is inadmissible",
+      "url": "https://idpc.org.mt/news-latest/processing-of-personal-data-by-europol-the-court-of-justice-confirms-that-the-action-brought-by-the-edps-against-the-amendment-of-the-europol-regulation-is-inadmissible/",
+      "published": "2026-11-18",
+      "summary": "Processing of personal data by Europol: the Court of Justice confirms that the action brought by the EDPS against the amendment of the Europol regulation is inadmissible &#160; 18 November 2026 The European Court of Justice confirmed in a judgement that the action brought by the European Data Protection Supervisor (EDPS) against the amendment of [&#8230;] The post Processing of personal data by Europol: the Court of Justice confirms that the action brought by the EDPS against the amendment of the Europol regulation is inadmissible appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
     {
       "id": "41b0e1df-2fda-81ad-8eb2-ecf66c1114e8",
       "title": "Anmäl intresse till innovationssandlådan senast måndag 23/11",
