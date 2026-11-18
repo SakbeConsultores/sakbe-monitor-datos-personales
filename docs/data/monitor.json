@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-17T22:51:21.803040+00:00",
-  "total_items": 63,
+  "generated_at": "2026-11-18T02:53:38.476896+00:00",
+  "total_items": 60,
   "regions": [
     "LatAm",
     "Europa"
@@ -797,42 +797,6 @@
       "country": "CZ",
       "type": "Noticias",
       "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
-    },
-    {
-      "id": "4090e1df-2fda-8134-8552-f4c7a1780885",
-      "title": "Handhavingsbeleid AP gepubliceerd",
-      "url": "https://autoriteitpersoonsgegevens.nl/actueel/handhavingsbeleid-ap-gepubliceerd",
-      "published": "2026-10-29",
-      "summary": "De Autoriteit Persoonsgegevens (AP) heeft het handhavingsbeleid openbaar gemaakt. Dit beleid gaat over de inzet van handhavingsinstrumenten als organisaties zich niet aan de privacyregels houden.",
-      "regulator": "AP",
-      "region": "Europa",
-      "country": "NL",
-      "type": "Noticias",
-      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
-    },
-    {
-      "id": "4080e1df-2fda-8196-afda-f068be331a24",
-      "title": "AP informeert incassobureaus over verantwoorde inzet AI",
-      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ap-informeert-incassobureaus-over-verantwoorde-inzet-ai",
-      "published": "2026-10-29",
-      "summary": "Incassobureaus gebruiken steeds vaker algoritmes en AI, zo blijkt uit een steekproef van de Autoriteit Persoonsgegevens (AP) onder 29 bureaus. Het werk gaat hierdoor sneller, maar het leidt ook tot risico’s op onjuiste beslissingen, discriminatie en ongelijke behandeling. Om verkeerd gebruik van computersystemen te helpen voorkomen, komt de AP met aanbevelingen aan de incassosector.",
-      "regulator": "AP",
-      "region": "Europa",
-      "country": "NL",
-      "type": "Noticias",
-      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
-    },
-    {
-      "id": "4080e1df-2fda-8117-826e-d5630135d7fd",
-      "title": "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT",
-      "url": "https://www.cnil.fr/fr/sanction-cookies-app-fnac",
-      "published": "2026-10-29",
-      "summary": "Le 22 octobre 2026, la CNIL a sanctionné les sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT d’une amende de 7&nbsp;millions d’euros pour non-respect des règles applicables en matière de traceurs (cookies).",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
     },
     {
       "id": "41b0e1df-2fda-819b-870e-d178427c01ec",
