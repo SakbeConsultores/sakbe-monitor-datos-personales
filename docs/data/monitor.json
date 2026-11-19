@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-18T22:37:51.353338+00:00",
-  "total_items": 62,
+  "generated_at": "2026-11-19T02:34:28.884279+00:00",
+  "total_items": 61,
   "regions": [
     "LatAm",
     "Europa"
@@ -809,18 +809,6 @@
       "country": "MT",
       "type": "Noticias",
       "feed_url": "https://idpc.org.mt/feed/"
-    },
-    {
-      "id": "4090e1df-2fda-81af-8a81-df4fd0d880e7",
-      "title": "V Bratislavě se konaly Open Talks",
-      "url": "https://uoou.gov.cz/novinky/vse/v-bratislave-se-konaly-open-talks",
-      "published": "2026-10-30",
-      "summary": "V úterý 20. října se pod záštitou slovenského Úradu na ochranu osobných údajov v Bratislavě uskutečnilo setkání Open Talks. Zástupci profesních asociací pověřenců a dozorových úřadů porovnávali zkušenosti z Česka, Slovenska, Polska, Maďarska a Rakouska.",
-      "regulator": "ÚOOÚ (CZ)",
-      "region": "Europa",
-      "country": "CZ",
-      "type": "Noticias",
-      "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
     },
     {
       "id": "41b0e1df-2fda-819b-870e-d178427c01ec",
