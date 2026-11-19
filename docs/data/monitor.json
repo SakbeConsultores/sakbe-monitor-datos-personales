@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-19T02:34:28.884279+00:00",
-  "total_items": 61,
+  "generated_at": "2026-11-19T22:38:44.042005+00:00",
+  "total_items": 67,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,78 @@
     }
   ],
   "items": [
+    {
+      "id": "41d0e1df-2fda-81fc-bab5-f0fc7e26093a",
+      "title": "Místopředseda ÚOOÚ se zúčastnil významného mezinárodního fóra Global Privacy Assembly",
+      "url": "https://uoou.gov.cz/novinky/vse/mistopredseda-uoou-petr-jager-se-zucastnil",
+      "published": "2026-11-19",
+      "summary": "Místopředseda Úřadu pro ochranu osobních údajů Mgr. Petr Jäger, Ph. D. se ve dnech 16. – 17. listopadu v Bruselu zúčastnil uzavřeného zasedání Světového shromáždění pro ochranu soukromí (Global Privacy Assembly – GPA) pořádaného v rámci 48. výroční konference GPA. Sešlo se na něm více než 200 členů tohoto globálního uskupení.",
+      "regulator": "ÚOOÚ (CZ)",
+      "region": "Europa",
+      "country": "CZ",
+      "type": "Noticias",
+      "feed_url": "https://uoou.gov.cz/feed/cs-rss.xml"
+    },
+    {
+      "id": "41d0e1df-2fda-81c6-a821-fa10f427a0cf",
+      "title": "AP raadt aankoop AI-camerabrillen af: ernstige risico’s voor gebruikers en omstanders",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ap-raadt-aankoop-ai-camerabrillen-af-ernstige-risicos-voor-gebruikers-en-omstanders",
+      "published": "2026-11-19",
+      "summary": "De Autoriteit Persoonsgegevens (AP) raadt consumenten af om een AI-camerabril te kopen voor algemeen gebruik. Uit eigen studie naar zes AI-camerabrillen blijkt dat deze niet alleen de privacy van omstanders in gevaar brengen, maar ook de veiligheid van gebruikers en mensen om hen heen. Zo gaf een bril tijdens een nagebootste reanimatie ten onrechte aan dat er een ambulance onderweg was. Ook hielden de brillen onvoldoende rekening met de veiligheid van minderjarigen en vond de AP beveiligingsproblemen in de software.",
+      "regulator": "AP",
+      "region": "Europa",
+      "country": "NL",
+      "type": "Noticias",
+      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
+    },
+    {
+      "id": "41d0e1df-2fda-8139-b341-f1ef153c317f",
+      "title": "EDPB publiceert definitieve guidelines over gerechtvaardigd belang",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/edpb-publiceert-definitieve-guidelines-over-gerechtvaardigd-belang",
+      "published": "2026-11-19",
+      "summary": "De European Data Protection Board (EDPB) heeft definitieve guidelines aangenomen over het verwerken van persoonsgegevens op grond van een gerechtvaardigd belang. Hierin kunnen organisaties lezen wanneer en hoe ze deze grondslag uit de Algemene verordening gegevensbescherming (AVG) mogen gebruiken.",
+      "regulator": "AP",
+      "region": "Europa",
+      "country": "NL",
+      "type": "Noticias",
+      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
+    },
+    {
+      "id": "41d0e1df-2fda-817c-9a9a-cd36dcad2630",
+      "title": "La AEPD publica ‘El estatuto del delegado de protección de datos’, con orientaciones sobre independencia, garantías organizativas y conflictos de intereses",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-publica-el-estatuto-del-delegado-proteccion-datos-independencia-garantias",
+      "published": "2026-11-19",
+      "summary": "La AEPD publica ‘El estatuto del delegado de protección de datos’, con orientaciones sobre independencia, garantías organizativas y conflictos de intereses AEPD Jue, 19/11/2026 El documento reúne los criterios de la Agencia sobre designación, posición, rendición de cuentas, garantías frente al cese y conflictos de intereses de las personas delegadas de protección de datos (DPD) en el sector público y privado Se interpretan las garantías del RGPD y de la LOPDGDD a la luz de la jurisprudencia del TJUE y de los criterios europeos más recientes La publicación se ha elaborado en dos rondas de diálogo con las asociaciones profesionales de la privacidad y con delegados y delegadas del sector público, en el marco del principio ‘AEPD Abierta’ del Plan Estratégico 2025-2030 El documento se completará con buenas prácticas ante conflictos de intereses y con el análisis de la relación entre las funciones del DPD y las cuestiones vinculadas a la IA Acceso a El estatuto del delegado de protección de datos. Orientaciones sobre el marco de actuación, independencia, garantías organizativas y conflictos de intereses",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
+      "id": "41d0e1df-2fda-811a-8ea0-d8f297772c62",
+      "title": "Conservation des mots de passe clients en clair : la CNIL prononce une sanction de 5 millions d’euros",
+      "url": "https://www.cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros",
+      "published": "2026-11-18",
+      "summary": "En novembre 2026, la CNIL a infligé une sanction de 5&nbsp;millions d’euros à une société en raison de l’insuffisance des mesures prises pour assurer la sécurité des données de ses clients et d’une durée excessive de conservation des données.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "41d0e1df-2fda-8163-bb90-e5843acaa47b",
+      "title": "Le Groupe VYV et la CNIL publient « La Voix des jeunesses » : une enquête pour éclairer les usages de l’IA conversationnelle",
+      "url": "https://www.cnil.fr/fr/ia-conversationnelle-la-voix-des-jeunesses",
+      "published": "2026-11-18",
+      "summary": "Alors que près d’un jeune sur deux se confie à une IA sur des sujets intimes, avec le livret «&nbsp;La Voix des jeunesses&nbsp;», le Groupe VYV, premier acteur mutualiste de santé et de protection sociale en France, et la CNIL croisent enquête européenne, témoignages, et expertises pour éclairer les enjeux de santé mentale et de vie privée liés à ces nouveaux usages.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
     {
       "id": "41c0e1df-2fda-81ca-a36a-e3fcfd641175",
       "title": "Cornélie Koguciuk wint AP-scriptieprijs 2026",
