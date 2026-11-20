@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-20T02:14:18.527078+00:00",
-  "total_items": 67,
+  "generated_at": "2026-11-20T22:14:01.357472+00:00",
+  "total_items": 71,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,54 @@
     }
   ],
   "items": [
+    {
+      "id": "41e0e1df-2fda-8172-8aac-ff8790a2c17e",
+      "title": "IDPC officials attend GPA48 and other meetings in Brussels",
+      "url": "https://idpc.org.mt/news-latest/idpc-officials-attend-gpa48-and-other-meetings-in-brussels/",
+      "published": "2026-11-20",
+      "summary": "IDPC officials attend GPA48 and other meetings in Brussels &#160; 20 November 2026 Malta’s Information and Data Protection Commissioner, Reno Borg, together with Penelope Micallef Vassallo, Legal and European Affairs Senior Officer at the Office of the Information and Data Protection Commissioner (IDPC), attended the 48th Annual Conference of the Global Privacy Assembly (GPA48) held [&#8230;] The post IDPC officials attend GPA48 and other meetings in Brussels appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "41e0e1df-2fda-81d6-a5a4-e96870ddf41a",
+      "title": "Pixels de suivi dans les courriels : la CNIL sollicite un premier retour d’expérience sur sa recommandation",
+      "url": "https://www.cnil.fr/fr/recommandation-pixels-retour-dexperience",
+      "published": "2026-11-20",
+      "summary": "Le 14 avril 2026, la CNIL a publié sa recommandation sur les pixels de suivi dans les courriels. Elle invite désormais les acteurs concernés, expéditeurs de messages et fournisseurs de solutions, à effectuer un retour d’expérience jusqu’au 3 décembre 2026.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "41e0e1df-2fda-8197-8945-fad2c6987bdd",
+      "title": "48e Assemblée mondiale pour la protection de la vie privée (GPA)",
+      "url": "https://www.cnil.fr/fr/48e-gpa",
+      "published": "2026-11-20",
+      "summary": "L’Assemblée mondiale pour la protection de la vie privée (ou Global Privacy Assembly), qui rassemble plus de 130 autorités de protection des données de plus de 80 pays, a adopté cinq résolutions dont deux sur l’Intelligence artificielle lors de sa réunion annuelle de novembre 2026.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "41e0e1df-2fda-816c-8bcc-dc1b00f8f677",
+      "title": "IA et éducation : une résolution mondiale pour la protection des données",
+      "url": "https://www.cnil.fr/fr/gpa-ia-education",
+      "published": "2026-11-20",
+      "summary": "En novembre 2026, l’Assemblée mondiale pour la protection de la vie privée (Global Privacy Assembly) a adopté une résolution sur l’intelligence artificielle dans le secteur de l’éducation. La CNIL revient sur les onze principes clés et les engagements pris.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
     {
       "id": "41d0e1df-2fda-81fc-bab5-f0fc7e26093a",
       "title": "Místopředseda ÚOOÚ se zúčastnil významného mezinárodního fóra Global Privacy Assembly",
