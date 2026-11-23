@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-22T21:00:37.744401+00:00",
-  "total_items": 70,
+  "generated_at": "2026-11-23T01:33:57.475208+00:00",
+  "total_items": 69,
   "regions": [
     "LatAm",
     "Europa"
@@ -905,18 +905,6 @@
       "country": "HR",
       "type": "Noticias",
       "feed_url": "https://azop.hr/feed/"
-    },
-    {
-      "id": "40d0e1df-2fda-81d0-b303-ec73452caebd",
-      "title": "Söktjänster behandlar personuppgifter på otillåtet sätt",
-      "url": "https://www.imy.se/nyheter/soktjanster-behandlar-personuppgifter-pa-otillatet-satt/",
-      "published": "2026-11-03",
-      "summary": "Integritetsskyddsmyndigheten (IMY) har granskat fyra söktjänster som behandlar stora mängder uppgifter om privatpersoner. Granskningarna visar att två söktjänster har behandlat uppgifter om brott på ett otillåtet sätt. Två andra söktjänster har brustit vad gäller rätten till radering.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
     },
     {
       "id": "41b0e1df-2fda-819b-870e-d178427c01ec",
