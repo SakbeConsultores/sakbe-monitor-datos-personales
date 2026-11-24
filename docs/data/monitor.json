@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-23T01:33:57.475208+00:00",
-  "total_items": 69,
+  "generated_at": "2026-11-24T02:08:31.033148+00:00",
+  "total_items": 78,
   "regions": [
     "LatAm",
     "Europa"
@@ -331,6 +331,54 @@
   ],
   "items": [
     {
+      "id": "4220e1df-2fda-8145-abcf-c4112091a3c2",
+      "title": "Découvrez les lauréats du concours Trophées des classes 2026 « Comment je protège ma vie privée en ligne ? »",
+      "url": "https://www.cnil.fr/fr/trophees-des-classes-2026-laureats",
+      "published": "2026-11-23",
+      "summary": "La CNIL et le ministère de l’Éducation nationale dévoilent les classes gagnantes de l’édition 2026 des «&nbsp;Trophées des classes&nbsp;», un concours pour sensibiliser les élèves à leurs droits numériques et à la citoyenneté en ligne.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "4220e1df-2fda-8186-96e4-d7bd90abc785",
+      "title": "Trophées des classes 2027 - Ensemble, tous protégés sur Internet !",
+      "url": "https://www.cnil.fr/fr/trophees-des-classes-2027",
+      "published": "2026-11-23",
+      "summary": "Le ministère de l’Éducation nationale et la CNIL organisent le concours Trophées des classes dont la thématique, pour cette édition 2027, est&nbsp;: «&nbsp;Comment je sécurise mes données personnelles en ligne&nbsp;?&nbsp;».",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "4220e1df-2fda-814d-80cc-cfa663726ace",
+      "title": "Dobar popust ili internetska prijevara? Savjeti za sigurnu kupovinu uoči Black Friday-a",
+      "url": "https://azop.hr/dobar-popust-ili-internetska-prijevara-savjeti-za-sigurnu-kupovinu-uoci-black-friday-a/",
+      "published": "2026-11-23",
+      "summary": "Ovih dana izloženi smo oglasima raznih trgovaca koji nude velike popuste i rasprodaje uoči Black Friday-a, No, među njima kriju se i brojne lažne internetske stranice koje imitiraju poznate modne brandove i internetske trgovine. Iako su Black Friday i Cyber Monday za mnoge građane prilika za povoljniju kupovinu, za prevarante je to idealna prilika za [&#8230;] Objava Dobar popust ili internetska prijevara? Savjeti za sigurnu kupovinu uoči Black Friday-a pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
+    {
+      "id": "4220e1df-2fda-81c2-be21-f0f3897df6cc",
+      "title": "Phishing napadi – kako ih prepoznati i zaštititi se",
+      "url": "https://azop.hr/15282-2/",
+      "published": "2026-11-23",
+      "summary": "Phishing napadi – kako ih prepoznati i zaštititi se Phishing se odnosi na internetske prijevare u vidu lažnih e-poruka koje izgledaju kao da su ih poslale legitimne organizacije (primjerice banka, tijelo javne vlasti ili internet stranica za kupovinu), a koje primatelja navode na dijeljenje osobnih, financijskih ili sigurnosnih podataka. Na ovaj način prevaranti dobivaju pristup [&#8230;] Objava Phishing napadi &#8211; kako ih prepoznati i zaštititi se pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
+    {
       "id": "41e0e1df-2fda-8172-8aac-ff8790a2c17e",
       "title": "IDPC officials attend GPA48 and other meetings in Brussels",
       "url": "https://idpc.org.mt/news-latest/idpc-officials-attend-gpa48-and-other-meetings-in-brussels/",
@@ -377,6 +425,42 @@
       "country": "FR",
       "type": "Noticias",
       "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "4220e1df-2fda-8105-bcd2-e2d60d841a24",
+      "title": "The Norwegian Data Protection Authority fines Social Garden AS for publishing personal data without a lawful basis",
+      "url": "https://www.edpb.europa.eu/news/the-norwegian-data-protection-authority-fines-social-garden-as-for-publishing-personal-data_en",
+      "published": "2026-11-19",
+      "summary": "Background information Date of final decision: 13/11/2026 Cross-border case One-Stop-Shop Procedure: the decision was taken by national supervisory authorities following the One-Stop-Shop cooperation procedure (OSS) If cross-border, LSA: Norway and CSAs: Sweden, Denmark Controller: Social Garden AS Legal References: Article 6 (Lawfulness of processing), Article 9 (Processing of special categories of personal data) Decision: Administrative fine Key words: Basic principles, Legal basis, Fines, Online platforms, Cooperation between authorities Summary of the Decision Origin of the case The company operates several dating websites, including skeiv.no, kristendate.no, kristendate.se and kristendate.dk, targeting queer and religious target groups. In 2024, the Data Protection Authority received a complaint about the company from a user of skeiv.no. The complainant discovered that members’ photos and other profile information were publicly accessible to anyone visiting the website. Key Findings In the investigation, the Data Protection Authority considered whether this involved the processing of special categories of personal data and whether valid consent had been obtained for the processing. The Data Protection Authority found that the company had published the complainant’s and other members’ photos and profile information (including names, ages and places of residence) on the homepages of its dating websites without a valid lawful basis for processing the data. Further, the Data Protection Authority found that the company’s consent mechanism did not meet the requirements of the GDPR. The Data Protection Authority also concluded that information revealing that someone uses these dating services in itself constitutes a special category of personal data. The infringements affected approximately 17,000 members across the four dating sites. This practice had been ongoing for several years, dating back at least to the GDPR’s entry into force in 2018. Decision The Data Protec",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "4220e1df-2fda-81b5-bd0f-e9a34f97298d",
+      "title": "EDPB and DPAs from countries and organisation with EU adequacy decision take stock of progress and set 2027 priorities",
+      "url": "https://www.edpb.europa.eu/news/edpb-and-dpas-from-countries-and-organisation-with-eu-adequacy-decision-take-stock-of-progress_en",
+      "published": "2026-11-19",
+      "summary": "Brussels, 19 November - The EDPB met on 17 November with Commissioners and representatives of the Data Protection Authorities (DPAs) from the countries and the international organisation with an EU adequacy decision. This gathering marked the third of its kind, following the first one in October 2024 and the second one in December 2025 . The meeting was an opportunity to discuss the joint activities carried out in 2026 and identify the way forward for 2027. “The authorities in this network are essential partners for the EDPB: together we can advance privacy and data protection on a global scale. The engagement at this meeting reflects our collective commitment to addressing today's most pressing data protection challenges. With technology operating on a global scale, we must work together to address the shared issues we face in different parts of the world. I look forward to continuing and strengthening our cooperation.” EDPB Chair, Anu Talus Focus for 2027 The network has identified two priority topics for knowledge-sharing in 2027: Wearable devices with a special focus on smart glasses Privacy preserving age assurance The participants also agreed to continue discussing enforcement cooperation. Background An adequacy decision is a key-mechanism in EU data protection legislation which allows free flow of personal data from Europe to third countries or an international organisation offering an adequate level of data protection.* To date, the following countries and international organisation benefit from this: Andorra, Argentina, Brazil, Canada, Faroe Islands, Guernsey, Israel, Isle of Man, Japan, Jersey, New Zealand, Republic of Korea, Switzerland, United Kingdom, Uruguay, United States, and the European Patent Organisation. Note to editors *The European Commission has the power to determine, on the basis of Art. 45 of Regulation (EU) 2016/679 whether a country outside the EU offers an adequate level of data protection. The adoption of an adequacy decision involves:",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "4220e1df-2fda-81fb-bee5-e9c2c27e143b",
+      "title": "Norwegian DPA fines private individual for credit check and publication of personal data without a lawful basis",
+      "url": "https://www.edpb.europa.eu/news/norwegian-dpa-fines-private-individual-for-credit-check-and-publication-of-personal-data_en",
+      "published": "2026-11-19",
+      "summary": "Background information Date of final decision: 16/10/2026 National case Controller: Private individual Legal References: Article 6(1) (Lawfulness of processing) Decision: Administrative fine Key words: Legal basis, Fines, GDPR enforcement, Basic principles Summary of the Decision Origin of the case The Data Protection Authority received a complaint from an individual who had been subject to a credit check carried out by a private individual. The individual had access to a credit information service through their work and had used it to carry out a credit check on the complainant for personal purposes. The information obtained from the credit check was subsequently published in various Facebook groups. Key Findings The Data Protection Authority concluded that the credit check was carried out for personal purposes and was unrelated to the work of the individual concerned. The Data Protection Authority therefore concluded that neither the credit check nor the subsequent publication of the information had a lawful basis under Article 6(1) of the GDPR. Decision The Data Protection Authority issued a decision imposing an administrative fine of EUR 940 on the individual for carrying out an unlawful credit check and publishing the information. For further information: Norwegian Press Release: Gebyr for kredittvurdering og publisering av personopplysningar utan rettsleg grunnlag English Press Release: Fine for credit check and publication of personal data without a lawful basis",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
     },
     {
       "id": "41d0e1df-2fda-81fc-bab5-f0fc7e26093a",
@@ -427,6 +511,54 @@
       "feed_url": "https://www.aepd.es/noticias/feed.xml"
     },
     {
+      "id": "4220e1df-2fda-8116-829f-ca7af85ba2ab",
+      "title": "Italian DPA fines Business School EUR 8 000 for unlawful telemarketing and failure to handle data subject request",
+      "url": "https://www.edpb.europa.eu/news/italian-dpa-fines-business-school-eur-8-000-for-unlawful-telemarketing-and-failure-to-handle_en",
+      "published": "2026-11-18",
+      "summary": "Background information Date of final decision: 23/09/2026 Controller: Business School S.r.l. Legal References: Article 5 (Principles relating to processing of personal data), Article 12 (Transparent information, communication and modalities for the exercise of the rights of the data subject), Article 15 (Right to access by the data subject), Article 17 (Right to erasure (‘right to be forgotten’)), Article 21 (Right to object), Article 31 (Co-operation with the supervisory authority) Decision: Administrative fine, Compliance order Key words: Fines, Marketing, Data subjects rights Summary of the Decision Origin of the case The Italian Data Protection Authority (DPA) received a report from an individual who had received an unsolicited promotional telephone call from Business School, despite having registered the number in Italy's Public Register of Objections. The individual also complained that the company had not adequately responded to a request to exercise their data protection rights. The DPA investigated the promotional call, the handling of the request and the company's cooperation with the Authority. Key Findings The DPA found that Business School had made a promotional call without a valid legal basis, despite the number being registered in the Public Register of Objections. The company attributed the call to an operator's manual dialling error, but this did not remove its responsibility for ensuring lawful processing. The company had also failed to respond adequately and promptly to the individual's request for over seven months and had not fully complied with the Authority's request for information. The DPA established infringements of Articles 5(1)(a), 12(3) and (4), 15, 17, 21 and 31 GDPR, together with Articles 130 and 157 of the Italian Data Protection Code. Decision The Italian DPA imposed an administrative fine of EUR 8 000 on Business School. It also ordered the company to comply with the corrective measure specified in the decision within 30 days of ",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "4220e1df-2fda-8111-9fd4-d400c30014cd",
+      "title": "Italian DPA fines radiology centre and IT provider a combined EUR 28 000 for exposing patient health data",
+      "url": "https://www.edpb.europa.eu/news/italian-dpa-fines-radiology-centre-and-it-provider-a-combined-eur-28-000-for-exposing-patient_en",
+      "published": "2026-11-18",
+      "summary": "Background information Date of final decision: 07/10/2026 National case Controller: Centro Radiologico Madonna della Bruna S.r.l. Processor: MedStore Saronno S.r.l. Legal References: Article 5 (Principles relating to processing of personal data), Article 25 (Data protection by design and by default), Article 32 (Security of processing) Decision: Administrative fine Key words: Health and research, Fines, Privacy by design and by default, Controller/processor, Personal data breaches, Cybersecurity Summary of the Decision Origin of the case The Italian Data Protection Authority (DPA) received a report about the online medical reporting platform used by Centro Radiologico Madonna della Bruna. The complainant found that medical reports could be viewed without authentication by changing the numerical identifier at the end of a web address. The DPA investigated the healthcare centre, acting as controller, and MedStore Saronno, the IT provider appointed as processor for the platform. Key Findings The DPA confirmed that anyone using an ordinary browser could access other patients' medical reports by changing the final digits of the URL. The documents contained identifying information and health data. Reports dating back to 2020 also remained available because the automatic deletion mechanism had malfunctioned. The centre had failed to adequately oversee the security of processing entrusted to MedStore. The IT provider had not promptly installed an available security patch and had failed to ensure adequate protection against unauthorised access. The Authority established infringements of Articles 5(1)(e) and (f), 25 and 32 GDPR by the centre, and Articles 5(1)(f) and 32 GDPR by MedStore. Decision The Italian DPA imposed an administrative fine of EUR 16 000 on Centro Radiologico Madonna della Bruna and EUR 12 000 on MedStore Saronno, totalling EUR 28 000. The provider installed the security patch after the vulnerability was reported. The DPA did not impose further corrective m",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "4220e1df-2fda-81af-8503-e04440dcddab",
+      "title": "Italian DPA fines Meta EUR 805 million for unlawful access to Facebook users’ photo galleries",
+      "url": "https://www.edpb.europa.eu/news/italian-dpa-fines-meta-eur-805-million-for-unlawful-access-to-facebook-users-photo-galleries_en",
+      "published": "2026-11-18",
+      "summary": "Background information Date of final decision: 13/11/2026 National case Controller: Meta Platforms Ireland Limited Decision: Administrative fine, Compliance order Key words: Fines, Online platforms Summary of the Decision Origin of the case The Italian Data Protection Authority (DPA) launched an investigation following a complaint submitted in July 2025 by the Bolzano Consumer Protection Centre concerning Facebook's access to users' smartphone photo galleries. The investigation focused on the feature “Get suggestions from your gallery while browsing Facebook”, which displays photos and videos stored on Android devices as suggestions for sharing on the social network. The Authority carried out a technical analysis of the feature and examined whether Meta had obtained valid consent and adequately informed users before accessing information stored on their devices. Key Findings The investigation found that Facebook requested a single system permission to access photos and videos for several different functions. The request was preceded by a generic notice referring to enabling other features, without clearly explaining that access would also enable gallery suggestions. The feature was enabled by default, although it could operate only after system permission had been granted. Once authorised, the app could access the device's multimedia archive on an ongoing basis. The DPA found that Meta had not obtained specific, informed consent for this feature, in breach of Article 122 of the Italian Data Protection Code. The Authority rejected Meta's jurisdictional objection, noting that the ePrivacy framework does not provide for the GDPR's One-Stop-Shop mechanism. Decision The Italian DPA imposed an administrative fine of EUR 805 million on Meta Platforms Ireland Limited . It ordered Meta, within 60 days of notification, to introduce a separate, specific consent request, provide clear information and keep the feature disabled by default, including for existing users. If Meta fa",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
+      "id": "4220e1df-2fda-8148-9e78-dc118f0b7d83",
+      "title": "Italian DPA fines a company EUR 25 500 over employee access rights and corporate email accounts",
+      "url": "https://www.edpb.europa.eu/news/italian-dpa-fines-a-company-eur-25-500-over-employee-access-rights-and-corporate-email_en",
+      "published": "2026-11-18",
+      "summary": "Background information Date of final decision: 20/10/2026 National case Controller: Techpartner S.r.l. Legal References: Article 5 (Principles relating to processing of personal data), Article 12 (Transparent information, communication and modalities for the exercise of the rights of the data subject), Article 15 (Right to access by the data subject), Decision: Administrative fine, Compliance order Key words: Fines, Basic principles, Data subjects rights Summary of the Decision Origin of the case The Italian Data Protection Authority (DPA) received a complaint from a former employee of Techpartner concerning an inadequate response to a request to access personal data processed during employment. The DPA also examined the company's internal policies governing employees' individual corporate email accounts, including their management after employment ended. Key Findings The company did not respond to the former employee's access request within the deadline required by the GDPR. The company replied only after the DPA opened its investigation, approximately nine months after the request. Its internal rules also allowed former employees' email accounts to remain active for three to six months after termination, with the possibility of reading incoming messages. The DPA found this incompatible with the principles of lawfulness, data minimisation and storage limitation. It confirmed infringements of Articles 5(1)(a), (c) and (e), 12(3) and 15 GDPR. Other allegations concerning video surveillance and occupational medical information did not result in established infringements. Decision The Italian DPA imposed two administrative fines on Techpartner: EUR 9 500 for failing to respond to the access request within the prescribed deadline and EUR 16 000 for unlawful processing involving corporate email accounts. The total fine was EUR 25 500. The company was ordered to bring its internal IT policies into compliance with data protection requirements within 60 days of notification",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
       "id": "41d0e1df-2fda-811a-8ea0-d8f297772c62",
       "title": "Conservation des mots de passe clients en clair : la CNIL prononce une sanction de 5 millions d’euros",
       "url": "https://www.cnil.fr/fr/conservation-des-mots-de-passe-sanction-5-millions-deuros",
@@ -473,6 +605,18 @@
       "country": "MT",
       "type": "Noticias",
       "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "4220e1df-2fda-81d2-bd72-c2d92f1d89cc",
+      "title": "Irish Data Protection Commission fines MTCH EUR 11 million following Inquiry into Tinder users’ personal data requests",
+      "url": "https://www.edpb.europa.eu/news/irish-data-protection-commission-fines-mtch-eur-11-million-following-inquiry-into-tinder-users_en",
+      "published": "2026-11-17",
+      "summary": "Background information Date of final decision: 13/11/2026 National case Controller: MTCH Technology Services Limited (“MTCH”) Legal References: Article 15 (Right to access by the data subject) Decision: Administrative fine, Compliance order Key words: GDPR enforcement, Technology, Accountability, Data subjects rights, Fines Summary of the Decision Origin of the case The Data Protection Commission (DPC) has today announced its final decision following an Inquiry into MTCH Technology Services Limited (“MTCH”), concerning its Tinder service. This own-volition Inquiry was launched by the DPC in January 2020, in its role as the Lead Supervisory Authority for MTCH. This decision concerns MTCH’s failure to provide Tinder users with a complete copy of their personal data on request, pursuant to Article 15(3) GDPR. In particular, the DPC assessed the operation of a self-service tool on Tinder (known as the Download My Data tool), which enabled users to download their data. Although this tool was presented to users as a way to obtain a copy of their Tinder data, the DPC found that it failed to provide users with all of their personal data. Certain categories of information were omitted without notice to the user, or provided in summary form only. The DPC also found that the personal data provided through the tool did not meet the requirements of the right of access under the GDPR. Key Findings The DPC’s decision found that MTCH infringed Article 15(3) by failing to provide a copy of personal data in circumstances where, MTCH made available an automated tool (known as the Download My Data tool), and described this automated tool as a means to 'request a copy' of personal data without otherwise making clear that the tool did not provide access to certain personal data. Decision The DPC has imposed administrative fines totalling EUR 11 million and has ordered MTCH to bring its processing into compliance within 3 months. For further information: Data Protection Commission fines M",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
     },
     {
       "id": "41b0e1df-2fda-81ad-8eb2-ecf66c1114e8",
@@ -571,6 +715,18 @@
       "feed_url": "https://antai.gob.pa/feed/"
     },
     {
+      "id": "4220e1df-2fda-817e-b0b7-cd908ebf1e79",
+      "title": "EDPB supports use of other models of contractual clauses for onward transfers of personal data",
+      "url": "https://www.edpb.europa.eu/news/edpb-supports-use-of-other-models-of-contractual-clauses-for-onward-transfers-of-personal-data_en",
+      "published": "2026-11-13",
+      "summary": "Brussels 13 November – At its latest plenary, the EDPB adopted a statement on the use of other models of contractual clauses for onward transfers of personal data * . The statement welcomes recent updates made by the European Commission on its FAQs on the EU Standard Contractual Clauses (SCCs) **, recognising that the Model Contractual Clauses (MCCs) developed by the Council of Europe (CoE MCC) and the ones developed by the Ibero-American Data Protection Network (RIPD MCC) may also be used for onward transfers of personal data received under the EU SCCs. Result of a joint work The EDPB and the Commission cooperated closely on this matter. The Board welcomes the Commission’s recognition of these additional instruments to onward transfer personal data received under the EU SCCs. This means that, under the conditions explained in the Commission’s FAQs, an appropriate level of protection of individuals as guaranteed by the European data protection law may be provided when data is onward transferred on the basis of these sets of clauses. In addition, the EDPB statement provides practical guidance to organisations seeking to rely on these MCCs, subject to the conditions set out in the Commission’s FAQs. Note to editors: * Model contractual clauses are contractual clauses developed by organisations and third countries. This news item refers to the Model Contractual Clauses developed by the Council of Europe (CoE MCC) and the ones by the Ibero-American Data Protection Network (RIPD MCC). ** Standard contractual clauses are standardised and pre-approved model data protection clauses that are used to ensure appropriate data protection safeguards for transfers of personal data to third countries.",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
+    {
       "id": "41b0e1df-2fda-81ff-8cbc-d0a9404bda3c",
       "title": "COMUNICADO",
       "url": "https://antai.gob.pa/comunicado-13-11-2026/",
@@ -653,6 +809,18 @@
       "country": "ES",
       "type": "Noticias",
       "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
+      "id": "4220e1df-2fda-81be-be1d-e7c461e15dc7",
+      "title": "EDPB adopts statement on review of the Republic of Korea adequacy, processor BCR recommendations, and selects topic for 2027 coordinated enforcement action",
+      "url": "https://www.edpb.europa.eu/news/edpb-adopts-statement-on-review-of-the-republic-of-korea-adequacy-processor-bcr_en",
+      "published": "2026-11-11",
+      "summary": "Brussels, 11 November – During its latest plenary, the EDPB has adopted a statement on the first review of the functioning of the adequacy decision of the Republic of Korea and the final version of the recommendations on the application for approval and on the elements and principles to be found in Processor Binding Corporate Rules (BCR-P) . In addition, the Board selected the topic for its sixth coordinated enforcement action (CEF). The EDPB statement on the first review of the Republic of Korea adequacy decision focuses mainly on the assessment of amendments to the Korean data protection legal framework, both on the commercial aspects and concerning access and use of personal data by Korean public authorities*. “The mutual recognition of equivalent data protection standards between the EU and the Republic of Korea in 2025 represented a major step confirming the growing alignment between both regulatory frameworks. We welcome amendments in the Korean data protection legislation that have increased the level of protection of individuals and facilitated the processing of data by controllers while maintaining a level of protection essentially equivalent to that of the GDPR.\" EDPB Chair, Anu Talus For example, the Personal Information Protection Act (PIPA) was amended to introduce a new general right to withdraw consent, a right to request the suspension of processing of personal data, as well as a right to refuse an automated decision (incl. by AI systems) or request an explanation if the decision significantly impacts the data subjects’ rights or obligations. Furthermore, regarding onward transfers, the EDPB welcomes the changes to the PIPA on the legal regime applicable to international transfers of personal data. The changes clarify the need for cross-border transfers of personal information to rely on specific transfer tools (Art. 28-8 PIPA), offering therefore alternative solutions to consent. The EDPB also welcomes the strengthening of enforcement and sanctions ",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
     },
     {
       "id": "4150e1df-2fda-8123-9e06-d976707c8f02",
@@ -845,66 +1013,6 @@
       "country": "PA",
       "type": "Noticias",
       "feed_url": "https://antai.gob.pa/feed/"
-    },
-    {
-      "id": "40f0e1df-2fda-81e3-884c-de07661a5e14",
-      "title": "¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves",
-      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/como-decide-un-algoritmo-te-invitamos-al-segundo-episodio-de-las-claves",
-      "published": "2026-11-04",
-      "summary": "¿Cómo decide un algoritmo? Te invitamos a conectarte en directo al segundo episodio de Las claves AEPD Mié, 04/11/2026 En ‘Las claves de la transparencia algorítmica’, el presidente de la Agencia, Lorenzo Cotino, conversará con Clara Velasco, vicepresidenta de la Comisión de Garantía del Derecho de Acceso a la Información Pública de Cataluña y profesora de Derecho Administrativo de la Universitat Pompeu Fabra El programa se emitirá el 10 de noviembre a las 17:00 horas, podrá seguirse en directo en streaming y los asistentes podrán formular sus preguntas La conversación analizará cómo garantizar que estos sistemas sean comprensibles y controlables, y que se rindan cuentas sobre ellos La emisión en directo podrá seguirse en este enlace",
-      "regulator": "AEPD",
-      "region": "Europa",
-      "country": "ES",
-      "type": "Noticias",
-      "feed_url": "https://www.aepd.es/noticias/feed.xml"
-    },
-    {
-      "id": "40e0e1df-2fda-81b2-a98b-c43988c694b6",
-      "title": "Webbinarium: Sociala medier och GDPR i LSS-verksamhet",
-      "url": "https://www.imy.se/nyheter/webbinarium-sociala-medier-och-gdpr-i-lss-verksamhet/",
-      "published": "2026-11-04",
-      "summary": "Den 27 november anordnar IMY ett webbinarium om vilka krav GDPR ställer på LSS-verksamheter vid publicering av bilder och filmer på sociala medier.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
-    },
-    {
-      "id": "40e0e1df-2fda-8139-8d57-fcff63c14e7b",
-      "title": "EDPB helps kids stay safe online – featuring IDPC Children's Campaign material",
-      "url": "https://idpc.org.mt/news-latest/edpb-helps-kids-stay-safe-online-featuring-idpc-childrens-campaign-material/",
-      "published": "2026-11-04",
-      "summary": "EDPB helps kids stay safe online - featuring IDPC Children's Campaign material &#160; 04 November 2026 European Data Protection Authorities (DPAs) work together to protect personal data, especially for children who are more vulnerable online. Kids may not recognise risks easily, trust strangers, or share personal data carelessly. Many apps collect their data, and without [&#8230;] The post EDPB helps kids stay safe online &#8211; featuring IDPC Children&#039;s Campaign material appeared first on IDPC .",
-      "regulator": "IDPC",
-      "region": "Europa",
-      "country": "MT",
-      "type": "Noticias",
-      "feed_url": "https://idpc.org.mt/feed/"
-    },
-    {
-      "id": "40e0e1df-2fda-8184-8b1c-eab9ad84cb2e",
-      "title": "Privacy for Kids : le CEPD lance une plateforme dédiée à la vie privée des enfants",
-      "url": "https://www.cnil.fr/fr/cepd-privacy-for-kids",
-      "published": "2026-11-04",
-      "summary": "Le Comité européen de la protection des données (CEPD), en lien avec différentes autorités de protection de données, dont la CNIL, lance sa plateforme Privacy for kids dédiée à l’éducation au numérique.",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "40e0e1df-2fda-8145-94e3-ef165819b107",
-      "title": "Poziv na online edukaciju o osnovama zaštite osobnih podataka – 6. studenog 2026.",
-      "url": "https://azop.hr/poziv-na-besplatnu-online-edukaciju-o-osnovama-zastite-osobnih-podataka-6-studenog-2026/",
-      "published": "2026-11-04",
-      "summary": "Dok organizacije sve više koriste nove tehnologije i AI alate, Agencija za zaštitu osobnih podataka u radu s organizacijama primjećuje da mnogima i dalje izazov predstavljaju osnovne obveze iz Opće uredbe o zaštiti podataka (GDPR). Stoga Agencija organizira besplatnu online edukaciju o osnovama zaštite osobnih podataka u petak 6. studenoga 2026., od 13 do 15 [&#8230;] Objava Poziv na online edukaciju o osnovama zaštite osobnih podataka &#8211; 6. studenog 2026. pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
-      "regulator": "AZOP",
-      "region": "Europa",
-      "country": "HR",
-      "type": "Noticias",
-      "feed_url": "https://azop.hr/feed/"
     },
     {
       "id": "41b0e1df-2fda-819b-870e-d178427c01ec",
