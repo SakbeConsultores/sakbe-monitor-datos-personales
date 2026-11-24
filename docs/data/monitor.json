@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T05:15:56.025186+00:00",
-  "total_items": 78,
+  "generated_at": "2026-11-24T23:51:01.924744+00:00",
+  "total_items": 85,
   "regions": [
     "LatAm",
     "Europa"
@@ -331,6 +331,78 @@
   ],
   "items": [
     {
+      "id": "4220e1df-2fda-81b1-bc3d-fd851e0e93fd",
+      "title": "AP neemt deel aan online rondetafel over AVG-gedragscodes",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ap-neemt-deel-aan-online-rondetafel-over-avg-gedragscodes",
+      "published": "2026-11-24",
+      "summary": "Hoe zorgt een IT-organisatie voor een praktische en aantoonbare naleving van de Algemene verordening gegevensbescherming (AVG)? En welke rol kan een goedgekeurde AVG-gedragscode daarbij spelen, zoals de Data Pro Code? Deze vragen staan centraal tijdens een online rondetafel van brancheorganisatie NLdigital.",
+      "regulator": "AP",
+      "region": "Europa",
+      "country": "NL",
+      "type": "Noticias",
+      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
+    },
+    {
+      "id": "4220e1df-2fda-818f-9f6b-ea794b6b8c62",
+      "title": "ECJ states that a social network is not free when you pay with your data to use it",
+      "url": "https://idpc.org.mt/news-latest/ecj-states-that-a-social-network-is-not-free-when-you-pay-with-your-data-to-use-it/",
+      "published": "2026-11-24",
+      "summary": "ECJ states that a social network is not free when you pay with your data to use it &#160; 24 November 2026 Under EU consumer protection law, the provision of personal data for commercial purposes may constitute a form of payment, even where the consumer is not required to pay a sum of money. In [&#8230;] The post ECJ states that a social network is not free when you pay with your data to use it appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "4220e1df-2fda-81e1-b312-ed605dfeca72",
+      "title": "Acteurs du secteur de la livraison : comment définir les responsabilités au regard du RGPD ?",
+      "url": "https://www.cnil.fr/fr/acteurs-secteur-livraison-responsabilites",
+      "published": "2026-11-24",
+      "summary": "Dans le cadre de leurs activités, les professionnels de la livraison sont amenés à traiter des données personnelles. Dans la plupart des cas, la CNIL considère que le transporteur est responsable de traitement, mais ce n’est pas systématique. Comment clarifier les rôles de chacun&nbsp;?",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "4220e1df-2fda-81f5-9698-c9a4656357a3",
+      "title": "La AEPD celebra su primera jornada con espacio propio en las Jornadas STIC, dedicada a la ciberseguridad y la protección de datos",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-celebra-primera-jornada-con-espacio-propio-jornadas-stic",
+      "published": "2026-11-24",
+      "summary": "La AEPD celebra su primera jornada con espacio propio en las Jornadas STIC, dedicada a la ciberseguridad y la protección de datos AEPD Mar, 24/11/2026 El presidente de la Agencia, Lorenzo Cotino, ha puesto en valor el trabajo de la AEPD en inteligencia artificial como primera institución del sector público en lanzar e implementar una política de IA El adjunto, Francisco Pérez Bes, ha recordado que, cuando un incidente compromete información personal, también están en juego los derechos y las libertades de las personas La Agencia ha compartido con las asociaciones profesionales reflexiones sobre el nuevo ‘Estatuto del delegado de protección de datos’",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
+      "id": "4220e1df-2fda-8162-b275-cb6f16546688",
+      "title": "Gostujuće predavanje na VERN-u: „Kako AI mijenja odnose s javnošću“",
+      "url": "https://azop.hr/gostujuce-predavanje-na-vern-u-kako-ai-mijenja-odnose-s-javnoscu/",
+      "published": "2026-11-24",
+      "summary": "Načelnica Sektora za EU, međunarodnu suradnju i pravne poslove Agencije za zaštitu osobnih podataka i potpredsjednica Odbora za zaštitu podataka Vijeća Europe – Odbora Konvencije 108, Anamarija Mladinić, održala je gostujuće predavanje za studente na VERN-u, u okviru nastave na kolegiju Umjetna inteligencija u odnosima s javnošću predavača doc. dr. sc. Alena Kišića. U predavanju [&#8230;] Objava Gostujuće predavanje na VERN-u: „Kako AI mijenja odnose s javnošću“ pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
+    {
+      "id": "4220e1df-2fda-8152-b156-ff8a31282f3c",
+      "title": "Contrôles de la CNIL : une charte pour tout comprendre",
+      "url": "https://www.cnil.fr/fr/controles-de-la-cnil-une-charte-pour-tout-comprendre",
+      "published": "2026-11-23",
+      "summary": "La CNIL peut effectuer des contrôles auprès de l’ensemble des organismes qui traitent des données personnelles. Afin d’assurer une plus grande transparence sur cette activité et favoriser le bon déroulement des investigations, la CNIL présente une charte des contrôles.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
       "id": "4220e1df-2fda-8145-abcf-c4112091a3c2",
       "title": "Découvrez les lauréats du concours Trophées des classes 2026 « Comment je protège ma vie privée en ligne ? »",
       "url": "https://www.cnil.fr/fr/trophees-des-classes-2026-laureats",
@@ -377,6 +449,18 @@
       "country": "HR",
       "type": "Noticias",
       "feed_url": "https://azop.hr/feed/"
+    },
+    {
+      "id": "4220e1df-2fda-81e5-bf59-e35e30b50251",
+      "title": "El adjunto de la AEPD, Francisco Pérez Bes, elegido miembro de la Mesa del Convenio 108, el tratado internacional de referencia en protección de datos",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/adjunto-de-aepd-francisco-perez-bes-elegido-miembro-mesa-convenio-108",
+      "published": "2026-11-20",
+      "summary": "El adjunto de la AEPD, Francisco Pérez Bes, elegido miembro de la Mesa del Convenio 108, el tratado internacional de referencia en protección de datos AEPD Vie, 20/11/2026 La Agencia se incorpora así al órgano que dirige los trabajos del Comité del Convenio 108 del Consejo de Europa, en el que participan más de 50 países de Europa, América y África Esta elección se ha producido en Estrasburgo, durante la 51ª reunión plenaria del Comité, celebrada del 18 al 20 de noviembre Pérez Bes formará parte de la Mesa durante los próximos dos años, un periodo clave ante la futura entrada en vigor de una nueva versión del Convenio, conocida como Convenio 108+",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
     },
     {
       "id": "41e0e1df-2fda-8172-8aac-ff8790a2c17e",
