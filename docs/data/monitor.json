@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-24T23:51:01.924744+00:00",
-  "total_items": 85,
+  "generated_at": "2026-11-25T04:05:06.284209+00:00",
+  "total_items": 79,
   "regions": [
     "LatAm",
     "Europa"
@@ -1025,78 +1025,6 @@
       "country": "FR",
       "type": "Noticias",
       "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "40f0e1df-2fda-8195-8702-d70a170c9eac",
-      "title": "IMY granskar Arbetsförmedlingens AI-system för arbetssökande",
-      "url": "https://www.imy.se/nyheter/imy-granskar-arbetsformedlingens-ai-system-for-arbetssokande/",
-      "published": "2026-11-05",
-      "summary": "Integritetsskyddsmyndigheten (IMY) inleder en granskning av Arbetsförmedlingen. Granskningen gäller ett AI-system som används för att bedöma vilka insatser en arbetssökande kan få för att komma i arbete eller börja studera.",
-      "regulator": "IMY",
-      "region": "Europa",
-      "country": "SE",
-      "type": "Noticias",
-      "feed_url": "https://www.imy.se/nyheter/rss"
-    },
-    {
-      "id": "40f0e1df-2fda-81b4-a730-f0f35282c52e",
-      "title": "Outils de rejeu de session : la CNIL publie sa recommandation pour guider les acteurs",
-      "url": "https://www.cnil.fr/fr/rejeu-de-session-recommandation",
-      "published": "2026-11-05",
-      "summary": "La CNIL publie une recommandation relative aux outils de rejeu de session permettant le suivi et l'analyse du comportement en ligne des utilisateurs. L’objectif est d’aider les acteurs qui conçoivent ces outils et ceux qui les utilisent dans leur mise en conformité.",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "40f0e1df-2fda-81ed-bcdb-e9de4d5bb7d7",
-      "title": "Rejeu de session : ces outils qui enregistrent votre activité en ligne",
-      "url": "https://www.cnil.fr/fr/rejeu-de-session-vos-droits",
-      "published": "2026-11-05",
-      "summary": "Lorsque vous naviguez sur Internet ou que vous utilisez une application sur votre téléphone, vos actions peuvent être enregistrées par ce que l’on appelle des outils de rejeu de session. À quoi servent-ils et quels sont vos droits&nbsp;?",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "40f0e1df-2fda-81bb-99df-d557767fe49d",
-      "title": "Ordre du jour de la séance plénière du 5 novembre 2026",
-      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-5-novembre-2026",
-      "published": "2026-11-05",
-      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 5 novembre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
-      "regulator": "CNIL",
-      "region": "Europa",
-      "country": "FR",
-      "type": "Noticias",
-      "feed_url": "https://www.cnil.fr/fr/rss.xml"
-    },
-    {
-      "id": "40f0e1df-2fda-8179-87ce-f7d803f7b284",
-      "title": "La AEPD y la Autoridad helénica de protección de datos publican una guía conjunta sobre entornos de tratamiento seguro",
-      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/la-aepd-y-la-autoridad-helenica-de-proteccion-de-datos",
-      "published": "2026-11-05",
-      "summary": "La AEPD y la Autoridad helénica de protección de datos publican una guía conjunta sobre entornos de tratamiento seguro AEPD Jue, 05/11/2026 Estos entornos son una garantía para la reutilización de datos sensibles, en particular los de salud, ya que se tratan sin salir de un entorno controlado Ambas autoridades recuerdan que quien proporciona el entorno debe mantener un control real y efectivo, también cuando recurre a terceros La guía incluye una metodología de análisis de riesgos con un catálogo de medidas, el análisis de técnicas de ingeniería de protección de datos y un caso práctico en investigación sanitaria desarrollado por fases Acceso a la guía en inglés y en español",
-      "regulator": "AEPD",
-      "region": "Europa",
-      "country": "ES",
-      "type": "Noticias",
-      "feed_url": "https://www.aepd.es/noticias/feed.xml"
-    },
-    {
-      "id": "40f0e1df-2fda-81f9-b57d-df2036c63b9b",
-      "title": "Suspensión de términos administrativos en la Oficina Regional de Veraguas",
-      "url": "https://antai.gob.pa/suspension-de-terminos-administrativos-en-la-oficina-regional-de-veraguas/",
-      "published": "2026-11-05",
-      "summary": "Tiempo de lectura: 2 minutos Panamá, 4 de noviembre de 2026. La Autoridad Nacional de Transparencia y Acceso a la Información (ANTAI) comunica al público en general que, en cumplimiento de lo dispuesto en el Decreto Ejecutivo N.º 38 de 5 de diciembre de 2025 y en atención al Decreto Alcaldicio N.º 13 de 23 de octubre de 2026, emitido [&#8230;]",
-      "regulator": "ANTAI",
-      "region": "LatAm",
-      "country": "PA",
-      "type": "Noticias",
-      "feed_url": "https://antai.gob.pa/feed/"
     },
     {
       "id": "41b0e1df-2fda-819b-870e-d178427c01ec",
