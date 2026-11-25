@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-25T04:05:06.284209+00:00",
-  "total_items": 79,
+  "generated_at": "2026-11-25T23:34:31.613799+00:00",
+  "total_items": 81,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,30 @@
     }
   ],
   "items": [
+    {
+      "id": "4230e1df-2fda-8165-9097-c9ad9eaf7b37",
+      "title": "AP: Gemeenten, wijs bedreigde mensen op de mogelijkheid van een briefadres",
+      "url": "https://autoriteitpersoonsgegevens.nl/actueel/ap-gemeenten-wijs-bedreigde-mensen-op-de-mogelijkheid-van-een-briefadres",
+      "published": "2026-11-25",
+      "summary": "Wanneer door een datalek woonadressen bekend worden, is dat extra gevaarlijk voor mensen die worden bedreigd, gestalkt of die te maken hebben (gehad) met huiselijk geweld en zijn gevlucht. Op de Internationale Dag tegen Geweld tegen Vrouwen roept de Autoriteit Persoonsgegevens (AP) daarom gemeenten op inwoners te informeren over de mogelijkheid een briefadres te krijgen.",
+      "regulator": "AP",
+      "region": "Europa",
+      "country": "NL",
+      "type": "Noticias",
+      "feed_url": "https://autoriteitpersoonsgegevens.nl/feed/article/rss.xml"
+    },
+    {
+      "id": "4230e1df-2fda-8197-8905-d7075792eb68",
+      "title": "48. Svjetska konferencija za zaštitu podataka",
+      "url": "https://azop.hr/48-svjetska-konferencija-za-zastitu-podataka/",
+      "published": "2026-11-25",
+      "summary": "48. Svjetska konferencija za zaštitu podataka – Global Privacy Assembly (GPA), globalni forum koji okuplja više od 130 tijela za zaštitu osobnih podataka i privatnosti iz cijelog svijeta, održana je u Bruxellesu od 16. do 19. studenog 2026. Na ovogodišnjoj konferenciji sudjelovali su ravnatelj Agencije i potpredsjednik Europskog odbora za zaštitu podataka Zdravko Vukić i [&#8230;] Objava 48. Svjetska konferencija za zaštitu podataka pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
     {
       "id": "4220e1df-2fda-81b1-bc3d-fd851e0e93fd",
       "title": "AP neemt deel aan online rondetafel over AVG-gedragscodes",
