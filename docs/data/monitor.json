@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-26T03:29:19.118514+00:00",
-  "total_items": 80,
+  "generated_at": "2026-11-26T23:45:23.678560+00:00",
+  "total_items": 85,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,66 @@
     }
   ],
   "items": [
+    {
+      "id": "4240e1df-2fda-81c3-8b57-f2b6fce5c8c3",
+      "title": "Ny rapport: Digitalisering av IVA-dagbok har stöd i GDPR",
+      "url": "https://www.imy.se/nyheter/ny-rapport-digitalisering-av-iva-dagbok/",
+      "published": "2026-11-26",
+      "summary": "Integritetsskyddsmyndigheten (IMY) har tillsammans med Södersjukhuset undersökt möjligheterna att digitalisera IVA-dagboken. Den är ett viktigt stöd för patienter så att de kan förstå vad som har hänt under tiden de varit nedsövda på intensivvårdsavdelning. Rapporten visar att det går att digitalisera IVA-dagboken med bra dataskydd.",
+      "regulator": "IMY",
+      "region": "Europa",
+      "country": "SE",
+      "type": "Noticias",
+      "feed_url": "https://www.imy.se/nyheter/rss"
+    },
+    {
+      "id": "4240e1df-2fda-81a6-b1da-f871f0c8bb34",
+      "title": "Ordre du jour de la séance plénière du 26 novembre 2026",
+      "url": "https://www.cnil.fr/fr/ordre-du-jour-de-la-seance-pleniere-du-26-novembre-2026",
+      "published": "2026-11-26",
+      "summary": "La Commission nationale de l'informatique et des libertés s’est réunie le jeudi 26 novembre 2026 à 9&nbsp;h&nbsp;30 avec l’ordre du jour suivant&nbsp;:",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "4240e1df-2fda-810a-adb0-f3f77a17aace",
+      "title": "La AEPD y su Red de grupos de investigación suscriben una declaración con las prioridades para investigar en privacidad y nuevas tecnologías",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-y-su-red-de-grupos-de-investigacion-suscriben-declaracion-privacidad",
+      "published": "2026-11-26",
+      "summary": "La AEPD y su Red de grupos de investigación suscriben una declaración con las prioridades para investigar en privacidad y nuevas tecnologías AEPD Jue, 26/11/2026 El texto apuesta por una comunidad científica que reúna a distintas disciplinas y pase del conocimiento mutuo a los proyectos compartidos Recuerda que la normativa de protección de datos ya se aplica a los sistemas de inteligencia artificial que usan datos personales, y que las normas específicas sobre IA vienen a complementarla Propone facilitar la investigación con datos personales aprovechando las garantías que ya ofrece la normativa Acceso a la Declaración",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
+      "id": "4240e1df-2fda-81d3-bbed-f1038b8c3cc5",
+      "title": "La AEPD, galardonada con el ‘Premio por la labor en Ciberdefensa’ en los Premios Escudo Digital",
+      "url": "https://www.aepd.es/prensa-y-comunicacion/notas-de-prensa/aepd-galardonada-con-premio-por-la-labor-en-ciberdefensa",
+      "published": "2026-11-26",
+      "summary": "La AEPD, galardonada con el ‘Premio por la labor en Ciberdefensa’ en los Premios Escudo Digital AEPD Jue, 26/11/2026 El premio reconoce la contribución de la Agencia a la prevención, detección y gestión de los riesgos que los ciberincidentes suponen para la información personal y los derechos de la ciudadanía",
+      "regulator": "AEPD",
+      "region": "Europa",
+      "country": "ES",
+      "type": "Noticias",
+      "feed_url": "https://www.aepd.es/noticias/feed.xml"
+    },
+    {
+      "id": "4240e1df-2fda-81e8-b96a-e0c876ad19b2",
+      "title": "Hellenic DPA fines Teleperformance Greece EUR 100 000 for GDPR breaches",
+      "url": "https://www.edpb.europa.eu/news/hellenic-dpa-fines-teleperformance-greece-eur-100-000-for-gdpr-breaches_en",
+      "published": "2026-11-25",
+      "summary": "Background information Date of final decision: 05/10/2026 National case Controller: TELEPERFORMANCE GREECE Legal References: Articles 5 (Principles relating to processing of personal data), 12 (Transparent information, communication and modalities for the exercise of the rights of the data subject), 13 (Information to be provided where personal data are collected from the data subject), 15 (Right of access by the data subject), 17 (Right to erasure (‘right to be forgotten’)), and 32 (Security of processing) Decision: Administrative fine Key words: Fines Summary of the Decision Origin of the case A former employee of TELEPERFORMANCE GREECE lodged a complaint against the company for failing to comply with his request to exercise his right of access to personal data concerning him, in violation of Article 15 of the General Data Protection Regulation (EU) 2016/679 (GDPR). Key Findings Following the complaint lodged by the former employee of TELEPERFORMANCE GREECE, the Hellenic Data Protection Authority (HDPA) found multiple violations of the GDPR. The company failed to provide the complainant with a complete copy of his personal data and unlawfully erased those data before the termination of his employment, despite pending legal claims. It also failed to adequately justify the extension of the deadline for responding to his access request and to inform him of the applicable data retention period. Furthermore, the company had not implemented appropriate technical and organisational measures to ensure the availability of and access to the complainant’s personal data or to prevent their premature erasure. The HDPA also found that the company lacked adequate procedures for handling data subject requests in accordance with the GDPR. Decision Pursuant to Article 58(2)(i) of the GDPR, the Hellenic Data Protection Authority (HDPA) imposed two administrative fines on TELEPERFORMANCE GREECE, in its capacity as data controller: (i) a fine of EUR 60 000 for infringements of Article",
+      "regulator": "EDPB",
+      "region": "Europa",
+      "country": "UE",
+      "type": "Noticias",
+      "feed_url": "https://www.edpb.europa.eu/feed/news_en"
+    },
     {
       "id": "4230e1df-2fda-8165-9097-c9ad9eaf7b37",
       "title": "AP: Gemeenten, wijs bedreigde mensen op de mogelijkheid van een briefadres",
