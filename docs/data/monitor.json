@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-27T03:35:46.663871+00:00",
-  "total_items": 85,
+  "generated_at": "2026-11-27T23:23:13.810082+00:00",
+  "total_items": 88,
   "regions": [
     "LatAm",
     "Europa"
@@ -330,6 +330,42 @@
     }
   ],
   "items": [
+    {
+      "id": "4250e1df-2fda-818e-821b-db1e9e68b7ca",
+      "title": "EDPS states that EU-Interpol cooperation requires effective safeguards",
+      "url": "https://idpc.org.mt/news-latest/edps-states-that-eu-interpol-cooperation-requires-effective-safeguards/",
+      "published": "2026-11-27",
+      "summary": "EDPS states that EU-Interpol cooperation requires effective safeguards &#160; 27 November 2026 On 1 October 2026, the European Commission proposed the&#160;signing and&#160;conclusion of a cooperation agreement between the EU and the International Criminal Police Organisation (Interpol). In&#160;its Opinion published on 12 November 2026, the European Data Protection Supervisor (EDPS) supports in principle the objective of [&#8230;] The post EDPS states that EU-Interpol cooperation requires effective safeguards appeared first on IDPC .",
+      "regulator": "IDPC",
+      "region": "Europa",
+      "country": "MT",
+      "type": "Noticias",
+      "feed_url": "https://idpc.org.mt/feed/"
+    },
+    {
+      "id": "4250e1df-2fda-8126-bc03-e91e0438728e",
+      "title": "IA en contexte de soins : accompagner le bon usage avec le guide CNIL et HAS",
+      "url": "https://www.cnil.fr/fr/ia-en-soins-guide-has-cnil",
+      "published": "2026-11-27",
+      "summary": "Avec la publication du guide «&nbsp;IA en contexte de soins&nbsp;: accompagner le bon usage&nbsp;» qu’elles ont conjointement élaboré, la Haute Autorité de santé (HAS) et la CNIL se mobilisent pour accompagner les acteurs de la santé en clarifiant les règles et les bonnes pratiques.",
+      "regulator": "CNIL",
+      "region": "Europa",
+      "country": "FR",
+      "type": "Noticias",
+      "feed_url": "https://www.cnil.fr/fr/rss.xml"
+    },
+    {
+      "id": "4250e1df-2fda-811f-855e-f46ba1c2a36e",
+      "title": "Predstavnica Agencije izabrana za prvu potpredsjednicu Odbora Konvencije 108 Vijeća Europe",
+      "url": "https://azop.hr/predstavnica-agencije-izabrana-za-prvu-potpredsjednicu-odbora-konvencije-108-vijeca-europe/",
+      "published": "2026-11-27",
+      "summary": "Na 51. plenarnoj sjednici Savjetodavnog odbora Konvencije 108 Vijeća Europe održanoj od 18. do 20. studenoga 2026. u Strasbourgu, Anamarija Mladinić, načelnica Sektora za EU, međunarodnu suradnju i pravne poslove Agencije za zaštitu osobnih podataka izabrana je za prvu potpredsjednicu Odbora Konvencije 108 Vijeća Europe. Za predsjednicu Odbora izabrana je Caroline Gloor Scheidegger (Švicarska), Virpi [&#8230;] Objava Predstavnica Agencije izabrana za prvu potpredsjednicu Odbora Konvencije 108 Vijeća Europe pojavila se prvi puta na Agencija za zaštitu osobnih podataka .",
+      "regulator": "AZOP",
+      "region": "Europa",
+      "country": "HR",
+      "type": "Noticias",
+      "feed_url": "https://azop.hr/feed/"
+    },
     {
       "id": "4240e1df-2fda-81c3-8b57-f2b6fce5c8c3",
       "title": "Ny rapport: Digitalisering av IVA-dagbok har stöd i GDPR",
